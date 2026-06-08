@@ -1,11 +1,11 @@
 
 TITLE:
-Kernel Messages
+View Last Logins
 
 COMMAND:
-dmesg -T
+last
 
 DESCRIPTION:
-Review hardware and kernel events.
+Check recent user login history.
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
