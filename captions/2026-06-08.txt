@@ -1,11 +1,11 @@
 
 TITLE:
-View Last Logins
+Check User ID
 
 COMMAND:
-last
+id username
 
 DESCRIPTION:
-Check recent user login history.
+Display UID and group membership.
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
