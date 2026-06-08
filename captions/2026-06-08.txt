@@ -1,11 +1,11 @@
 
 TITLE:
-View Running Processes
+Kernel Messages
 
 COMMAND:
-ps aux
+dmesg -T
 
 DESCRIPTION:
-List all running processes with details.
+Review hardware and kernel events.
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
