@@ -12,7 +12,7 @@ jobs:
 generate:
 runs-on: ubuntu-latest
 
-```
+
 steps:
   - name: Checkout Repository
     uses: actions/checkout@v4
@@ -45,4 +45,4 @@ steps:
       git diff --staged --quiet || git commit -m "Auto generated LinkedIn content and banner"
 
       git push
-```
+
