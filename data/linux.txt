@@ -1,1 +1,100 @@
-
+Find Failed Services|systemctl --failed|Quickly identify services that failed during startup.
+Check Disk Usage|df -h|Display filesystem disk usage in human readable format.
+Check Memory Usage|free -m|View system memory utilization in MB.
+View Running Processes|ps aux|List all running processes with details.
+Check Open Ports|ss -tulnp|Display listening ports and associated processes.
+View System Logs|journalctl -xe|Investigate recent system and service errors.
+Check Uptime|uptime|View system uptime and load averages.
+CPU Information|lscpu|Display detailed CPU architecture information.
+Mounted Filesystems|mount|List all mounted filesystems.
+Disk I/O Statistics|iostat -x|Monitor disk performance and utilization.
+Check Network Interfaces|ip addr show|View all configured network interfaces.
+List Active Connections|netstat -plant|Display active TCP connections and listening ports.
+Check Kernel Version|uname -r|Display current Linux kernel version.
+View Last Logins|last|Check recent user login history.
+Find Large Files|find / -type f -size +500M|Locate large files consuming storage.
+Check Service Status|systemctl status nginx|Verify service health and status.
+Restart Service|systemctl restart nginx|Restart a Linux service safely.
+Check Load Average|uptime|Monitor system load trends.
+Memory Intensive Processes|ps aux --sort=-%mem | head|Find processes consuming the most memory.
+CPU Intensive Processes|ps aux --sort=-%cpu | head|Identify CPU-heavy processes.
+View Routing Table|ip route|Display current routing configuration.
+DNS Lookup|dig google.com|Perform DNS resolution troubleshooting.
+Test Connectivity|ping -c 4 8.8.8.8|Verify network reachability.
+Trace Network Path|traceroute google.com|Analyze packet routing paths.
+Check Listening Services|ss -lnt|Display listening TCP services.
+Find Files by Name|find / -name "*.log"|Locate files matching a pattern.
+Search Text in Files|grep -R "error" /var/log|Search recursively for text strings.
+Archive Files|tar -czvf backup.tar.gz /data|Create compressed backups.
+Extract Archive|tar -xzvf backup.tar.gz|Extract compressed archives.
+Monitor Live Logs|tail -f /var/log/syslog|Watch logs in real time.
+Check User Accounts|cat /etc/passwd|List all local users.
+Check Groups|cat /etc/group|View configured groups.
+Current Logged Users|who|Display active logged-in users.
+Check Disk Partitions|lsblk|Display block devices and partitions.
+Filesystem Usage|du -sh /var/log|Check folder size consumption.
+View Environment Variables|env|Display environment variables.
+Schedule Cron Jobs|crontab -e|Manage scheduled tasks.
+View Cron Jobs|crontab -l|List configured cron schedules.
+Check SELinux Status|getenforce|Verify SELinux enforcement mode.
+Firewall Rules|iptables -L -n|Review firewall configurations.
+Check UFW Status|ufw status|View Ubuntu firewall status.
+Generate SSH Key|ssh-keygen -t rsa|Create SSH authentication keys.
+Copy Files Securely|scp file.txt user@host:/tmp|Transfer files over SSH.
+Remote Login|ssh user@server|Access remote Linux servers securely.
+Check Open Files|lsof -i|Display open network files and sockets.
+View Process Tree|pstree|Visualize parent-child processes.
+Kill Process|kill -9 PID|Terminate unresponsive processes.
+Monitor Resources|top|Monitor CPU and memory utilization.
+Interactive Monitoring|htop|Enhanced process monitoring interface.
+Package Updates|apt update && apt upgrade -y|Keep systems patched and secure.
+Check OS Version|cat /etc/os-release|Display Linux distribution details.
+Hostname Information|hostnamectl|View hostname and system metadata.
+Check Time Sync|timedatectl status|Verify NTP synchronization status.
+View Loaded Modules|lsmod|List loaded kernel modules.
+Kernel Messages|dmesg -T|Review hardware and kernel events.
+Check Swap Usage|swapon --show|Display active swap devices.
+Disk Health Check|smartctl -a /dev/sda|Review disk SMART statistics.
+View Hardware Info|lshw -short|Display hardware summary.
+PCI Devices|lspci|List connected PCI hardware.
+USB Devices|lsusb|List connected USB devices.
+Check File Permissions|ls -l|Review file ownership and permissions.
+Change File Permissions|chmod 755 file.sh|Modify file access permissions.
+Change Ownership|chown user:user file.txt|Assign file ownership.
+Create User|useradd username|Add a new Linux user.
+Set User Password|passwd username|Configure user password.
+Lock User Account|usermod -L username|Temporarily disable a user account.
+Unlock User Account|usermod -U username|Re-enable a user account.
+Delete User|userdel username|Remove a user account.
+Check User ID|id username|Display UID and group membership.
+Monitor Authentication Logs|tail -f /var/log/auth.log|Track login activity.
+Find Failed SSH Attempts|grep "Failed password" /var/log/auth.log|Review unauthorized login attempts.
+View Running Services|systemctl list-units --type=service|Display active services.
+Enable Service|systemctl enable nginx|Configure service startup at boot.
+Disable Service|systemctl disable nginx|Prevent service from starting automatically.
+Reload Service Config|systemctl reload nginx|Apply configuration changes without restart.
+List Timers|systemctl list-timers|Review scheduled systemd timers.
+Check Package Version|apt policy nginx|Verify installed package versions.
+Search Package|apt search nginx|Locate packages in repositories.
+Remove Package|apt remove nginx|Uninstall unwanted software.
+Clean Package Cache|apt clean|Free disk space from package cache.
+Network Statistics|sar -n DEV 1 5|Monitor network traffic.
+CPU Statistics|sar -u 1 5|Review CPU utilization trends.
+Memory Statistics|sar -r 1 5|Monitor memory performance.
+Check Established Connections|ss -ant state established|Display active TCP sessions.
+View ARP Table|arp -a|Inspect ARP cache entries.
+Check DNS Configuration|cat /etc/resolv.conf|Review DNS resolver settings.
+Check Hosts File|cat /etc/hosts|Verify static hostname mappings.
+Bandwidth Monitoring|iftop|Monitor network bandwidth usage.
+Disk Usage by Directory|du -h --max-depth=1 /|Identify large directories.
+Check Zombie Processes|ps aux | grep Z|Detect zombie processes.
+Monitor File Changes|inotifywait -m /etc|Track filesystem modifications.
+View Scheduled Tasks|systemctl list-timers --all|Review all scheduled tasks.
+Secure File Transfer|rsync -avz source destination|Synchronize files efficiently.
+Check Listening UDP Ports|ss -lun|Display active UDP listeners.
+View Process Details|ps -fp PID|Inspect process metadata.
+Monitor Network Latency|mtr google.com|Analyze packet loss and latency.
+Check Certificate Expiry|openssl x509 -enddate -noout -in cert.pem|Verify SSL certificate validity.
+Generate File Checksum|sha256sum file.iso|Validate file integrity.
+Check File Type|file filename|Determine file format information.
+View Command History|history|Review previously executed commands.
