@@ -1,1 +1,50 @@
-
+Enable S3 Versioning|aws s3api put-bucket-versioning|Protect against accidental object deletion.
+Enable CloudTrail|aws cloudtrail create-trail|Audit AWS account activity.
+Use IAM Roles|IAM Roles|Avoid storing access keys on servers.
+Enable MFA|AWS MFA|Strengthen account security.
+Restrict Security Groups|Security Groups|Allow only required ports.
+Enable S3 Encryption|SSE-S3|Protect data at rest.
+Enable EBS Encryption|Encrypted Volumes|Secure EC2 storage.
+Use CloudWatch Alarms|CloudWatch|Monitor critical resources proactively.
+Enable GuardDuty|GuardDuty|Detect suspicious account activity.
+Use AWS Config|AWS Config|Track infrastructure changes.
+Use Systems Manager|SSM|Manage servers without SSH.
+Rotate IAM Keys|IAM Access Keys|Reduce credential exposure risk.
+Use Resource Tags|Tags|Improve cost and resource tracking.
+Enable Cost Explorer|Cost Explorer|Analyze AWS spending trends.
+Restrict Root Usage|Root Account|Avoid daily use of root credentials.
+Backup with AWS Backup|AWS Backup|Centralize backup management.
+Enable VPC Flow Logs|Flow Logs|Monitor network traffic patterns.
+Use Auto Scaling|Auto Scaling Groups|Improve availability and efficiency.
+Enable ELB Health Checks|Load Balancer|Remove unhealthy instances automatically.
+Store Secrets Securely|Secrets Manager|Avoid hardcoded credentials.
+Use Parameter Store|SSM Parameter Store|Centralize configuration values.
+Enable S3 Lifecycle Rules|Lifecycle Policies|Automate storage optimization.
+Monitor Billing Alerts|CloudWatch Billing|Prevent unexpected charges.
+Use Least Privilege|IAM Policies|Grant only necessary permissions.
+Enable Access Analyzer|IAM Access Analyzer|Identify excessive permissions.
+Enable RDS Backups|Automated Backups|Protect database workloads.
+Use Multi-AZ RDS|Multi-AZ|Improve database availability.
+Enable Enhanced Monitoring|RDS Monitoring|Gain deeper database insights.
+Use Read Replicas|Read Replica|Scale read-intensive workloads.
+Enable S3 Access Logging|Access Logs|Track object access activity.
+Use CloudFront CDN|CloudFront|Improve content delivery performance.
+Enable WAF|AWS WAF|Protect applications from attacks.
+Use Shield Standard|AWS Shield|Mitigate DDoS threats.
+Monitor EC2 Status Checks|EC2 Health Checks|Detect instance issues early.
+Use Launch Templates|Launch Templates|Standardize EC2 deployments.
+Enable Detailed Monitoring|CloudWatch Detailed Monitoring|Improve visibility.
+Use Spot Instances|Spot Instances|Reduce compute costs.
+Use Savings Plans|Savings Plans|Optimize long-term AWS expenses.
+Use Trusted Advisor|Trusted Advisor|Identify best practice gaps.
+Enable Inspector|Amazon Inspector|Scan workloads for vulnerabilities.
+Encrypt RDS Databases|RDS Encryption|Secure sensitive data.
+Use Private Subnets|Private Subnets|Limit direct internet exposure.
+Restrict NACL Rules|Network ACLs|Control subnet-level traffic.
+Enable Route53 Health Checks|Health Checks|Improve DNS resilience.
+Use Transit Gateway|Transit Gateway|Simplify network connectivity.
+Enable AWS Backup Vault Lock|Vault Lock|Protect backups from deletion.
+Use CloudFormation|CloudFormation|Automate infrastructure provisioning.
+Enable Drift Detection|CloudFormation Drift|Identify manual changes.
+Use EventBridge|EventBridge|Build event-driven automation.
+Monitor Service Quotas|Service Quotas|Prevent resource limit issues.
