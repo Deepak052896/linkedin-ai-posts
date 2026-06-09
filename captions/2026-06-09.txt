@@ -1,11 +1,11 @@
 
 TITLE:
-Enable EBS Encryption
+Monitor Containers
 
 COMMAND:
-Encrypted Volumes
+Container Insights
 
 DESCRIPTION:
-Secure EC2 storage.
+Visibility
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
