@@ -25,7 +25,7 @@ weekday,
 # Read Tips
 
 with open(file_path, "r", encoding="utf-8") as f:
-tips = [x.strip() for x in f.readlines() if x.strip()]
+    tips = [x.strip() for x in f.readlines() if x.strip()]
 
 selected = random.sample(tips, min(5, len(tips)))
 
