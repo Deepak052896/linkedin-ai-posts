@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate Banner
         run: |
-          python scripts/generate_banner.py
+          python scripts/generate_banner_v6.py
 
       - name: Commit Generated Content
         run: |
