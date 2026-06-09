@@ -48,3 +48,102 @@ Use CloudFormation|CloudFormation|Automate infrastructure provisioning.
 Enable Drift Detection|CloudFormation Drift|Identify manual changes.
 Use EventBridge|EventBridge|Build event-driven automation.
 Monitor Service Quotas|Service Quotas|Prevent resource limit issues.
+Enable MFA|AWS MFA|Protect root and IAM accounts
+Use IAM Roles|IAM Roles|Avoid hardcoded credentials
+Enable CloudTrail|CloudTrail|Audit AWS activity
+Use Security Groups|Security Groups|Restrict network access
+Enable S3 Versioning|S3 Versioning|Protect against accidental deletion
+Encrypt S3 Buckets|SSE-S3|Secure stored objects
+Block Public Access|S3 Block Public Access|Prevent accidental exposure
+Enable Access Logs|S3 Access Logging|Track bucket access
+Lifecycle Policies|S3 Lifecycle|Automate storage optimization
+Cross Region Replication|S3 CRR|Disaster recovery support
+Use EC2 Tags|EC2 Tags|Improve resource management
+Monitor CPU Usage|CloudWatch Metrics|Track instance performance
+Create EC2 Backups|AMI Backup|Protect server data
+Use Auto Scaling|Auto Scaling Group|Automatic scaling
+Use Load Balancer|ALB|Distribute traffic
+Enable Detailed Monitoring|CloudWatch Detailed Monitoring|Better visibility
+Use Elastic IP Carefully|Elastic IP|Avoid unused charges
+Stop Unused Instances|EC2 Stop|Reduce costs
+Reserved Instances|RI|Save long-term costs
+Use Spot Instances|Spot Instances|Reduce compute expenses
+Enable VPC Flow Logs|Flow Logs|Monitor network traffic
+Use Private Subnets|Private Subnet|Improve security
+NAT Gateway Usage|NAT Gateway|Private internet access
+Restrict NACLs|Network ACL|Control traffic
+VPC Peering|VPC Peering|Connect VPCs securely
+Transit Gateway|Transit Gateway|Centralized networking
+Route Table Validation|Route Tables|Verify routing paths
+Use Route53 Health Checks|Route53|Monitor availability
+Enable DNS Logging|Route53 Resolver Logs|Track DNS activity
+Use Hosted Zones|Route53 Hosted Zones|Manage DNS records
+Enable GuardDuty|GuardDuty|Threat detection
+Enable Security Hub|Security Hub|Centralized security view
+Enable Inspector|Inspector|Vulnerability assessment
+Enable Macie|Macie|Sensitive data discovery
+Use AWS Config|AWS Config|Track configuration changes
+Enable Detective|Detective|Security investigation
+Rotate Access Keys|IAM Access Keys|Improve security
+Least Privilege Access|IAM Policies|Reduce risk
+Use Permission Boundaries|IAM Boundaries|Control permissions
+Enable MFA Delete|MFA Delete|Protect bucket deletions
+CloudWatch Alarms|CloudWatch Alarms|Proactive monitoring
+Monitor Billing|Billing Alarm|Avoid surprises
+Enable Cost Explorer|Cost Explorer|Analyze spending
+Use Budgets|AWS Budgets|Control expenses
+Trusted Advisor Review|Trusted Advisor|Optimization insights
+Enable SNS Notifications|SNS|Automated alerts
+Use SQS Queues|SQS|Decouple applications
+Use EventBridge|EventBridge|Event-driven automation
+Use Lambda Functions|Lambda|Serverless computing
+Monitor Lambda Errors|CloudWatch Logs|Troubleshoot functions
+Use DynamoDB Autoscaling|DynamoDB|Optimize capacity
+Enable DynamoDB Backup|Point-in-Time Recovery|Protect data
+Use DynamoDB TTL|TTL|Automatic cleanup
+Encrypt DynamoDB|KMS Encryption|Secure database
+Use RDS Multi-AZ|Multi-AZ|High availability
+Enable Automated Backups|RDS Backups|Data protection
+Use Read Replicas|RDS Read Replica|Improve performance
+Encrypt RDS|KMS Encryption|Protect database
+Monitor RDS Metrics|CloudWatch|Database health
+Enable Aurora Backtrack|Aurora|Fast recovery
+Use ElastiCache|Redis|Improve performance
+Monitor Redis Usage|CloudWatch|Track cache health
+Use EFS|Elastic File System|Shared storage
+Enable EFS Backup|AWS Backup|Protect file systems
+Use FSx|FSx|Managed file storage
+Enable Backup Plans|AWS Backup|Centralized backups
+Cross Account Backup|AWS Backup Vault|Recovery strategy
+Use KMS Keys|KMS|Encrypt resources
+Rotate KMS Keys|Key Rotation|Improve security
+Use Secrets Manager|Secrets Manager|Store credentials securely
+Use Parameter Store|SSM Parameter Store|Manage configuration
+Patch EC2 Instances|Systems Manager Patch Manager|Security updates
+Run Commands Remotely|SSM Run Command|Remote administration
+Session Manager Access|Session Manager|Secure shell access
+Inventory Collection|SSM Inventory|Asset visibility
+Compliance Reporting|Systems Manager Compliance|Track compliance
+Use CloudFormation|CloudFormation|Infrastructure as Code
+Use StackSets|StackSets|Multi-account deployments
+Validate Templates|CloudFormation Validate|Avoid errors
+Use Drift Detection|Drift Detection|Configuration integrity
+Use CodeCommit|CodeCommit|Source control
+Use CodeBuild|CodeBuild|CI builds
+Use CodeDeploy|CodeDeploy|Application deployment
+Use CodePipeline|CodePipeline|CI/CD automation
+Use ECR|Elastic Container Registry|Store container images
+Use ECS|Elastic Container Service|Run containers
+Use EKS|Elastic Kubernetes Service|Managed Kubernetes
+Monitor Containers|Container Insights|Visibility
+Enable CloudWatch Logs|CloudWatch Logs|Centralized logging
+Use OpenSearch|OpenSearch|Log analytics
+Enable WAF|AWS WAF|Web protection
+Enable Shield|AWS Shield|DDoS protection
+Use Global Accelerator|Global Accelerator|Improve latency
+Enable Health Dashboard Alerts|AWS Health|Service notifications
+Review Trusted Advisor Weekly|Trusted Advisor|Maintain best practices
+Tag Everything|Resource Tags|Cost and ownership tracking
+Enable Organizations|AWS Organizations|Multi-account governance
+Use SCP Policies|Service Control Policies|Restrict accounts
+Enable Control Tower|Control Tower|Landing zone management
