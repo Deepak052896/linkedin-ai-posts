@@ -1,1 +1,101 @@
-
+Check IP Address|ip addr show|Display IP addresses
+Check Interface Status|ip link show|Show network interfaces
+View Routing Table|ip route|Display routing information
+Ping Host|ping google.com|Test connectivity
+Trace Route|traceroute google.com|Trace network path
+DNS Lookup|nslookup google.com|Resolve DNS records
+Advanced DNS Lookup|dig google.com|Query DNS server
+Reverse DNS Lookup|dig -x 8.8.8.8|Resolve reverse DNS
+Check Open Ports|ss -tulnp|Show listening ports
+Network Connections|netstat -tulpn|Display active connections
+ARP Table|arp -a|Show ARP entries
+Check MAC Address|ip link|Display MAC addresses
+Bandwidth Usage|iftop|Monitor traffic
+Network Traffic|nload|Monitor bandwidth
+Packet Capture|tcpdump -i eth0|Capture packets
+Port Scan|nmap localhost|Scan open ports
+Subnet Calculation|ipcalc 192.168.1.0/24|Calculate subnet details
+Check Gateway|ip route | grep default|Display default gateway
+DNS Configuration|cat /etc/resolv.conf|View DNS settings
+Host Lookup|host google.com|Resolve hostname
+Check Interface Errors|ifconfig eth0|View interface stats
+Monitor Interface|watch -n 1 ip -s link|Live interface monitoring
+Display Sockets|ss -s|Socket summary
+TCP Connections|netstat -ant|View TCP connections
+UDP Connections|netstat -anu|View UDP connections
+List Interfaces|ifconfig -a|Display all interfaces
+Wireless Info|iwconfig|Wireless details
+WiFi Scan|nmcli dev wifi|Scan WiFi networks
+Network Manager Status|nmcli general status|NetworkManager status
+Restart Networking|systemctl restart NetworkManager|Restart network
+Test Port Connectivity|nc -zv google.com 443|Check port reachability
+Public IP|curl ifconfig.me|Show public IP
+Hostname Info|hostname -I|Show host IPs
+Display Neighbors|ip neigh|ARP neighbors
+View VLANs|ip -d link show|Display VLANs
+Show Bonding|cat /proc/net/bonding/bond0|Bonding details
+Check MTU|ip link show|Display MTU size
+Modify MTU|ip link set dev eth0 mtu 9000|Change MTU
+Check DNS Response|dig google.com +short|Short DNS lookup
+Zone Transfer Test|dig axfr domain.com|DNS zone transfer
+WHOIS Lookup|whois domain.com|Domain registration info
+Check SSL Certificate|openssl s_client -connect google.com:443|SSL details
+Certificate Expiry|openssl x509 -enddate -noout|Check certificate expiry
+View Firewall Rules|iptables -L|Display firewall rules
+UFW Status|ufw status|Check firewall status
+Allow Port|ufw allow 443|Allow firewall port
+Deny Port|ufw deny 23|Block firewall port
+Reload Firewall|ufw reload|Reload firewall
+View NAT Rules|iptables -t nat -L|Display NAT configuration
+Monitor Connections|conntrack -L|View connection tracking
+Network Statistics|sar -n DEV 1 5|Network performance stats
+Check Packet Loss|mtr google.com|Trace and packet loss
+TCP Dump Port|tcpdump port 80|Capture HTTP traffic
+Capture DNS Traffic|tcpdump port 53|Capture DNS packets
+Capture ICMP|tcpdump icmp|Capture ping traffic
+View Listening Services|lsof -i -P -n|Open network services
+Check SSH Connectivity|ssh user@host|Test SSH access
+Copy File via SCP|scp file.txt host:/tmp|Transfer files
+Sync Data|rsync -av source dest|Synchronize files
+Generate SSH Key|ssh-keygen|Create SSH keys
+Test SMTP|telnet smtp.gmail.com 587|SMTP connectivity
+Test HTTPS|curl -I https://google.com|HTTP header check
+Download File|wget URL|Download resource
+Monitor DNS Queries|tcpdump udp port 53|DNS monitoring
+Display Routing Cache|ip route show cache|Routing cache
+Check BGP Neighbors|show ip bgp summary|BGP summary
+Check OSPF Neighbors|show ip ospf neighbor|OSPF neighbors
+Check Interface Counters|show interfaces counters|Traffic counters
+Display VLAN Database|show vlan brief|VLAN overview
+Check STP Status|show spanning-tree|STP details
+Check MAC Table|show mac address-table|MAC learning table
+Check CDP Neighbors|show cdp neighbors|Cisco neighbors
+Check LLDP Neighbors|show lldp neighbors|LLDP information
+Verify DNS Server|systemd-resolve --status|DNS resolver status
+Network Benchmark|iperf3 -s|Start benchmark server
+Bandwidth Test|iperf3 -c server|Run bandwidth test
+Check Proxy Settings|env | grep proxy|Proxy configuration
+View Hosts File|cat /etc/hosts|Local DNS mappings
+Check DHCP Lease|cat /var/lib/dhcp/dhclient.leases|DHCP details
+Release DHCP Lease|dhclient -r|Release lease
+Renew DHCP Lease|dhclient|Renew lease
+Check Time Sync|chronyc tracking|NTP synchronization
+NTP Sources|chronyc sources|Time sources
+Display Queue Stats|tc -s qdisc|Traffic shaping stats
+View Bridge Info|brctl show|Linux bridge details
+Monitor Socket Usage|ss -lntp|Listening TCP ports
+IPv6 Address|ip -6 addr show|Display IPv6 addresses
+IPv6 Routes|ip -6 route|Display IPv6 routes
+Neighbor Discovery|ip -6 neigh|IPv6 neighbors
+Check Jumbo Frames|ping -M do -s 8972 host|Test jumbo frames
+View Multicast Groups|ip maddr show|Multicast membership
+Display Network Namespace|ip netns list|Network namespaces
+Check Docker Networks|docker network ls|Container networks
+Inspect Docker Network|docker network inspect bridge|Network details
+Kubernetes Services|kubectl get svc|Cluster services
+Kubernetes Pods|kubectl get pods -o wide|Pod networking
+Check Ingress|kubectl get ingress|Ingress status
+Monitor Traffic Live|bmon|Bandwidth monitor
+Check Port Occupancy|fuser 80/tcp|Port usage
+Display Socket Processes|ss -p|Socket process mapping
+View Network Logs|journalctl -u NetworkManager|Network logs
