@@ -1,1 +1,93 @@
-
+Use Git Version Control|git status|Track code changes
+Create Branches|git checkout -b feature|Isolate development work
+Commit Frequently|git commit|Maintain change history
+Review Changes|git diff|Verify modifications
+Push Changes|git push|Publish updates
+Pull Latest Code|git pull|Sync repository
+Merge Branches|git merge|Combine code safely
+Use Pull Requests|PR Workflow|Enable code review
+Tag Releases|git tag|Version releases
+Use .gitignore|Git Hygiene|Exclude unnecessary files
+Automate Builds|CI Pipeline|Reduce manual effort
+Run Unit Tests|Automated Testing|Validate code quality
+Use GitHub Actions|CI/CD|Automate workflows
+Use GitLab CI|Pipeline Automation|Streamline delivery
+Use Jenkins|Build Automation|Continuous integration
+Store Artifacts|Artifact Repository|Manage build outputs
+Use Docker|Containerization|Package applications
+Build Docker Image|docker build|Create container images
+Run Docker Container|docker run|Execute applications
+List Containers|docker ps|View running containers
+Stop Containers|docker stop|Manage workloads
+Remove Containers|docker rm|Clean unused resources
+Use Docker Compose|docker-compose up|Multi-container deployments
+Store Images in Registry|Docker Registry|Centralize images
+Use Kubernetes|Container Orchestration|Manage containers
+View Pods|kubectl get pods|Check workloads
+View Services|kubectl get svc|Inspect services
+Deploy Application|kubectl apply|Release workloads
+Scale Deployments|kubectl scale|Adjust capacity
+Check Logs|kubectl logs|Troubleshoot issues
+Use Helm Charts|Helm|Package Kubernetes apps
+Manage Secrets|Kubernetes Secrets|Protect credentials
+Use ConfigMaps|Configuration Management|Externalize settings
+Implement IaC|Terraform|Automate infrastructure
+Initialize Terraform|terraform init|Prepare environment
+Plan Changes|terraform plan|Preview infrastructure changes
+Apply Changes|terraform apply|Deploy resources
+Destroy Resources|terraform destroy|Remove infrastructure
+Use Terraform Modules|Reusable IaC|Improve maintainability
+Store Terraform State|Remote Backend|Protect state files
+Use Ansible|Configuration Management|Automate server setup
+Run Playbooks|ansible-playbook|Apply configurations
+Use Inventories|Ansible Inventory|Manage hosts
+Use Roles|Ansible Roles|Organize automation
+Automate Patching|Patch Management|Reduce maintenance effort
+Monitor Systems|Prometheus|Collect metrics
+Visualize Metrics|Grafana|Create dashboards
+Alert on Failures|Alertmanager|Improve response
+Centralize Logs|ELK Stack|Analyze logs
+Use Loki|Log Aggregation|Store logs efficiently
+Manage Secrets|Vault|Secure credentials
+Use SSO|Identity Management|Simplify authentication
+Implement Blue-Green Deployment|Deployment Strategy|Reduce downtime
+Implement Canary Deployment|Release Strategy|Minimize risk
+Use Feature Flags|Feature Management|Control releases
+Automate Backups|Backup Automation|Protect data
+Monitor Uptime|Availability Monitoring|Track reliability
+Use Health Checks|Service Validation|Detect failures
+Implement Load Balancing|Traffic Distribution|Improve availability
+Use CDN|Content Delivery|Reduce latency
+Optimize Costs|Cost Monitoring|Control cloud expenses
+Tag Resources|Resource Management|Track ownership
+Enable Audit Logging|Compliance|Maintain traceability
+Perform DR Testing|Disaster Recovery|Validate resilience
+Use Immutable Infrastructure|Infrastructure Design|Reduce drift
+Use Golden Images|Server Standardization|Improve consistency
+Use Packer|Image Automation|Build machine images
+Manage Dependencies|Dependency Control|Reduce failures
+Scan Containers|Container Security|Detect vulnerabilities
+Scan Code|SAST|Improve code security
+Perform DAST|Application Security|Find runtime issues
+Monitor APIs|API Monitoring|Ensure availability
+Use Service Mesh|Traffic Control|Improve observability
+Implement Zero Trust|Security Model|Strengthen access control
+Review Pipelines|CI/CD Audit|Improve reliability
+Document Infrastructure|Documentation|Support operations
+Use Runbooks|Operational Guides|Standardize procedures
+Automate Onboarding|User Provisioning|Save time
+Automate Offboarding|Access Removal|Reduce risk
+Monitor SLA|Service Levels|Maintain commitments
+Review Capacity|Capacity Planning|Avoid shortages
+Perform Root Cause Analysis|Incident Review|Prevent recurrence
+Track MTTR|Operational Metrics|Improve recovery
+Track Deployment Frequency|DevOps Metrics|Measure performance
+Track Change Failure Rate|Reliability Metrics|Assess stability
+Implement Observability|Monitoring Strategy|Improve visibility
+Correlate Logs and Metrics|Troubleshooting|Faster diagnosis
+Use ChatOps|Team Collaboration|Accelerate response
+Automate Compliance Checks|Governance|Maintain standards
+Review Security Posture|DevSecOps|Integrate security
+Use Policy as Code|Governance Automation|Enforce standards
+Enable Continuous Improvement|DevOps Culture|Drive optimization
+Review Architecture Regularly|System Design|Maintain scalability
