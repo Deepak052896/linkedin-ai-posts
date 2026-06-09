@@ -1,11 +1,11 @@
 
 TITLE:
-Use Transit Gateway
+Cross Region Replication
 
 COMMAND:
-Transit Gateway
+S3 CRR
 
 DESCRIPTION:
-Simplify network connectivity.
+Disaster recovery support
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
