@@ -1,11 +1,11 @@
 
 TITLE:
-Cross Region Replication
+Enable GuardDuty
 
 COMMAND:
-S3 CRR
+GuardDuty
 
 DESCRIPTION:
-Disaster recovery support
+Detect suspicious account activity.
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
