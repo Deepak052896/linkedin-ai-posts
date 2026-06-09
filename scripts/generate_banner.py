@@ -42,40 +42,38 @@ draw = ImageDraw.Draw(img)
 # Fonts
 
 try:
-title_font = ImageFont.truetype(
-"DejaVuSans-Bold.ttf",
-48
-)
+    title_font = ImageFont.truetype(
+        "DejaVuSans-Bold.ttf",
+        48
+    )
 
-```
-heading_font = ImageFont.truetype(
-    "DejaVuSans-Bold.ttf",
-    28
-)
+    heading_font = ImageFont.truetype(
+        "DejaVuSans-Bold.ttf",
+        28
+    )
 
-command_font = ImageFont.truetype(
-    "DejaVuSans.ttf",
-    24
-)
+    command_font = ImageFont.truetype(
+        "DejaVuSans.ttf",
+        24
+    )
 
-desc_font = ImageFont.truetype(
-    "DejaVuSans.ttf",
-    20
-)
+    desc_font = ImageFont.truetype(
+        "DejaVuSans.ttf",
+        20
+    )
 
-footer_font = ImageFont.truetype(
-    "DejaVuSans.ttf",
-    22
-)
-```
+    footer_font = ImageFont.truetype(
+        "DejaVuSans.ttf",
+        22
+    )
 
 except:
-title_font = ImageFont.load_default()
-heading_font = ImageFont.load_default()
-command_font = ImageFont.load_default()
-desc_font = ImageFont.load_default()
-footer_font = ImageFont.load_default()
-
+    title_font = ImageFont.load_default()
+    heading_font = ImageFont.load_default()
+    command_font = ImageFont.load_default()
+    desc_font = ImageFont.load_default()
+    footer_font = ImageFont.load_default()
+    
 # Header Background
 
 draw.rectangle(
