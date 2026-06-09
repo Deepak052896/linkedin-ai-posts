@@ -1,1 +1,100 @@
-
+Enable MFA|Multi-Factor Authentication|Protect account access
+Use Strong Passwords|Password Policy|Reduce brute-force attacks
+Rotate Passwords|Password Rotation|Improve credential security
+Disable Unused Accounts|User Management|Reduce attack surface
+Review Privileged Accounts|Admin Audit|Limit elevated access
+Apply Least Privilege|RBAC|Grant minimum permissions
+Enable Account Lockout|Account Policy|Prevent password guessing
+Monitor Login Attempts|Authentication Logs|Detect suspicious access
+Review Group Memberships|Access Audit|Verify permissions
+Disable Guest Accounts|User Security|Reduce exposure
+Enable Firewall|Host Firewall|Control inbound traffic
+Review Firewall Rules|Firewall Audit|Remove unnecessary access
+Block Unused Ports|Port Security|Reduce attack surface
+Allow Only Required Services|Network Hardening|Improve security
+Restrict RDP Access|Remote Access|Protect Windows servers
+Restrict SSH Access|SSH Security|Protect Linux servers
+Use VPN Access|Remote Security|Secure remote connections
+Enable IDS|Intrusion Detection|Monitor attacks
+Enable IPS|Intrusion Prevention|Block threats
+Monitor Network Traffic|Traffic Analysis|Identify anomalies
+Enable Disk Encryption|BitLocker/LUKS|Protect stored data
+Encrypt Backups|Backup Encryption|Protect backup data
+Encrypt Databases|Database Encryption|Secure sensitive records
+Use HTTPS|TLS|Encrypt web traffic
+Disable Weak Ciphers|TLS Hardening|Improve encryption
+Install Security Updates|Patch Management|Fix vulnerabilities
+Enable Automatic Updates|Update Policy|Reduce exposure
+Review CVEs|Vulnerability Management|Track security risks
+Patch Critical Systems First|Risk Management|Reduce impact
+Verify Patch Success|Patch Audit|Ensure compliance
+Enable Antivirus|Endpoint Protection|Detect malware
+Run Quick Scan|Malware Scan|Check threats
+Run Full Scan|Deep Scan|Comprehensive protection
+Update Signatures|AV Updates|Detect latest threats
+Review Quarantine|Threat Review|Investigate detections
+Monitor System Logs|Log Analysis|Identify incidents
+Centralize Logs|SIEM|Improve visibility
+Review Authentication Logs|Audit Logs|Track access attempts
+Monitor Privileged Actions|Audit Trail|Detect misuse
+Enable Log Retention|Compliance|Preserve evidence
+Backup Critical Data|Backup Strategy|Protect business continuity
+Test Backup Recovery|DR Testing|Verify restorability
+Use 3-2-1 Backup Rule|Backup Best Practice|Improve resilience
+Store Offsite Backups|Disaster Recovery|Protect against site loss
+Enable Immutable Backups|Ransomware Protection|Prevent modification
+Review Backup Jobs|Backup Audit|Ensure success
+Monitor Backup Storage|Capacity Planning|Avoid failures
+Enable Security Alerts|Monitoring|Respond quickly
+Create Incident Response Plan|IR Plan|Prepare for attacks
+Perform Security Awareness Training|User Education|Reduce phishing risk
+Review Security Groups|Security Audit|Verify firewall policies
+Review IAM Policies|Access Control|Remove excessive permissions
+Enable CloudTrail|AWS Audit|Track account activity
+Enable GuardDuty|Threat Detection|Detect suspicious behavior
+Enable Security Hub|Security Dashboard|Centralized visibility
+Enable AWS Config|Compliance Tracking|Monitor configuration changes
+Review S3 Permissions|Storage Security|Prevent public exposure
+Enable MFA Delete|S3 Protection|Protect bucket deletions
+Encrypt S3 Buckets|Storage Encryption|Protect stored data
+Enable Object Versioning|Version Control|Recover deleted objects
+Monitor DNS Logs|DNS Security|Detect anomalies
+Enable DNS Filtering|Threat Prevention|Block malicious domains
+Review SSL Certificates|Certificate Management|Avoid expiration issues
+Enable HSTS|Web Security|Force HTTPS usage
+Use Secure Headers|Application Security|Protect web applications
+Disable Unused Services|Service Hardening|Reduce attack vectors
+Review Running Processes|Process Audit|Detect suspicious activity
+Check Open Ports|Network Security|Identify exposed services
+Review Startup Services|System Hardening|Remove unnecessary services
+Enable File Integrity Monitoring|FIM|Detect file changes
+Audit File Permissions|Permission Review|Prevent unauthorized access
+Use Secure SSH Config|SSH Hardening|Improve remote access security
+Disable Root Login|SSH Security|Reduce attack risk
+Use SSH Keys|Authentication|Avoid password logins
+Rotate SSH Keys|Key Management|Maintain secure access
+Review Scheduled Tasks|Task Audit|Detect persistence techniques
+Enable Endpoint Detection|EDR|Improve threat visibility
+Monitor USB Devices|Device Control|Reduce data leakage
+Restrict Removable Media|Data Protection|Control external storage
+Use Application Whitelisting|Execution Control|Block unauthorized apps
+Review Installed Software|Software Audit|Remove unnecessary tools
+Scan for Vulnerabilities|Vulnerability Scan|Identify weaknesses
+Perform Penetration Testing|Security Assessment|Validate defenses
+Review Security Baselines|Hardening Standards|Maintain consistency
+Monitor Resource Utilization|Anomaly Detection|Spot suspicious behavior
+Review Certificate Stores|PKI Security|Maintain trust chains
+Enable Email Security|Mail Protection|Reduce phishing threats
+Configure SPF|Email Authentication|Prevent spoofing
+Configure DKIM|Email Security|Validate email integrity
+Configure DMARC|Domain Protection|Improve email trust
+Review VPN Logs|Remote Access Audit|Track user activity
+Enable Geolocation Restrictions|Access Control|Limit login locations
+Use Conditional Access|Identity Security|Improve authentication
+Review API Keys|Credential Audit|Remove unused keys
+Rotate Secrets|Secrets Management|Reduce exposure
+Use Secrets Vault|Credential Storage|Protect sensitive data
+Enable Compliance Monitoring|Governance|Track policy adherence
+Review Incident Reports|Security Operations|Improve response process
+Conduct Tabletop Exercises|Incident Response|Prepare teams
+Perform Regular Audits|Security Governance|Maintain strong security posture
