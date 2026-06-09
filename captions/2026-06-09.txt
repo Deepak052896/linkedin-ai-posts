@@ -1,11 +1,11 @@
 
 TITLE:
-Use Auto Scaling
+Enable EBS Encryption
 
 COMMAND:
-Auto Scaling Groups
+Encrypted Volumes
 
 DESCRIPTION:
-Improve availability and efficiency.
+Secure EC2 storage.
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
