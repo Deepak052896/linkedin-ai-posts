@@ -1,0 +1,11 @@
+
+TITLE:
+Enable GuardDuty
+
+COMMAND:
+GuardDuty
+
+DESCRIPTION:
+Detect suspicious account activity.
+
+#Linux #AWS #Cloud #DevOps #SystemAdministrator
