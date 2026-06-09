@@ -1,1 +1,101 @@
-
+List Running Services|Get-Service|Display all services
+Check Event Logs|eventvwr.msc|Open Event Viewer
+IP Configuration|ipconfig /all|View network settings
+Running Processes|tasklist|List active processes
+Check Disk Space|Get-PSDrive|Display disk usage
+System Information|systeminfo|Show OS details
+Hostname|hostname|Display computer name
+Current User|whoami|Show logged-in user
+Network Connections|netstat -ano|View active connections
+Ping Test|ping google.com|Check connectivity
+Trace Route|tracert google.com|Trace network path
+DNS Lookup|nslookup google.com|Query DNS records
+Flush DNS Cache|ipconfig /flushdns|Clear DNS cache
+Renew IP Address|ipconfig /renew|Renew DHCP lease
+Release IP Address|ipconfig /release|Release DHCP lease
+Check ARP Table|arp -a|View ARP cache
+Routing Table|route print|Display routes
+Open Shares|net share|View shared folders
+Mapped Drives|net use|List mapped drives
+Check Uptime|net statistics workstation|View uptime
+View Local Users|net user|List users
+User Details|net user username|View user details
+Create User|net user test Pass@123 /add|Create account
+Delete User|net user test /delete|Delete account
+Local Groups|net localgroup|List groups
+Administrators Group|net localgroup administrators|View admins
+Lock Workstation|rundll32.exe user32.dll,LockWorkStation|Lock PC
+Check Installed Software|wmic product get name|List applications
+Windows Version|winver|Display version
+Check Updates|Get-WindowsUpdate|View updates
+Install Updates|Install-WindowsUpdate|Install updates
+Restart Computer|shutdown /r /t 0|Restart system
+Shutdown Computer|shutdown /s /t 0|Shutdown system
+Abort Shutdown|shutdown /a|Cancel shutdown
+Task Scheduler|taskschd.msc|Open scheduler
+Services Console|services.msc|Manage services
+Computer Management|compmgmt.msc|Open management console
+Device Manager|devmgmt.msc|Manage devices
+Disk Management|diskmgmt.msc|Manage disks
+Resource Monitor|resmon|Monitor resources
+Performance Monitor|perfmon|Performance metrics
+Registry Editor|regedit|Open registry
+Group Policy|gpedit.msc|Edit policies
+Local Security Policy|secpol.msc|Manage security settings
+System Configuration|msconfig|Manage startup
+Environment Variables|set|List variables
+Power Configuration|powercfg /a|Power settings
+Battery Report|powercfg /batteryreport|Generate battery report
+Check Drivers|driverquery|List installed drivers
+Windows Firewall Status|netsh advfirewall show allprofiles|Firewall status
+Enable Firewall|netsh advfirewall set allprofiles state on|Enable firewall
+Disable Firewall|netsh advfirewall set allprofiles state off|Disable firewall
+Open Firewall Console|wf.msc|Manage firewall
+Check Open Ports|netstat -an|View listening ports
+RDP Status|qwinsta|View remote sessions
+Logged-in Users|query user|List active users
+Check SMB Shares|Get-SmbShare|List SMB shares
+SMB Sessions|Get-SmbSession|View SMB connections
+Test Network|Test-NetConnection google.com|Network diagnostics
+DNS Client Cache|ipconfig /displaydns|View DNS cache
+Windows Features|Get-WindowsFeature|List server roles
+Install Feature|Install-WindowsFeature DNS|Install role
+Remove Feature|Uninstall-WindowsFeature DNS|Remove role
+AD Users|Get-ADUser -Filter *|List Active Directory users
+AD Groups|Get-ADGroup -Filter *|List AD groups
+FSMO Roles|netdom query fsmo|View FSMO roles
+Domain Controllers|Get-ADDomainController -Filter *|List DCs
+Replication Status|repadmin /replsummary|Check replication
+DNS Zones|Get-DnsServerZone|List DNS zones
+DHCP Scopes|Get-DhcpServerv4Scope|View DHCP scopes
+Check Certificates|certlm.msc|View machine certificates
+Export Certificate|certutil -store my|List certificates
+Windows Defender Status|Get-MpComputerStatus|Check Defender
+Quick Scan|Start-MpScan -ScanType QuickScan|Run AV scan
+Full Scan|Start-MpScan -ScanType FullScan|Run full AV scan
+Defender Signatures|Update-MpSignature|Update signatures
+BitLocker Status|manage-bde -status|Check encryption
+Enable BitLocker|manage-bde -on C:|Enable encryption
+Check Scheduled Tasks|schtasks|List scheduled tasks
+Create Scheduled Task|schtasks /create|Create task
+Delete Scheduled Task|schtasks /delete|Delete task
+Check Startup Programs|Get-CimInstance Win32_StartupCommand|Startup items
+Disk Check|chkdsk C:|Check disk health
+Repair System Files|sfc /scannow|Repair system files
+DISM Health Check|DISM /Online /Cleanup-Image /CheckHealth|Check image health
+DISM Restore Health|DISM /Online /Cleanup-Image /RestoreHealth|Repair image
+Check Memory|wmic memorychip get capacity|View RAM
+CPU Information|wmic cpu get name|CPU details
+BIOS Version|wmic bios get smbiosbiosversion|BIOS info
+Motherboard Info|wmic baseboard get product|Board details
+Serial Number|wmic bios get serialnumber|System serial
+Installed Hotfixes|wmic qfe list|List patches
+Export Event Logs|wevtutil epl System system.evtx|Export logs
+Audit Policies|auditpol /get /category:*|View audit config
+Enable Remote Desktop|SystemPropertiesRemote.exe|Configure RDP
+Check RDP Port|reg query HKLM\\System\\CurrentControlSet\\Control\\Terminal Server\\WinStations\\RDP-Tcp|RDP settings
+Check Time Sync|w32tm /query /status|Time synchronization
+Force Time Sync|w32tm /resync|Resync clock
+Check Domain Trust|nltest /domain_trusts|Domain trusts
+Verify Secure Channel|Test-ComputerSecureChannel|AD secure channel
+Windows Activation|slmgr /xpr|Activation status
