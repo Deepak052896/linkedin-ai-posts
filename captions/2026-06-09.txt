@@ -1,11 +1,11 @@
 
 TITLE:
-Enable GuardDuty
+Use Auto Scaling
 
 COMMAND:
-GuardDuty
+Auto Scaling Groups
 
 DESCRIPTION:
-Detect suspicious account activity.
+Improve availability and efficiency.
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
