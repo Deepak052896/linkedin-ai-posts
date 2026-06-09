@@ -98,3 +98,103 @@ Check Certificate Expiry|openssl x509 -enddate -noout -in cert.pem|Verify SSL ce
 Generate File Checksum|sha256sum file.iso|Validate file integrity.
 Check File Type|file filename|Determine file format information.
 View Command History|history|Review previously executed commands.
+Check Failed Services|systemctl --failed|List failed services
+Check Disk Usage|df -h|Display disk usage
+View Running Processes|ps aux|Show running processes
+Open Listening Ports|ss -tulnp|Show listening ports
+Check System Uptime|uptime|Show system uptime
+Check Memory Usage|free -m|Display memory statistics
+CPU Information|lscpu|Display CPU details
+Mounted Filesystems|mount|Show mounted filesystems
+Running Services|systemctl list-units --type=service|List active services
+View Logs|journalctl -xe|Display system logs
+Current User|whoami|Show current user
+Logged In Users|w|Display logged-in users
+Kernel Version|uname -r|Show kernel version
+System Information|uname -a|Display system information
+Hostname|hostnamectl|Show hostname details
+IP Address|ip addr show|Display IP addresses
+Routing Table|ip route|Show routing table
+DNS Configuration|cat /etc/resolv.conf|View DNS settings
+Check Ping|ping google.com|Test connectivity
+Trace Route|traceroute google.com|Trace network path
+Network Statistics|netstat -tulpn|Show network connections
+Socket Statistics|ss -s|Display socket summary
+ARP Table|arp -a|Show ARP entries
+Disk Partitions|lsblk|List block devices
+Disk Usage by Directory|du -sh *|Show folder sizes
+Filesystem Usage|df -Th|Filesystem utilization
+Check Swap Usage|swapon --show|Display swap usage
+Active Processes|top|Real-time process monitoring
+Enhanced Process View|htop|Interactive process viewer
+Kill Process|kill -9 PID|Terminate process
+Process Tree|pstree|Display process hierarchy
+Find Process|pgrep nginx|Find process ID
+Service Status|systemctl status nginx|Check service state
+Restart Service|systemctl restart nginx|Restart service
+Enable Service|systemctl enable nginx|Enable service at boot
+Disable Service|systemctl disable nginx|Disable service
+Start Service|systemctl start nginx|Start service
+Stop Service|systemctl stop nginx|Stop service
+Cron Jobs|crontab -l|List scheduled jobs
+Edit Cron|crontab -e|Edit cron jobs
+System Boot Time|who -b|Show last boot time
+Last Logins|last|Display login history
+User Accounts|cat /etc/passwd|List users
+Groups|cat /etc/group|List groups
+Create User|useradd username|Create new user
+Set Password|passwd username|Change password
+Delete User|userdel username|Delete user
+Lock User|usermod -L username|Lock account
+Unlock User|usermod -U username|Unlock account
+File Permissions|ls -l|View permissions
+Change Permissions|chmod 755 file.sh|Modify permissions
+Change Ownership|chown user:user file.txt|Assign ownership
+Find Files|find / -name file.txt|Locate files
+Find Large Files|find / -type f -size +500M|Find large files
+Search Text|grep error logfile.log|Search text patterns
+Count Lines|wc -l file.txt|Count lines
+Sort Content|sort file.txt|Sort file content
+Unique Entries|uniq file.txt|Show unique values
+Archive Files|tar -cvf backup.tar folder|Create archive
+Extract Archive|tar -xvf backup.tar|Extract archive
+Compress File|gzip file.txt|Compress file
+Decompress File|gunzip file.txt.gz|Decompress file
+Download File|wget URL|Download from URL
+Download via Curl|curl -O URL|Download using curl
+Check Open Files|lsof|List open files
+Open Port Check|lsof -i :80|Check port usage
+SSH Login|ssh user@host|Remote login
+Copy File SCP|scp file user@host:/tmp|Secure copy
+Sync Files|rsync -av source dest|Synchronize files
+Generate SSH Key|ssh-keygen|Create SSH keys
+Firewall Status|ufw status|Check firewall
+Allow Port|ufw allow 80|Allow firewall port
+Deny Port|ufw deny 22|Block firewall port
+Firewall Reload|ufw reload|Reload firewall
+SELinux Status|getenforce|Check SELinux mode
+SELinux Details|sestatus|Display SELinux status
+Package Updates|apt update|Update package list
+Upgrade Packages|apt upgrade -y|Upgrade packages
+Installed Packages|dpkg -l|List installed packages
+Install Package|apt install nginx|Install package
+Remove Package|apt remove nginx|Remove package
+Check Load Average|uptime|Display system load
+Memory Details|cat /proc/meminfo|Detailed memory info
+CPU Usage|mpstat|CPU statistics
+IO Statistics|iostat|Disk I/O statistics
+Network Traffic|iftop|Live network traffic
+Bandwidth Usage|nload|Monitor bandwidth
+Check Ports|nmap localhost|Scan ports
+Check Time|timedatectl|Display time settings
+Sync Time|ntpq -p|Check NTP status
+Environment Variables|printenv|List environment variables
+Bash History|history|Command history
+Alias List|alias|Show aliases
+Current Directory|pwd|Display working directory
+List Files|ls -lah|Detailed file listing
+Create Directory|mkdir project|Create folder
+Remove Directory|rm -rf project|Delete folder
+Create File|touch test.txt|Create file
+View File|cat test.txt|Display file contents
+Monitor Logs|tail -f /var/log/syslog|Watch logs live
