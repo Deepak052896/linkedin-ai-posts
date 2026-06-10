@@ -1,0 +1,11 @@
+
+TITLE:
+Installed Hotfixes
+
+COMMAND:
+wmic qfe list
+
+DESCRIPTION:
+List patches
+
+#Linux #AWS #Cloud #DevOps #SystemAdministrator
