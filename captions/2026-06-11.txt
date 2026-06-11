@@ -1,11 +1,11 @@
 
 TITLE:
-WiFi Scan
+Display Neighbors
 
 COMMAND:
-nmcli dev wifi
+ip neigh
 
 DESCRIPTION:
-Scan WiFi networks
+ARP neighbors
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
