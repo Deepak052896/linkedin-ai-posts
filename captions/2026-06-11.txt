@@ -1,0 +1,11 @@
+
+TITLE:
+WiFi Scan
+
+COMMAND:
+nmcli dev wifi
+
+DESCRIPTION:
+Scan WiFi networks
+
+#Linux #AWS #Cloud #DevOps #SystemAdministrator
