@@ -1,11 +1,11 @@
 
 TITLE:
-Display Neighbors
+Check Interface Errors
 
 COMMAND:
-ip neigh
+ifconfig eth0
 
 DESCRIPTION:
-ARP neighbors
+View interface stats
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
