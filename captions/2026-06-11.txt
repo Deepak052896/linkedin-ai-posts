@@ -1,11 +1,11 @@
 
 TITLE:
-Check Interface Errors
+Check Open Ports
 
 COMMAND:
-ifconfig eth0
+ss -tulnp
 
 DESCRIPTION:
-View interface stats
+Show listening ports
 
 #Linux #AWS #Cloud #DevOps #SystemAdministrator
