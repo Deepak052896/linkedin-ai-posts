@@ -1,0 +1,25 @@
+{
+  "title": "Top 5 Service Commands",
+  "items": [
+    {
+      "icon": "service",
+      "cmd": "systemctl --failed"
+    },
+    {
+      "icon": "service",
+      "cmd": "systemctl status"
+    },
+    {
+      "icon": "log",
+      "cmd": "journalctl -xe"
+    },
+    {
+      "icon": "service",
+      "cmd": "service --status-all"
+    },
+    {
+      "icon": "service",
+      "cmd": "systemctl list-units"
+    }
+  ]
+}
