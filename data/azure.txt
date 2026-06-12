@@ -1,0 +1,100 @@
+Enable MFA|Azure MFA|Protect user accounts
+Use RBAC|Role Based Access Control|Grant least privilege access
+Enable Conditional Access|Conditional Access|Secure user sign-ins
+Enable Azure Defender|Microsoft Defender for Cloud|Threat protection
+Use Managed Identities|Managed Identity|Avoid stored credentials
+Enable Activity Logs|Azure Activity Log|Track resource changes
+Enable Diagnostic Logs|Azure Monitor|Improve troubleshooting
+Use Azure Policy|Azure Policy|Enforce compliance
+Enable Resource Locks|Resource Locks|Prevent accidental deletion
+Use Key Vault|Azure Key Vault|Store secrets securely
+Enable Storage Encryption|Storage Encryption|Protect stored data
+Enable Soft Delete|Soft Delete|Recover deleted resources
+Use Private Endpoints|Private Endpoint|Secure service access
+Enable Blob Versioning|Blob Versioning|Protect object data
+Use Lifecycle Management|Lifecycle Policies|Reduce storage costs
+Enable Storage Logging|Storage Analytics|Track access patterns
+Restrict Public Access|Storage Firewall|Improve security
+Use Geo Replication|GRS|Disaster recovery support
+Monitor Storage Metrics|Azure Monitor|Track performance
+Use Immutable Storage|Immutable Blob|Prevent tampering
+Use Availability Zones|Availability Zones|Increase resilience
+Enable VM Backups|Azure Backup|Protect virtual machines
+Use VM Scale Sets|VMSS|Auto-scale workloads
+Enable Boot Diagnostics|Boot Diagnostics|Troubleshoot startup issues
+Use Managed Disks|Managed Disks|Simplify storage management
+Enable Disk Encryption|Disk Encryption|Protect VM data
+Use Spot VMs|Spot VMs|Reduce costs
+Monitor VM Health|Azure Monitor|Track VM status
+Use Proximity Placement Groups|PPG|Reduce latency
+Enable Auto Shutdown|Auto Shutdown|Save costs
+Use Virtual Networks|VNet|Isolate workloads
+Enable NSG Rules|Network Security Group|Control traffic
+Use Azure Firewall|Azure Firewall|Centralized protection
+Enable DDoS Protection|DDoS Protection|Protect public services
+Use Application Gateway|Application Gateway|Load balancing
+Enable Flow Logs|NSG Flow Logs|Monitor traffic
+Use VPN Gateway|VPN Gateway|Secure connectivity
+Use ExpressRoute|ExpressRoute|Private Azure connection
+Use Private DNS Zones|Private DNS|Internal name resolution
+Monitor Network Watcher|Network Watcher|Troubleshoot networking
+Enable Azure Monitor|Azure Monitor|Centralized monitoring
+Use Log Analytics|Log Analytics|Analyze logs
+Create Alerts|Azure Alerts|Proactive notifications
+Use Application Insights|App Insights|Monitor applications
+Enable Service Health Alerts|Service Health|Track outages
+Use Workbooks|Azure Workbooks|Visualize metrics
+Monitor Availability|Availability Tests|Track uptime
+Enable Change Tracking|Change Tracking|Detect configuration drift
+Use Action Groups|Action Groups|Automate notifications
+Monitor Costs|Cost Management|Control spending
+Enable Azure SQL Backups|SQL Backup|Protect databases
+Use Geo Replication|Geo Replication|Improve availability
+Enable TDE|Transparent Data Encryption|Encrypt databases
+Use SQL Auditing|SQL Auditing|Track database activity
+Enable Threat Detection|Advanced Threat Protection|Improve security
+Use Read Replicas|Read Scale|Improve performance
+Monitor DTU Usage|Azure SQL Metrics|Optimize workload
+Enable Long Term Retention|LTR|Archive backups
+Use Elastic Pools|Elastic Pools|Optimize database costs
+Enable Automatic Tuning|Automatic Tuning|Improve performance
+Use Azure Functions|Azure Functions|Serverless execution
+Monitor Function Logs|Application Insights|Troubleshoot functions
+Use Event Grid|Event Grid|Event-driven architecture
+Use Service Bus|Service Bus|Reliable messaging
+Use Logic Apps|Logic Apps|Workflow automation
+Use API Management|API Management|Manage APIs
+Enable Autoscaling|Autoscale|Handle workload changes
+Use Durable Functions|Durable Functions|Stateful workflows
+Enable Retry Policies|Retry Logic|Improve reliability
+Monitor Execution Metrics|Azure Monitor|Track usage
+Use AKS|Azure Kubernetes Service|Managed Kubernetes
+Use ACR|Azure Container Registry|Store container images
+Enable Container Insights|Container Insights|Monitor clusters
+Use Node Pools|Node Pools|Separate workloads
+Enable Cluster Autoscaler|Autoscaler|Scale automatically
+Use Pod Identity|Workload Identity|Secure access
+Enable Network Policies|Network Policies|Restrict traffic
+Use Helm Charts|Helm|Simplify deployments
+Enable Azure Policy for AKS|Azure Policy|Enforce governance
+Monitor Cluster Health|Azure Monitor|Track performance
+Use ARM Templates|ARM Templates|Infrastructure as Code
+Use Bicep|Bicep|Simplify deployments
+Use Terraform|Terraform|Automate infrastructure
+Use Azure DevOps Pipelines|Azure Pipelines|CI/CD automation
+Use GitHub Actions|GitHub Actions|Deployment automation
+Store Secrets in Key Vault|Key Vault|Secure credentials
+Use Deployment Slots|App Service Slots|Safe releases
+Enable Blue-Green Deployment|Blue Green|Reduce downtime
+Use Release Gates|Release Gates|Control production releases
+Monitor Deployments|Azure Monitor|Track release health
+Use Management Groups|Management Groups|Organize subscriptions
+Enable Cost Budgets|Azure Budgets|Control spending
+Use Tags|Resource Tags|Track ownership
+Enable Azure Advisor|Azure Advisor|Best practice recommendations
+Use Policy Initiatives|Policy Sets|Standardize compliance
+Enable Defender for Cloud|Defender for Cloud|Improve security posture
+Use Lighthouse|Azure Lighthouse|Manage tenants
+Enable Resource Graph|Resource Graph|Query resources
+Use Landing Zones|Landing Zones|Govern Azure at scale
+Review Secure Score|Secure Score|Measure security posture
