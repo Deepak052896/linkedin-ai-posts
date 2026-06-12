@@ -25,6 +25,10 @@ jobs:
       - name: Split AWS Data
         run: python scripts/split_to_json.py
 
+      - name: Select Random Post
+        run: |
+          python scripts/select_random_post.py
+
       - name: Show Generated Files 
         run: | 
           echo "Generated files:" 
