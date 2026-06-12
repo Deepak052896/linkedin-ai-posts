@@ -38,7 +38,8 @@ jobs:
         run: | 
           git config --global user.name "github-actions" 
           git config --global user.email "actions@github.com" 
-          git add generated/ 
+          git add generated/
+          git add state/
           git status 
           git diff --staged --quiet || git commit -m "Generated AWS JSON files" 
           git push
