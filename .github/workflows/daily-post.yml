@@ -27,6 +27,10 @@ jobs:
           playwright install chromium
           playwright install-deps
 
+      - name: Split AWS Data
+        run: |
+          python scripts/split_to_json.py
+
       - name: Generate Banner
         run: |
           python scripts/generate_banner_playwright.py
