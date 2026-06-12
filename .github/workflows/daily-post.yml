@@ -33,6 +33,11 @@ jobs:
         run: |
           python scripts/generate_caption.py
 
+      - name: Generate Banner
+        run: |
+          python scripts/generate_banner.py
+
+
       - name: Show Generated Files 
         run: | 
           echo "Generated files:" 
@@ -45,6 +50,7 @@ jobs:
           git add generated/
           git add state/
           git add captions/
+          git add banners/
           git status 
           git diff --staged --quiet || git commit -m "Generated AWS JSON files" 
           git push
