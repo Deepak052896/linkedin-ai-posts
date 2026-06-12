@@ -1,32 +1,32 @@
 {
     "category": "devops",
-    "post_number": 9,
-    "title": "DEVOPS Tips #9",
+    "post_number": 6,
+    "title": "DEVOPS Tips #6",
     "commands": [
         {
-            "title": "Use Ansible",
-            "command": "Configuration Management",
-            "description": "Automate server setup"
+            "title": "View Pods",
+            "command": "kubectl get pods",
+            "description": "Check workloads"
         },
         {
-            "title": "Run Playbooks",
-            "command": "ansible-playbook",
-            "description": "Apply configurations"
+            "title": "View Services",
+            "command": "kubectl get svc",
+            "description": "Inspect services"
         },
         {
-            "title": "Use Inventories",
-            "command": "Ansible Inventory",
-            "description": "Manage hosts"
+            "title": "Deploy Application",
+            "command": "kubectl apply",
+            "description": "Release workloads"
         },
         {
-            "title": "Use Roles",
-            "command": "Ansible Roles",
-            "description": "Organize automation"
+            "title": "Scale Deployments",
+            "command": "kubectl scale",
+            "description": "Adjust capacity"
         },
         {
-            "title": "Automate Patching",
-            "command": "Patch Management",
-            "description": "Reduce maintenance effort"
+            "title": "Check Logs",
+            "command": "kubectl logs",
+            "description": "Troubleshoot issues"
         }
     ]
 }
