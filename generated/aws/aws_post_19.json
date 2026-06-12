@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 19,
+    "title": "AWS Tips #19",
+    "commands": [
+        {
+            "title": "CloudWatch Alarms",
+            "command": "CloudWatch Alarms",
+            "description": "Proactive monitoring"
+        },
+        {
+            "title": "Monitor Billing",
+            "command": "Billing Alarm",
+            "description": "Avoid surprises"
+        },
+        {
+            "title": "Enable Cost Explorer",
+            "command": "Cost Explorer",
+            "description": "Analyze spending"
+        },
+        {
+            "title": "Use Budgets",
+            "command": "AWS Budgets",
+            "description": "Control expenses"
+        },
+        {
+            "title": "Trusted Advisor Review",
+            "command": "Trusted Advisor",
+            "description": "Optimization insights"
+        }
+    ]
+}

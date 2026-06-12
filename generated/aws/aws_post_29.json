@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 29,
+    "title": "AWS Tips #29",
+    "commands": [
+        {
+            "title": "Enable WAF",
+            "command": "AWS WAF",
+            "description": "Web protection"
+        },
+        {
+            "title": "Enable Shield",
+            "command": "AWS Shield",
+            "description": "DDoS protection"
+        },
+        {
+            "title": "Use Global Accelerator",
+            "command": "Global Accelerator",
+            "description": "Improve latency"
+        },
+        {
+            "title": "Enable Health Dashboard Alerts",
+            "command": "AWS Health",
+            "description": "Service notifications"
+        },
+        {
+            "title": "Review Trusted Advisor Weekly",
+            "command": "Trusted Advisor",
+            "description": "Maintain best practices"
+        }
+    ]
+}

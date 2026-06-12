@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 13,
+    "title": "AWS Tips #13",
+    "commands": [
+        {
+            "title": "Use EC2 Tags",
+            "command": "EC2 Tags",
+            "description": "Improve resource management"
+        },
+        {
+            "title": "Monitor CPU Usage",
+            "command": "CloudWatch Metrics",
+            "description": "Track instance performance"
+        },
+        {
+            "title": "Create EC2 Backups",
+            "command": "AMI Backup",
+            "description": "Protect server data"
+        },
+        {
+            "title": "Use Auto Scaling",
+            "command": "Auto Scaling Group",
+            "description": "Automatic scaling"
+        },
+        {
+            "title": "Use Load Balancer",
+            "command": "ALB",
+            "description": "Distribute traffic"
+        }
+    ]
+}

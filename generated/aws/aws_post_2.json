@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 2,
+    "title": "AWS Tips #2",
+    "commands": [
+        {
+            "title": "Enable S3 Encryption",
+            "command": "SSE-S3",
+            "description": "Protect data at rest."
+        },
+        {
+            "title": "Enable EBS Encryption",
+            "command": "Encrypted Volumes",
+            "description": "Secure EC2 storage."
+        },
+        {
+            "title": "Use CloudWatch Alarms",
+            "command": "CloudWatch",
+            "description": "Monitor critical resources proactively."
+        },
+        {
+            "title": "Enable GuardDuty",
+            "command": "GuardDuty",
+            "description": "Detect suspicious account activity."
+        },
+        {
+            "title": "Use AWS Config",
+            "command": "AWS Config",
+            "description": "Track infrastructure changes."
+        }
+    ]
+}

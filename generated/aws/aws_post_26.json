@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 26,
+    "title": "AWS Tips #26",
+    "commands": [
+        {
+            "title": "Compliance Reporting",
+            "command": "Systems Manager Compliance",
+            "description": "Track compliance"
+        },
+        {
+            "title": "Use CloudFormation",
+            "command": "CloudFormation",
+            "description": "Infrastructure as Code"
+        },
+        {
+            "title": "Use StackSets",
+            "command": "StackSets",
+            "description": "Multi-account deployments"
+        },
+        {
+            "title": "Validate Templates",
+            "command": "CloudFormation Validate",
+            "description": "Avoid errors"
+        },
+        {
+            "title": "Use Drift Detection",
+            "command": "Drift Detection",
+            "description": "Configuration integrity"
+        }
+    ]
+}

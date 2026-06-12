@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 23,
+    "title": "AWS Tips #23",
+    "commands": [
+        {
+            "title": "Use ElastiCache",
+            "command": "Redis",
+            "description": "Improve performance"
+        },
+        {
+            "title": "Monitor Redis Usage",
+            "command": "CloudWatch",
+            "description": "Track cache health"
+        },
+        {
+            "title": "Use EFS",
+            "command": "Elastic File System",
+            "description": "Shared storage"
+        },
+        {
+            "title": "Enable EFS Backup",
+            "command": "AWS Backup",
+            "description": "Protect file systems"
+        },
+        {
+            "title": "Use FSx",
+            "command": "FSx",
+            "description": "Managed file storage"
+        }
+    ]
+}

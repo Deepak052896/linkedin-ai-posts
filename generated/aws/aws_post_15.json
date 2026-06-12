@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 15,
+    "title": "AWS Tips #15",
+    "commands": [
+        {
+            "title": "Enable VPC Flow Logs",
+            "command": "Flow Logs",
+            "description": "Monitor network traffic"
+        },
+        {
+            "title": "Use Private Subnets",
+            "command": "Private Subnet",
+            "description": "Improve security"
+        },
+        {
+            "title": "NAT Gateway Usage",
+            "command": "NAT Gateway",
+            "description": "Private internet access"
+        },
+        {
+            "title": "Restrict NACLs",
+            "command": "Network ACL",
+            "description": "Control traffic"
+        },
+        {
+            "title": "VPC Peering",
+            "command": "VPC Peering",
+            "description": "Connect VPCs securely"
+        }
+    ]
+}

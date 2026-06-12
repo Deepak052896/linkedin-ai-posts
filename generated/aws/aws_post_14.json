@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 14,
+    "title": "AWS Tips #14",
+    "commands": [
+        {
+            "title": "Enable Detailed Monitoring",
+            "command": "CloudWatch Detailed Monitoring",
+            "description": "Better visibility"
+        },
+        {
+            "title": "Use Elastic IP Carefully",
+            "command": "Elastic IP",
+            "description": "Avoid unused charges"
+        },
+        {
+            "title": "Stop Unused Instances",
+            "command": "EC2 Stop",
+            "description": "Reduce costs"
+        },
+        {
+            "title": "Reserved Instances",
+            "command": "RI",
+            "description": "Save long-term costs"
+        },
+        {
+            "title": "Use Spot Instances",
+            "command": "Spot Instances",
+            "description": "Reduce compute expenses"
+        }
+    ]
+}

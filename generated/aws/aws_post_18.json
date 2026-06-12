@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 18,
+    "title": "AWS Tips #18",
+    "commands": [
+        {
+            "title": "Enable Detective",
+            "command": "Detective",
+            "description": "Security investigation"
+        },
+        {
+            "title": "Rotate Access Keys",
+            "command": "IAM Access Keys",
+            "description": "Improve security"
+        },
+        {
+            "title": "Least Privilege Access",
+            "command": "IAM Policies",
+            "description": "Reduce risk"
+        },
+        {
+            "title": "Use Permission Boundaries",
+            "command": "IAM Boundaries",
+            "description": "Control permissions"
+        },
+        {
+            "title": "Enable MFA Delete",
+            "command": "MFA Delete",
+            "description": "Protect bucket deletions"
+        }
+    ]
+}

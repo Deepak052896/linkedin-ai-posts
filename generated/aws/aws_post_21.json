@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 21,
+    "title": "AWS Tips #21",
+    "commands": [
+        {
+            "title": "Use DynamoDB Autoscaling",
+            "command": "DynamoDB",
+            "description": "Optimize capacity"
+        },
+        {
+            "title": "Enable DynamoDB Backup",
+            "command": "Point-in-Time Recovery",
+            "description": "Protect data"
+        },
+        {
+            "title": "Use DynamoDB TTL",
+            "command": "TTL",
+            "description": "Automatic cleanup"
+        },
+        {
+            "title": "Encrypt DynamoDB",
+            "command": "KMS Encryption",
+            "description": "Secure database"
+        },
+        {
+            "title": "Use RDS Multi-AZ",
+            "command": "Multi-AZ",
+            "description": "High availability"
+        }
+    ]
+}

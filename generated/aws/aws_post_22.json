@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 22,
+    "title": "AWS Tips #22",
+    "commands": [
+        {
+            "title": "Enable Automated Backups",
+            "command": "RDS Backups",
+            "description": "Data protection"
+        },
+        {
+            "title": "Use Read Replicas",
+            "command": "RDS Read Replica",
+            "description": "Improve performance"
+        },
+        {
+            "title": "Encrypt RDS",
+            "command": "KMS Encryption",
+            "description": "Protect database"
+        },
+        {
+            "title": "Monitor RDS Metrics",
+            "command": "CloudWatch",
+            "description": "Database health"
+        },
+        {
+            "title": "Enable Aurora Backtrack",
+            "command": "Aurora",
+            "description": "Fast recovery"
+        }
+    ]
+}

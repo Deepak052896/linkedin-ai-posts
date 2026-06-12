@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 25,
+    "title": "AWS Tips #25",
+    "commands": [
+        {
+            "title": "Use Parameter Store",
+            "command": "SSM Parameter Store",
+            "description": "Manage configuration"
+        },
+        {
+            "title": "Patch EC2 Instances",
+            "command": "Systems Manager Patch Manager",
+            "description": "Security updates"
+        },
+        {
+            "title": "Run Commands Remotely",
+            "command": "SSM Run Command",
+            "description": "Remote administration"
+        },
+        {
+            "title": "Session Manager Access",
+            "command": "Session Manager",
+            "description": "Secure shell access"
+        },
+        {
+            "title": "Inventory Collection",
+            "command": "SSM Inventory",
+            "description": "Asset visibility"
+        }
+    ]
+}

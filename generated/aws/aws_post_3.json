@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 3,
+    "title": "AWS Tips #3",
+    "commands": [
+        {
+            "title": "Use Systems Manager",
+            "command": "SSM",
+            "description": "Manage servers without SSH."
+        },
+        {
+            "title": "Rotate IAM Keys",
+            "command": "IAM Access Keys",
+            "description": "Reduce credential exposure risk."
+        },
+        {
+            "title": "Use Resource Tags",
+            "command": "Tags",
+            "description": "Improve cost and resource tracking."
+        },
+        {
+            "title": "Enable Cost Explorer",
+            "command": "Cost Explorer",
+            "description": "Analyze AWS spending trends."
+        },
+        {
+            "title": "Restrict Root Usage",
+            "command": "Root Account",
+            "description": "Avoid daily use of root credentials."
+        }
+    ]
+}

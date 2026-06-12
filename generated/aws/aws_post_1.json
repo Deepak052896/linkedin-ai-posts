@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 1,
+    "title": "AWS Tips #1",
+    "commands": [
+        {
+            "title": "Enable S3 Versioning",
+            "command": "aws s3api put-bucket-versioning",
+            "description": "Protect against accidental object deletion."
+        },
+        {
+            "title": "Enable CloudTrail",
+            "command": "aws cloudtrail create-trail",
+            "description": "Audit AWS account activity."
+        },
+        {
+            "title": "Use IAM Roles",
+            "command": "IAM Roles",
+            "description": "Avoid storing access keys on servers."
+        },
+        {
+            "title": "Enable MFA",
+            "command": "AWS MFA",
+            "description": "Strengthen account security."
+        },
+        {
+            "title": "Restrict Security Groups",
+            "command": "Security Groups",
+            "description": "Allow only required ports."
+        }
+    ]
+}

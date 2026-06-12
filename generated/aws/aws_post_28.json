@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 28,
+    "title": "AWS Tips #28",
+    "commands": [
+        {
+            "title": "Use ECS",
+            "command": "Elastic Container Service",
+            "description": "Run containers"
+        },
+        {
+            "title": "Use EKS",
+            "command": "Elastic Kubernetes Service",
+            "description": "Managed Kubernetes"
+        },
+        {
+            "title": "Monitor Containers",
+            "command": "Container Insights",
+            "description": "Visibility"
+        },
+        {
+            "title": "Enable CloudWatch Logs",
+            "command": "CloudWatch Logs",
+            "description": "Centralized logging"
+        },
+        {
+            "title": "Use OpenSearch",
+            "command": "OpenSearch",
+            "description": "Log analytics"
+        }
+    ]
+}

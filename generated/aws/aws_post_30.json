@@ -1,0 +1,27 @@
+{
+    "category": "aws",
+    "post_number": 30,
+    "title": "AWS Tips #30",
+    "commands": [
+        {
+            "title": "Tag Everything",
+            "command": "Resource Tags",
+            "description": "Cost and ownership tracking"
+        },
+        {
+            "title": "Enable Organizations",
+            "command": "AWS Organizations",
+            "description": "Multi-account governance"
+        },
+        {
+            "title": "Use SCP Policies",
+            "command": "Service Control Policies",
+            "description": "Restrict accounts"
+        },
+        {
+            "title": "Enable Control Tower",
+            "command": "Control Tower",
+            "description": "Landing zone management"
+        }
+    ]
+}

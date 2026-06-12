@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 16,
+    "title": "AWS Tips #16",
+    "commands": [
+        {
+            "title": "Transit Gateway",
+            "command": "Transit Gateway",
+            "description": "Centralized networking"
+        },
+        {
+            "title": "Route Table Validation",
+            "command": "Route Tables",
+            "description": "Verify routing paths"
+        },
+        {
+            "title": "Use Route53 Health Checks",
+            "command": "Route53",
+            "description": "Monitor availability"
+        },
+        {
+            "title": "Enable DNS Logging",
+            "command": "Route53 Resolver Logs",
+            "description": "Track DNS activity"
+        },
+        {
+            "title": "Use Hosted Zones",
+            "command": "Route53 Hosted Zones",
+            "description": "Manage DNS records"
+        }
+    ]
+}

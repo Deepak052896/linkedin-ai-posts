@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 20,
+    "title": "AWS Tips #20",
+    "commands": [
+        {
+            "title": "Enable SNS Notifications",
+            "command": "SNS",
+            "description": "Automated alerts"
+        },
+        {
+            "title": "Use SQS Queues",
+            "command": "SQS",
+            "description": "Decouple applications"
+        },
+        {
+            "title": "Use EventBridge",
+            "command": "EventBridge",
+            "description": "Event-driven automation"
+        },
+        {
+            "title": "Use Lambda Functions",
+            "command": "Lambda",
+            "description": "Serverless computing"
+        },
+        {
+            "title": "Monitor Lambda Errors",
+            "command": "CloudWatch Logs",
+            "description": "Troubleshoot functions"
+        }
+    ]
+}

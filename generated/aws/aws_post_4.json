@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 4,
+    "title": "AWS Tips #4",
+    "commands": [
+        {
+            "title": "Backup with AWS Backup",
+            "command": "AWS Backup",
+            "description": "Centralize backup management."
+        },
+        {
+            "title": "Enable VPC Flow Logs",
+            "command": "Flow Logs",
+            "description": "Monitor network traffic patterns."
+        },
+        {
+            "title": "Use Auto Scaling",
+            "command": "Auto Scaling Groups",
+            "description": "Improve availability and efficiency."
+        },
+        {
+            "title": "Enable ELB Health Checks",
+            "command": "Load Balancer",
+            "description": "Remove unhealthy instances automatically."
+        },
+        {
+            "title": "Store Secrets Securely",
+            "command": "Secrets Manager",
+            "description": "Avoid hardcoded credentials."
+        }
+    ]
+}

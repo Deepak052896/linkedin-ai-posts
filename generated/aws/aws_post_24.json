@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 24,
+    "title": "AWS Tips #24",
+    "commands": [
+        {
+            "title": "Enable Backup Plans",
+            "command": "AWS Backup",
+            "description": "Centralized backups"
+        },
+        {
+            "title": "Cross Account Backup",
+            "command": "AWS Backup Vault",
+            "description": "Recovery strategy"
+        },
+        {
+            "title": "Use KMS Keys",
+            "command": "KMS",
+            "description": "Encrypt resources"
+        },
+        {
+            "title": "Rotate KMS Keys",
+            "command": "Key Rotation",
+            "description": "Improve security"
+        },
+        {
+            "title": "Use Secrets Manager",
+            "command": "Secrets Manager",
+            "description": "Store credentials securely"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 17,
+    "title": "AWS Tips #17",
+    "commands": [
+        {
+            "title": "Enable GuardDuty",
+            "command": "GuardDuty",
+            "description": "Threat detection"
+        },
+        {
+            "title": "Enable Security Hub",
+            "command": "Security Hub",
+            "description": "Centralized security view"
+        },
+        {
+            "title": "Enable Inspector",
+            "command": "Inspector",
+            "description": "Vulnerability assessment"
+        },
+        {
+            "title": "Enable Macie",
+            "command": "Macie",
+            "description": "Sensitive data discovery"
+        },
+        {
+            "title": "Use AWS Config",
+            "command": "AWS Config",
+            "description": "Track configuration changes"
+        }
+    ]
+}

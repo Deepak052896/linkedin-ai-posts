@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 9,
+    "title": "AWS Tips #9",
+    "commands": [
+        {
+            "title": "Encrypt RDS Databases",
+            "command": "RDS Encryption",
+            "description": "Secure sensitive data."
+        },
+        {
+            "title": "Use Private Subnets",
+            "command": "Private Subnets",
+            "description": "Limit direct internet exposure."
+        },
+        {
+            "title": "Restrict NACL Rules",
+            "command": "Network ACLs",
+            "description": "Control subnet-level traffic."
+        },
+        {
+            "title": "Enable Route53 Health Checks",
+            "command": "Health Checks",
+            "description": "Improve DNS resilience."
+        },
+        {
+            "title": "Use Transit Gateway",
+            "command": "Transit Gateway",
+            "description": "Simplify network connectivity."
+        }
+    ]
+}

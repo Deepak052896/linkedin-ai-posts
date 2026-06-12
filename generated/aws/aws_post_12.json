@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 12,
+    "title": "AWS Tips #12",
+    "commands": [
+        {
+            "title": "Encrypt S3 Buckets",
+            "command": "SSE-S3",
+            "description": "Secure stored objects"
+        },
+        {
+            "title": "Block Public Access",
+            "command": "S3 Block Public Access",
+            "description": "Prevent accidental exposure"
+        },
+        {
+            "title": "Enable Access Logs",
+            "command": "S3 Access Logging",
+            "description": "Track bucket access"
+        },
+        {
+            "title": "Lifecycle Policies",
+            "command": "S3 Lifecycle",
+            "description": "Automate storage optimization"
+        },
+        {
+            "title": "Cross Region Replication",
+            "command": "S3 CRR",
+            "description": "Disaster recovery support"
+        }
+    ]
+}

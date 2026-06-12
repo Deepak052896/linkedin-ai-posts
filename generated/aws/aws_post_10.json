@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 10,
+    "title": "AWS Tips #10",
+    "commands": [
+        {
+            "title": "Enable AWS Backup Vault Lock",
+            "command": "Vault Lock",
+            "description": "Protect backups from deletion."
+        },
+        {
+            "title": "Use CloudFormation",
+            "command": "CloudFormation",
+            "description": "Automate infrastructure provisioning."
+        },
+        {
+            "title": "Enable Drift Detection",
+            "command": "CloudFormation Drift",
+            "description": "Identify manual changes."
+        },
+        {
+            "title": "Use EventBridge",
+            "command": "EventBridge",
+            "description": "Build event-driven automation."
+        },
+        {
+            "title": "Monitor Service Quotas",
+            "command": "Service Quotas",
+            "description": "Prevent resource limit issues."
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 27,
+    "title": "AWS Tips #27",
+    "commands": [
+        {
+            "title": "Use CodeCommit",
+            "command": "CodeCommit",
+            "description": "Source control"
+        },
+        {
+            "title": "Use CodeBuild",
+            "command": "CodeBuild",
+            "description": "CI builds"
+        },
+        {
+            "title": "Use CodeDeploy",
+            "command": "CodeDeploy",
+            "description": "Application deployment"
+        },
+        {
+            "title": "Use CodePipeline",
+            "command": "CodePipeline",
+            "description": "CI/CD automation"
+        },
+        {
+            "title": "Use ECR",
+            "command": "Elastic Container Registry",
+            "description": "Store container images"
+        }
+    ]
+}

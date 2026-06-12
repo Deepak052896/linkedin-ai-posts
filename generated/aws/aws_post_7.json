@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 7,
+    "title": "AWS Tips #7",
+    "commands": [
+        {
+            "title": "Use CloudFront CDN",
+            "command": "CloudFront",
+            "description": "Improve content delivery performance."
+        },
+        {
+            "title": "Enable WAF",
+            "command": "AWS WAF",
+            "description": "Protect applications from attacks."
+        },
+        {
+            "title": "Use Shield Standard",
+            "command": "AWS Shield",
+            "description": "Mitigate DDoS threats."
+        },
+        {
+            "title": "Monitor EC2 Status Checks",
+            "command": "EC2 Health Checks",
+            "description": "Detect instance issues early."
+        },
+        {
+            "title": "Use Launch Templates",
+            "command": "Launch Templates",
+            "description": "Standardize EC2 deployments."
+        }
+    ]
+}

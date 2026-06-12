@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 6,
+    "title": "AWS Tips #6",
+    "commands": [
+        {
+            "title": "Enable RDS Backups",
+            "command": "Automated Backups",
+            "description": "Protect database workloads."
+        },
+        {
+            "title": "Use Multi-AZ RDS",
+            "command": "Multi-AZ",
+            "description": "Improve database availability."
+        },
+        {
+            "title": "Enable Enhanced Monitoring",
+            "command": "RDS Monitoring",
+            "description": "Gain deeper database insights."
+        },
+        {
+            "title": "Use Read Replicas",
+            "command": "Read Replica",
+            "description": "Scale read-intensive workloads."
+        },
+        {
+            "title": "Enable S3 Access Logging",
+            "command": "Access Logs",
+            "description": "Track object access activity."
+        }
+    ]
+}

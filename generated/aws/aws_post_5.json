@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 5,
+    "title": "AWS Tips #5",
+    "commands": [
+        {
+            "title": "Use Parameter Store",
+            "command": "SSM Parameter Store",
+            "description": "Centralize configuration values."
+        },
+        {
+            "title": "Enable S3 Lifecycle Rules",
+            "command": "Lifecycle Policies",
+            "description": "Automate storage optimization."
+        },
+        {
+            "title": "Monitor Billing Alerts",
+            "command": "CloudWatch Billing",
+            "description": "Prevent unexpected charges."
+        },
+        {
+            "title": "Use Least Privilege",
+            "command": "IAM Policies",
+            "description": "Grant only necessary permissions."
+        },
+        {
+            "title": "Enable Access Analyzer",
+            "command": "IAM Access Analyzer",
+            "description": "Identify excessive permissions."
+        }
+    ]
+}

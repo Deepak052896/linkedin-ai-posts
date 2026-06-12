@@ -1,0 +1,32 @@
+{
+    "category": "aws",
+    "post_number": 11,
+    "title": "AWS Tips #11",
+    "commands": [
+        {
+            "title": "Enable MFA",
+            "command": "AWS MFA",
+            "description": "Protect root and IAM accounts"
+        },
+        {
+            "title": "Use IAM Roles",
+            "command": "IAM Roles",
+            "description": "Avoid hardcoded credentials"
+        },
+        {
+            "title": "Enable CloudTrail",
+            "command": "CloudTrail",
+            "description": "Audit AWS activity"
+        },
+        {
+            "title": "Use Security Groups",
+            "command": "Security Groups",
+            "description": "Restrict network access"
+        },
+        {
+            "title": "Enable S3 Versioning",
+            "command": "S3 Versioning",
+            "description": "Protect against accidental deletion"
+        }
+    ]
+}
