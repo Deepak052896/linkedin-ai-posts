@@ -1,44 +1,43 @@
-  name: Generate LinkedIn Content
+name: Generate LinkedIn Content
 
-  on:
-  workflow_dispatch:
+on:
+workflow_dispatch:
 
-  permissions:
-  contents: write
+permissions:
+contents: write
 
-  jobs:
-  generate:
-  runs-on:  ubuntu-latest
+jobs:
+generate:
+runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+```
+steps:
+  - name: Checkout Repository
+    uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
+  - name: Setup Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: "3.11"
 
-    - name: Install Dependencies
-      run: |
-        pip install -r requirements.txt
+  - name: Install Dependencies
+    run: |
+      pip install -r requirements.txt
 
-    - name: Split AWS Data
-      run: |
-        python scripts/split_to_json.py
+  - name: Split AWS Data
+    run: |
+      python scripts/split_to_json.py
 
-    - name: Verify Generated Files
-      run: |
-        echo "Generated files:"
-        find generated -type f
+  - name: Verify Generated Files
+    run: |
+      echo "Generated files:"
+      find generated -type f
 
-    - name: Commit Generated JSON Files
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-
-        git add generated/
-
-        git diff --staged --quiet || git commit -m "Generated AWS JSON files"
-
-        git push
+  - name: Commit Generated JSON Files
+    run: |
+      git config --global user.name "github-actions"
+      git config --global user.email "actions@github.com"
+      git add generated/
+      git diff --staged --quiet || git commit -m "Generated AWS JSON files"
+      git push
+```
