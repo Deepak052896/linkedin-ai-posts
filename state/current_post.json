@@ -1,32 +1,32 @@
 {
-    "category": "devops",
-    "post_number": 6,
-    "title": "DEVOPS Tips #6",
+    "category": "networking",
+    "post_number": 19,
+    "title": "NETWORKING Tips #19",
     "commands": [
         {
-            "title": "View Pods",
-            "command": "kubectl get pods",
-            "description": "Check workloads"
+            "title": "View Multicast Groups",
+            "command": "ip maddr show",
+            "description": "Multicast membership"
         },
         {
-            "title": "View Services",
+            "title": "Display Network Namespace",
+            "command": "ip netns list",
+            "description": "Network namespaces"
+        },
+        {
+            "title": "Check Docker Networks",
+            "command": "docker network ls",
+            "description": "Container networks"
+        },
+        {
+            "title": "Inspect Docker Network",
+            "command": "docker network inspect bridge",
+            "description": "Network details"
+        },
+        {
+            "title": "Kubernetes Services",
             "command": "kubectl get svc",
-            "description": "Inspect services"
-        },
-        {
-            "title": "Deploy Application",
-            "command": "kubectl apply",
-            "description": "Release workloads"
-        },
-        {
-            "title": "Scale Deployments",
-            "command": "kubectl scale",
-            "description": "Adjust capacity"
-        },
-        {
-            "title": "Check Logs",
-            "command": "kubectl logs",
-            "description": "Troubleshoot issues"
+            "description": "Cluster services"
         }
     ]
 }
