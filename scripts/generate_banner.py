@@ -21,15 +21,15 @@ f"{category}.png"
 )
 
 if not os.path.exists(template_file):
-raise Exception(f"Template not found: {template_file}")
+    raise Exception(f"Template not found: {template_file}")
 
 img = Image.open(template_file).convert("RGBA")
 draw = ImageDraw.Draw(img)
 
 try:
-font = ImageFont.truetype("DejaVuSans-Bold.ttf", 34)
+    font = ImageFont.truetype("DejaVuSans-Bold.ttf", 34)
 except:
-font = ImageFont.load_default()
+    font = ImageFont.load_default()
 
 positions = [
 (320, 420),
@@ -40,8 +40,8 @@ positions = [
 ]
 
 for i, cmd in enumerate(commands[:5]):
-x, y = positions[i]
-draw.text(
+    x, y = positions[i]
+    draw.text(
 (x, y),
 cmd["title"],
 fill="white",
