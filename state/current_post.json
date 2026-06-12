@@ -1,32 +1,32 @@
 {
-    "category": "linux",
-    "post_number": 9,
-    "title": "LINUX Tips #9",
+    "category": "networking",
+    "post_number": 20,
+    "title": "NETWORKING Tips #20",
     "commands": [
         {
-            "title": "Check UFW Status",
-            "command": "ufw status",
-            "description": "View Ubuntu firewall status."
+            "title": "Kubernetes Pods",
+            "command": "kubectl get pods -o wide",
+            "description": "Pod networking"
         },
         {
-            "title": "Generate SSH Key",
-            "command": "ssh-keygen -t rsa",
-            "description": "Create SSH authentication keys."
+            "title": "Check Ingress",
+            "command": "kubectl get ingress",
+            "description": "Ingress status"
         },
         {
-            "title": "Copy Files Securely",
-            "command": "scp file.txt user@host:/tmp",
-            "description": "Transfer files over SSH."
+            "title": "Monitor Traffic Live",
+            "command": "bmon",
+            "description": "Bandwidth monitor"
         },
         {
-            "title": "Remote Login",
-            "command": "ssh user@server",
-            "description": "Access remote Linux servers securely."
+            "title": "Check Port Occupancy",
+            "command": "fuser 80/tcp",
+            "description": "Port usage"
         },
         {
-            "title": "Check Open Files",
-            "command": "lsof -i",
-            "description": "Display open network files and sockets."
+            "title": "Display Socket Processes",
+            "command": "ss -p",
+            "description": "Socket process mapping"
         }
     ]
 }
