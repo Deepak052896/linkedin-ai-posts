@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 11,
+    "title": "AZURE Tips #11",
+    "commands": [
+        {
+            "title": "Enable Azure SQL Backups",
+            "command": "SQL Backup",
+            "description": "Protect databases"
+        },
+        {
+            "title": "Use Geo Replication",
+            "command": "Geo Replication",
+            "description": "Improve availability"
+        },
+        {
+            "title": "Enable TDE",
+            "command": "Transparent Data Encryption",
+            "description": "Encrypt databases"
+        },
+        {
+            "title": "Use SQL Auditing",
+            "command": "SQL Auditing",
+            "description": "Track database activity"
+        },
+        {
+            "title": "Enable Threat Detection",
+            "command": "Advanced Threat Protection",
+            "description": "Improve security"
+        }
+    ]
+}

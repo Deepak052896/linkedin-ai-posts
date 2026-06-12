@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 3,
+    "title": "WINDOWS Tips #3",
+    "commands": [
+        {
+            "title": "Trace Route",
+            "command": "tracert google.com",
+            "description": "Trace network path"
+        },
+        {
+            "title": "DNS Lookup",
+            "command": "nslookup google.com",
+            "description": "Query DNS records"
+        },
+        {
+            "title": "Flush DNS Cache",
+            "command": "ipconfig /flushdns",
+            "description": "Clear DNS cache"
+        },
+        {
+            "title": "Renew IP Address",
+            "command": "ipconfig /renew",
+            "description": "Renew DHCP lease"
+        },
+        {
+            "title": "Release IP Address",
+            "command": "ipconfig /release",
+            "description": "Release DHCP lease"
+        }
+    ]
+}

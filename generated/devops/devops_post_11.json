@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 11,
+    "title": "DEVOPS Tips #11",
+    "commands": [
+        {
+            "title": "Manage Secrets",
+            "command": "Vault",
+            "description": "Secure credentials"
+        },
+        {
+            "title": "Use SSO",
+            "command": "Identity Management",
+            "description": "Simplify authentication"
+        },
+        {
+            "title": "Implement Blue-Green Deployment",
+            "command": "Deployment Strategy",
+            "description": "Reduce downtime"
+        },
+        {
+            "title": "Implement Canary Deployment",
+            "command": "Release Strategy",
+            "description": "Minimize risk"
+        },
+        {
+            "title": "Use Feature Flags",
+            "command": "Feature Management",
+            "description": "Control releases"
+        }
+    ]
+}

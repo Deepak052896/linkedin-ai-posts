@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 10,
+    "title": "DEVOPS Tips #10",
+    "commands": [
+        {
+            "title": "Monitor Systems",
+            "command": "Prometheus",
+            "description": "Collect metrics"
+        },
+        {
+            "title": "Visualize Metrics",
+            "command": "Grafana",
+            "description": "Create dashboards"
+        },
+        {
+            "title": "Alert on Failures",
+            "command": "Alertmanager",
+            "description": "Improve response"
+        },
+        {
+            "title": "Centralize Logs",
+            "command": "ELK Stack",
+            "description": "Analyze logs"
+        },
+        {
+            "title": "Use Loki",
+            "command": "Log Aggregation",
+            "description": "Store logs efficiently"
+        }
+    ]
+}

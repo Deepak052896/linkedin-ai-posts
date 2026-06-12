@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 18,
+    "title": "DEVOPS Tips #18",
+    "commands": [
+        {
+            "title": "Implement Observability",
+            "command": "Monitoring Strategy",
+            "description": "Improve visibility"
+        },
+        {
+            "title": "Correlate Logs and Metrics",
+            "command": "Troubleshooting",
+            "description": "Faster diagnosis"
+        },
+        {
+            "title": "Use ChatOps",
+            "command": "Team Collaboration",
+            "description": "Accelerate response"
+        },
+        {
+            "title": "Automate Compliance Checks",
+            "command": "Governance",
+            "description": "Maintain standards"
+        },
+        {
+            "title": "Review Security Posture",
+            "command": "DevSecOps",
+            "description": "Integrate security"
+        }
+    ]
+}

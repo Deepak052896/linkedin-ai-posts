@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 3,
+    "title": "DEVOPS Tips #3",
+    "commands": [
+        {
+            "title": "Automate Builds",
+            "command": "CI Pipeline",
+            "description": "Reduce manual effort"
+        },
+        {
+            "title": "Run Unit Tests",
+            "command": "Automated Testing",
+            "description": "Validate code quality"
+        },
+        {
+            "title": "Use GitHub Actions",
+            "command": "CI/CD",
+            "description": "Automate workflows"
+        },
+        {
+            "title": "Use GitLab CI",
+            "command": "Pipeline Automation",
+            "description": "Streamline delivery"
+        },
+        {
+            "title": "Use Jenkins",
+            "command": "Build Automation",
+            "description": "Continuous integration"
+        }
+    ]
+}

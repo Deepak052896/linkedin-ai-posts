@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 17,
+    "title": "WINDOWS Tips #17",
+    "commands": [
+        {
+            "title": "Delete Scheduled Task",
+            "command": "schtasks /delete",
+            "description": "Delete task"
+        },
+        {
+            "title": "Check Startup Programs",
+            "command": "Get-CimInstance Win32_StartupCommand",
+            "description": "Startup items"
+        },
+        {
+            "title": "Disk Check",
+            "command": "chkdsk C:",
+            "description": "Check disk health"
+        },
+        {
+            "title": "Repair System Files",
+            "command": "sfc /scannow",
+            "description": "Repair system files"
+        },
+        {
+            "title": "DISM Health Check",
+            "command": "DISM /Online /Cleanup-Image /CheckHealth",
+            "description": "Check image health"
+        }
+    ]
+}

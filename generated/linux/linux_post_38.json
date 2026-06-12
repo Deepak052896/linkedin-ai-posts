@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 38,
+    "title": "LINUX Tips #38",
+    "commands": [
+        {
+            "title": "Network Traffic",
+            "command": "iftop",
+            "description": "Live network traffic"
+        },
+        {
+            "title": "Bandwidth Usage",
+            "command": "nload",
+            "description": "Monitor bandwidth"
+        },
+        {
+            "title": "Check Ports",
+            "command": "nmap localhost",
+            "description": "Scan ports"
+        },
+        {
+            "title": "Check Time",
+            "command": "timedatectl",
+            "description": "Display time settings"
+        },
+        {
+            "title": "Sync Time",
+            "command": "ntpq -p",
+            "description": "Check NTP status"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 5,
+    "title": "NETWORKING Tips #5",
+    "commands": [
+        {
+            "title": "Check Interface Errors",
+            "command": "ifconfig eth0",
+            "description": "View interface stats"
+        },
+        {
+            "title": "Monitor Interface",
+            "command": "watch -n 1 ip -s link",
+            "description": "Live interface monitoring"
+        },
+        {
+            "title": "Display Sockets",
+            "command": "ss -s",
+            "description": "Socket summary"
+        },
+        {
+            "title": "TCP Connections",
+            "command": "netstat -ant",
+            "description": "View TCP connections"
+        },
+        {
+            "title": "UDP Connections",
+            "command": "netstat -anu",
+            "description": "View UDP connections"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 16,
+    "title": "AZURE Tips #16",
+    "commands": [
+        {
+            "title": "Use Pod Identity",
+            "command": "Workload Identity",
+            "description": "Secure access"
+        },
+        {
+            "title": "Enable Network Policies",
+            "command": "Network Policies",
+            "description": "Restrict traffic"
+        },
+        {
+            "title": "Use Helm Charts",
+            "command": "Helm",
+            "description": "Simplify deployments"
+        },
+        {
+            "title": "Enable Azure Policy for AKS",
+            "command": "Azure Policy",
+            "description": "Enforce governance"
+        },
+        {
+            "title": "Monitor Cluster Health",
+            "command": "Azure Monitor",
+            "description": "Track performance"
+        }
+    ]
+}

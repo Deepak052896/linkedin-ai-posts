@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 13,
+    "title": "LINUX Tips #13",
+    "commands": [
+        {
+            "title": "Check File Permissions",
+            "command": "ls -l",
+            "description": "Review file ownership and permissions."
+        },
+        {
+            "title": "Change File Permissions",
+            "command": "chmod 755 file.sh",
+            "description": "Modify file access permissions."
+        },
+        {
+            "title": "Change Ownership",
+            "command": "chown user:user file.txt",
+            "description": "Assign file ownership."
+        },
+        {
+            "title": "Create User",
+            "command": "useradd username",
+            "description": "Add a new Linux user."
+        },
+        {
+            "title": "Set User Password",
+            "command": "passwd username",
+            "description": "Configure user password."
+        }
+    ]
+}

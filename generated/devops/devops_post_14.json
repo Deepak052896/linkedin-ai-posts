@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 14,
+    "title": "DEVOPS Tips #14",
+    "commands": [
+        {
+            "title": "Use Golden Images",
+            "command": "Server Standardization",
+            "description": "Improve consistency"
+        },
+        {
+            "title": "Use Packer",
+            "command": "Image Automation",
+            "description": "Build machine images"
+        },
+        {
+            "title": "Manage Dependencies",
+            "command": "Dependency Control",
+            "description": "Reduce failures"
+        },
+        {
+            "title": "Scan Containers",
+            "command": "Container Security",
+            "description": "Detect vulnerabilities"
+        },
+        {
+            "title": "Scan Code",
+            "command": "SAST",
+            "description": "Improve code security"
+        }
+    ]
+}

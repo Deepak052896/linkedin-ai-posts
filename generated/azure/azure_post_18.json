@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 18,
+    "title": "AZURE Tips #18",
+    "commands": [
+        {
+            "title": "Store Secrets in Key Vault",
+            "command": "Key Vault",
+            "description": "Secure credentials"
+        },
+        {
+            "title": "Use Deployment Slots",
+            "command": "App Service Slots",
+            "description": "Safe releases"
+        },
+        {
+            "title": "Enable Blue-Green Deployment",
+            "command": "Blue Green",
+            "description": "Reduce downtime"
+        },
+        {
+            "title": "Use Release Gates",
+            "command": "Release Gates",
+            "description": "Control production releases"
+        },
+        {
+            "title": "Monitor Deployments",
+            "command": "Azure Monitor",
+            "description": "Track release health"
+        }
+    ]
+}

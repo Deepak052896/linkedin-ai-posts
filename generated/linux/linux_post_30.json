@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 30,
+    "title": "LINUX Tips #30",
+    "commands": [
+        {
+            "title": "Set Password",
+            "command": "passwd username",
+            "description": "Change password"
+        },
+        {
+            "title": "Delete User",
+            "command": "userdel username",
+            "description": "Delete user"
+        },
+        {
+            "title": "Lock User",
+            "command": "usermod -L username",
+            "description": "Lock account"
+        },
+        {
+            "title": "Unlock User",
+            "command": "usermod -U username",
+            "description": "Unlock account"
+        },
+        {
+            "title": "File Permissions",
+            "command": "ls -l",
+            "description": "View permissions"
+        }
+    ]
+}

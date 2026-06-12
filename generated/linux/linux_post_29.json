@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 29,
+    "title": "LINUX Tips #29",
+    "commands": [
+        {
+            "title": "System Boot Time",
+            "command": "who -b",
+            "description": "Show last boot time"
+        },
+        {
+            "title": "Last Logins",
+            "command": "last",
+            "description": "Display login history"
+        },
+        {
+            "title": "User Accounts",
+            "command": "cat /etc/passwd",
+            "description": "List users"
+        },
+        {
+            "title": "Groups",
+            "command": "cat /etc/group",
+            "description": "List groups"
+        },
+        {
+            "title": "Create User",
+            "command": "useradd username",
+            "description": "Create new user"
+        }
+    ]
+}

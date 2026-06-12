@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 26,
+    "title": "LINUX Tips #26",
+    "commands": [
+        {
+            "title": "Filesystem Usage",
+            "command": "df -Th",
+            "description": "Filesystem utilization"
+        },
+        {
+            "title": "Check Swap Usage",
+            "command": "swapon --show",
+            "description": "Display swap usage"
+        },
+        {
+            "title": "Active Processes",
+            "command": "top",
+            "description": "Real-time process monitoring"
+        },
+        {
+            "title": "Enhanced Process View",
+            "command": "htop",
+            "description": "Interactive process viewer"
+        },
+        {
+            "title": "Kill Process",
+            "command": "kill -9 PID",
+            "description": "Terminate process"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 13,
+    "title": "AZURE Tips #13",
+    "commands": [
+        {
+            "title": "Use Azure Functions",
+            "command": "Azure Functions",
+            "description": "Serverless execution"
+        },
+        {
+            "title": "Monitor Function Logs",
+            "command": "Application Insights",
+            "description": "Troubleshoot functions"
+        },
+        {
+            "title": "Use Event Grid",
+            "command": "Event Grid",
+            "description": "Event-driven architecture"
+        },
+        {
+            "title": "Use Service Bus",
+            "command": "Service Bus",
+            "description": "Reliable messaging"
+        },
+        {
+            "title": "Use Logic Apps",
+            "command": "Logic Apps",
+            "description": "Workflow automation"
+        }
+    ]
+}

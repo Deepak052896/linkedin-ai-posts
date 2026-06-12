@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 17,
+    "title": "AZURE Tips #17",
+    "commands": [
+        {
+            "title": "Use ARM Templates",
+            "command": "ARM Templates",
+            "description": "Infrastructure as Code"
+        },
+        {
+            "title": "Use Bicep",
+            "command": "Bicep",
+            "description": "Simplify deployments"
+        },
+        {
+            "title": "Use Terraform",
+            "command": "Terraform",
+            "description": "Automate infrastructure"
+        },
+        {
+            "title": "Use Azure DevOps Pipelines",
+            "command": "Azure Pipelines",
+            "description": "CI/CD automation"
+        },
+        {
+            "title": "Use GitHub Actions",
+            "command": "GitHub Actions",
+            "description": "Deployment automation"
+        }
+    ]
+}

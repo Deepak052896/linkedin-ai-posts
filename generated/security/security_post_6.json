@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 6,
+    "title": "SECURITY Tips #6",
+    "commands": [
+        {
+            "title": "Install Security Updates",
+            "command": "Patch Management",
+            "description": "Fix vulnerabilities"
+        },
+        {
+            "title": "Enable Automatic Updates",
+            "command": "Update Policy",
+            "description": "Reduce exposure"
+        },
+        {
+            "title": "Review CVEs",
+            "command": "Vulnerability Management",
+            "description": "Track security risks"
+        },
+        {
+            "title": "Patch Critical Systems First",
+            "command": "Risk Management",
+            "description": "Reduce impact"
+        },
+        {
+            "title": "Verify Patch Success",
+            "command": "Patch Audit",
+            "description": "Ensure compliance"
+        }
+    ]
+}

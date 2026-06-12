@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 4,
+    "title": "WINDOWS Tips #4",
+    "commands": [
+        {
+            "title": "Check ARP Table",
+            "command": "arp -a",
+            "description": "View ARP cache"
+        },
+        {
+            "title": "Routing Table",
+            "command": "route print",
+            "description": "Display routes"
+        },
+        {
+            "title": "Open Shares",
+            "command": "net share",
+            "description": "View shared folders"
+        },
+        {
+            "title": "Mapped Drives",
+            "command": "net use",
+            "description": "List mapped drives"
+        },
+        {
+            "title": "Check Uptime",
+            "command": "net statistics workstation",
+            "description": "View uptime"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 2,
+    "title": "WINDOWS Tips #2",
+    "commands": [
+        {
+            "title": "System Information",
+            "command": "systeminfo",
+            "description": "Show OS details"
+        },
+        {
+            "title": "Hostname",
+            "command": "hostname",
+            "description": "Display computer name"
+        },
+        {
+            "title": "Current User",
+            "command": "whoami",
+            "description": "Show logged-in user"
+        },
+        {
+            "title": "Network Connections",
+            "command": "netstat -ano",
+            "description": "View active connections"
+        },
+        {
+            "title": "Ping Test",
+            "command": "ping google.com",
+            "description": "Check connectivity"
+        }
+    ]
+}

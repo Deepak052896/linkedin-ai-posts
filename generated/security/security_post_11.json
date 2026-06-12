@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 11,
+    "title": "SECURITY Tips #11",
+    "commands": [
+        {
+            "title": "Review Security Groups",
+            "command": "Security Audit",
+            "description": "Verify firewall policies"
+        },
+        {
+            "title": "Review IAM Policies",
+            "command": "Access Control",
+            "description": "Remove excessive permissions"
+        },
+        {
+            "title": "Enable CloudTrail",
+            "command": "AWS Audit",
+            "description": "Track account activity"
+        },
+        {
+            "title": "Enable GuardDuty",
+            "command": "Threat Detection",
+            "description": "Detect suspicious behavior"
+        },
+        {
+            "title": "Enable Security Hub",
+            "command": "Security Dashboard",
+            "description": "Centralized visibility"
+        }
+    ]
+}

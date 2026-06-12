@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 3,
+    "title": "NETWORKING Tips #3",
+    "commands": [
+        {
+            "title": "ARP Table",
+            "command": "arp -a",
+            "description": "Show ARP entries"
+        },
+        {
+            "title": "Check MAC Address",
+            "command": "ip link",
+            "description": "Display MAC addresses"
+        },
+        {
+            "title": "Bandwidth Usage",
+            "command": "iftop",
+            "description": "Monitor traffic"
+        },
+        {
+            "title": "Network Traffic",
+            "command": "nload",
+            "description": "Monitor bandwidth"
+        },
+        {
+            "title": "Packet Capture",
+            "command": "tcpdump -i eth0",
+            "description": "Capture packets"
+        }
+    ]
+}

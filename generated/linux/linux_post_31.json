@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 31,
+    "title": "LINUX Tips #31",
+    "commands": [
+        {
+            "title": "Change Permissions",
+            "command": "chmod 755 file.sh",
+            "description": "Modify permissions"
+        },
+        {
+            "title": "Change Ownership",
+            "command": "chown user:user file.txt",
+            "description": "Assign ownership"
+        },
+        {
+            "title": "Find Files",
+            "command": "find / -name file.txt",
+            "description": "Locate files"
+        },
+        {
+            "title": "Find Large Files",
+            "command": "find / -type f -size +500M",
+            "description": "Find large files"
+        },
+        {
+            "title": "Search Text",
+            "command": "grep error logfile.log",
+            "description": "Search text patterns"
+        }
+    ]
+}

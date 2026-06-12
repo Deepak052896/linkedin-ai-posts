@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 24,
+    "title": "LINUX Tips #24",
+    "commands": [
+        {
+            "title": "IP Address",
+            "command": "ip addr show",
+            "description": "Display IP addresses"
+        },
+        {
+            "title": "Routing Table",
+            "command": "ip route",
+            "description": "Show routing table"
+        },
+        {
+            "title": "DNS Configuration",
+            "command": "cat /etc/resolv.conf",
+            "description": "View DNS settings"
+        },
+        {
+            "title": "Check Ping",
+            "command": "ping google.com",
+            "description": "Test connectivity"
+        },
+        {
+            "title": "Trace Route",
+            "command": "traceroute google.com",
+            "description": "Trace network path"
+        }
+    ]
+}

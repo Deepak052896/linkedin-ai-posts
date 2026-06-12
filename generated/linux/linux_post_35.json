@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 35,
+    "title": "LINUX Tips #35",
+    "commands": [
+        {
+            "title": "Firewall Status",
+            "command": "ufw status",
+            "description": "Check firewall"
+        },
+        {
+            "title": "Allow Port",
+            "command": "ufw allow 80",
+            "description": "Allow firewall port"
+        },
+        {
+            "title": "Deny Port",
+            "command": "ufw deny 22",
+            "description": "Block firewall port"
+        },
+        {
+            "title": "Firewall Reload",
+            "command": "ufw reload",
+            "description": "Reload firewall"
+        },
+        {
+            "title": "SELinux Status",
+            "command": "getenforce",
+            "description": "Check SELinux mode"
+        }
+    ]
+}

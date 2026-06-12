@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 10,
+    "title": "AZURE Tips #10",
+    "commands": [
+        {
+            "title": "Use Workbooks",
+            "command": "Azure Workbooks",
+            "description": "Visualize metrics"
+        },
+        {
+            "title": "Monitor Availability",
+            "command": "Availability Tests",
+            "description": "Track uptime"
+        },
+        {
+            "title": "Enable Change Tracking",
+            "command": "Change Tracking",
+            "description": "Detect configuration drift"
+        },
+        {
+            "title": "Use Action Groups",
+            "command": "Action Groups",
+            "description": "Automate notifications"
+        },
+        {
+            "title": "Monitor Costs",
+            "command": "Cost Management",
+            "description": "Control spending"
+        }
+    ]
+}

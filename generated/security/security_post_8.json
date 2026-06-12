@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 8,
+    "title": "SECURITY Tips #8",
+    "commands": [
+        {
+            "title": "Monitor System Logs",
+            "command": "Log Analysis",
+            "description": "Identify incidents"
+        },
+        {
+            "title": "Centralize Logs",
+            "command": "SIEM",
+            "description": "Improve visibility"
+        },
+        {
+            "title": "Review Authentication Logs",
+            "command": "Audit Logs",
+            "description": "Track access attempts"
+        },
+        {
+            "title": "Monitor Privileged Actions",
+            "command": "Audit Trail",
+            "description": "Detect misuse"
+        },
+        {
+            "title": "Enable Log Retention",
+            "command": "Compliance",
+            "description": "Preserve evidence"
+        }
+    ]
+}

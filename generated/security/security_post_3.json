@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 3,
+    "title": "SECURITY Tips #3",
+    "commands": [
+        {
+            "title": "Enable Firewall",
+            "command": "Host Firewall",
+            "description": "Control inbound traffic"
+        },
+        {
+            "title": "Review Firewall Rules",
+            "command": "Firewall Audit",
+            "description": "Remove unnecessary access"
+        },
+        {
+            "title": "Block Unused Ports",
+            "command": "Port Security",
+            "description": "Reduce attack surface"
+        },
+        {
+            "title": "Allow Only Required Services",
+            "command": "Network Hardening",
+            "description": "Improve security"
+        },
+        {
+            "title": "Restrict RDP Access",
+            "command": "Remote Access",
+            "description": "Protect Windows servers"
+        }
+    ]
+}

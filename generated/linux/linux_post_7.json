@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 7,
+    "title": "LINUX Tips #7",
+    "commands": [
+        {
+            "title": "Check User Accounts",
+            "command": "cat /etc/passwd",
+            "description": "List all local users."
+        },
+        {
+            "title": "Check Groups",
+            "command": "cat /etc/group",
+            "description": "View configured groups."
+        },
+        {
+            "title": "Current Logged Users",
+            "command": "who",
+            "description": "Display active logged-in users."
+        },
+        {
+            "title": "Check Disk Partitions",
+            "command": "lsblk",
+            "description": "Display block devices and partitions."
+        },
+        {
+            "title": "Filesystem Usage",
+            "command": "du -sh /var/log",
+            "description": "Check folder size consumption."
+        }
+    ]
+}

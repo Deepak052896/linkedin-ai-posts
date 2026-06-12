@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 1,
+    "title": "LINUX Tips #1",
+    "commands": [
+        {
+            "title": "Find Failed Services",
+            "command": "systemctl --failed",
+            "description": "Quickly identify services that failed during startup."
+        },
+        {
+            "title": "Check Disk Usage",
+            "command": "df -h",
+            "description": "Display filesystem disk usage in human readable format."
+        },
+        {
+            "title": "Check Memory Usage",
+            "command": "free -m",
+            "description": "View system memory utilization in MB."
+        },
+        {
+            "title": "View Running Processes",
+            "command": "ps aux",
+            "description": "List all running processes with details."
+        },
+        {
+            "title": "Check Open Ports",
+            "command": "ss -tulnp",
+            "description": "Display listening ports and associated processes."
+        }
+    ]
+}

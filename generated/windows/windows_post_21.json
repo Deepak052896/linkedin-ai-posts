@@ -1,0 +1,12 @@
+{
+    "category": "windows",
+    "post_number": 21,
+    "title": "WINDOWS Tips #21",
+    "commands": [
+        {
+            "title": "Windows Activation",
+            "command": "slmgr /xpr",
+            "description": "Activation status"
+        }
+    ]
+}

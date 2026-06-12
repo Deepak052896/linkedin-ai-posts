@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 39,
+    "title": "LINUX Tips #39",
+    "commands": [
+        {
+            "title": "Environment Variables",
+            "command": "printenv",
+            "description": "List environment variables"
+        },
+        {
+            "title": "Bash History",
+            "command": "history",
+            "description": "Command history"
+        },
+        {
+            "title": "Alias List",
+            "command": "alias",
+            "description": "Show aliases"
+        },
+        {
+            "title": "Current Directory",
+            "command": "pwd",
+            "description": "Display working directory"
+        },
+        {
+            "title": "List Files",
+            "command": "ls -lah",
+            "description": "Detailed file listing"
+        }
+    ]
+}

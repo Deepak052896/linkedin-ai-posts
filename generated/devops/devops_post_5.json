@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 5,
+    "title": "DEVOPS Tips #5",
+    "commands": [
+        {
+            "title": "Stop Containers",
+            "command": "docker stop",
+            "description": "Manage workloads"
+        },
+        {
+            "title": "Remove Containers",
+            "command": "docker rm",
+            "description": "Clean unused resources"
+        },
+        {
+            "title": "Use Docker Compose",
+            "command": "docker-compose up",
+            "description": "Multi-container deployments"
+        },
+        {
+            "title": "Store Images in Registry",
+            "command": "Docker Registry",
+            "description": "Centralize images"
+        },
+        {
+            "title": "Use Kubernetes",
+            "command": "Container Orchestration",
+            "description": "Manage containers"
+        }
+    ]
+}

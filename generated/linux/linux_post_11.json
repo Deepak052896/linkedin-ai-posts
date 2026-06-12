@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 11,
+    "title": "LINUX Tips #11",
+    "commands": [
+        {
+            "title": "Check OS Version",
+            "command": "cat /etc/os-release",
+            "description": "Display Linux distribution details."
+        },
+        {
+            "title": "Hostname Information",
+            "command": "hostnamectl",
+            "description": "View hostname and system metadata."
+        },
+        {
+            "title": "Check Time Sync",
+            "command": "timedatectl status",
+            "description": "Verify NTP synchronization status."
+        },
+        {
+            "title": "View Loaded Modules",
+            "command": "lsmod",
+            "description": "List loaded kernel modules."
+        },
+        {
+            "title": "Kernel Messages",
+            "command": "dmesg -T",
+            "description": "Review hardware and kernel events."
+        }
+    ]
+}

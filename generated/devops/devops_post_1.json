@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 1,
+    "title": "DEVOPS Tips #1",
+    "commands": [
+        {
+            "title": "Use Git Version Control",
+            "command": "git status",
+            "description": "Track code changes"
+        },
+        {
+            "title": "Create Branches",
+            "command": "git checkout -b feature",
+            "description": "Isolate development work"
+        },
+        {
+            "title": "Commit Frequently",
+            "command": "git commit",
+            "description": "Maintain change history"
+        },
+        {
+            "title": "Review Changes",
+            "command": "git diff",
+            "description": "Verify modifications"
+        },
+        {
+            "title": "Push Changes",
+            "command": "git push",
+            "description": "Publish updates"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 2,
+    "title": "NETWORKING Tips #2",
+    "commands": [
+        {
+            "title": "DNS Lookup",
+            "command": "nslookup google.com",
+            "description": "Resolve DNS records"
+        },
+        {
+            "title": "Advanced DNS Lookup",
+            "command": "dig google.com",
+            "description": "Query DNS server"
+        },
+        {
+            "title": "Reverse DNS Lookup",
+            "command": "dig -x 8.8.8.8",
+            "description": "Resolve reverse DNS"
+        },
+        {
+            "title": "Check Open Ports",
+            "command": "ss -tulnp",
+            "description": "Show listening ports"
+        },
+        {
+            "title": "Network Connections",
+            "command": "netstat -tulpn",
+            "description": "Display active connections"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 14,
+    "title": "NETWORKING Tips #14",
+    "commands": [
+        {
+            "title": "Check BGP Neighbors",
+            "command": "show ip bgp summary",
+            "description": "BGP summary"
+        },
+        {
+            "title": "Check OSPF Neighbors",
+            "command": "show ip ospf neighbor",
+            "description": "OSPF neighbors"
+        },
+        {
+            "title": "Check Interface Counters",
+            "command": "show interfaces counters",
+            "description": "Traffic counters"
+        },
+        {
+            "title": "Display VLAN Database",
+            "command": "show vlan brief",
+            "description": "VLAN overview"
+        },
+        {
+            "title": "Check STP Status",
+            "command": "show spanning-tree",
+            "description": "STP details"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 18,
+    "title": "LINUX Tips #18",
+    "commands": [
+        {
+            "title": "Check DNS Configuration",
+            "command": "cat /etc/resolv.conf",
+            "description": "Review DNS resolver settings."
+        },
+        {
+            "title": "Check Hosts File",
+            "command": "cat /etc/hosts",
+            "description": "Verify static hostname mappings."
+        },
+        {
+            "title": "Bandwidth Monitoring",
+            "command": "iftop",
+            "description": "Monitor network bandwidth usage."
+        },
+        {
+            "title": "Disk Usage by Directory",
+            "command": "du -h --max-depth=1 /",
+            "description": "Identify large directories."
+        },
+        {
+            "title": "Check Zombie Processes",
+            "command": "ps aux",
+            "description": "grep Z"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 2,
+    "title": "DEVOPS Tips #2",
+    "commands": [
+        {
+            "title": "Pull Latest Code",
+            "command": "git pull",
+            "description": "Sync repository"
+        },
+        {
+            "title": "Merge Branches",
+            "command": "git merge",
+            "description": "Combine code safely"
+        },
+        {
+            "title": "Use Pull Requests",
+            "command": "PR Workflow",
+            "description": "Enable code review"
+        },
+        {
+            "title": "Tag Releases",
+            "command": "git tag",
+            "description": "Version releases"
+        },
+        {
+            "title": "Use .gitignore",
+            "command": "Git Hygiene",
+            "description": "Exclude unnecessary files"
+        }
+    ]
+}

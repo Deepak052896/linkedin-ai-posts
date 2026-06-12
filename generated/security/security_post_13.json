@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 13,
+    "title": "SECURITY Tips #13",
+    "commands": [
+        {
+            "title": "Monitor DNS Logs",
+            "command": "DNS Security",
+            "description": "Detect anomalies"
+        },
+        {
+            "title": "Enable DNS Filtering",
+            "command": "Threat Prevention",
+            "description": "Block malicious domains"
+        },
+        {
+            "title": "Review SSL Certificates",
+            "command": "Certificate Management",
+            "description": "Avoid expiration issues"
+        },
+        {
+            "title": "Enable HSTS",
+            "command": "Web Security",
+            "description": "Force HTTPS usage"
+        },
+        {
+            "title": "Use Secure Headers",
+            "command": "Application Security",
+            "description": "Protect web applications"
+        }
+    ]
+}

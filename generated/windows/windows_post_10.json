@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 10,
+    "title": "WINDOWS Tips #10",
+    "commands": [
+        {
+            "title": "Environment Variables",
+            "command": "set",
+            "description": "List variables"
+        },
+        {
+            "title": "Power Configuration",
+            "command": "powercfg /a",
+            "description": "Power settings"
+        },
+        {
+            "title": "Battery Report",
+            "command": "powercfg /batteryreport",
+            "description": "Generate battery report"
+        },
+        {
+            "title": "Check Drivers",
+            "command": "driverquery",
+            "description": "List installed drivers"
+        },
+        {
+            "title": "Windows Firewall Status",
+            "command": "netsh advfirewall show allprofiles",
+            "description": "Firewall status"
+        }
+    ]
+}

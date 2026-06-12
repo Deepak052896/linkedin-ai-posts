@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 2,
+    "title": "SECURITY Tips #2",
+    "commands": [
+        {
+            "title": "Apply Least Privilege",
+            "command": "RBAC",
+            "description": "Grant minimum permissions"
+        },
+        {
+            "title": "Enable Account Lockout",
+            "command": "Account Policy",
+            "description": "Prevent password guessing"
+        },
+        {
+            "title": "Monitor Login Attempts",
+            "command": "Authentication Logs",
+            "description": "Detect suspicious access"
+        },
+        {
+            "title": "Review Group Memberships",
+            "command": "Access Audit",
+            "description": "Verify permissions"
+        },
+        {
+            "title": "Disable Guest Accounts",
+            "command": "User Security",
+            "description": "Reduce exposure"
+        }
+    ]
+}

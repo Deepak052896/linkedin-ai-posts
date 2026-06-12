@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 20,
+    "title": "WINDOWS Tips #20",
+    "commands": [
+        {
+            "title": "Check RDP Port",
+            "command": "reg query HKLM\\\\System\\\\CurrentControlSet\\\\Control\\\\Terminal Server\\\\WinStations\\\\RDP-Tcp",
+            "description": "RDP settings"
+        },
+        {
+            "title": "Check Time Sync",
+            "command": "w32tm /query /status",
+            "description": "Time synchronization"
+        },
+        {
+            "title": "Force Time Sync",
+            "command": "w32tm /resync",
+            "description": "Resync clock"
+        },
+        {
+            "title": "Check Domain Trust",
+            "command": "nltest /domain_trusts",
+            "description": "Domain trusts"
+        },
+        {
+            "title": "Verify Secure Channel",
+            "command": "Test-ComputerSecureChannel",
+            "description": "AD secure channel"
+        }
+    ]
+}

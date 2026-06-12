@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 6,
+    "title": "AZURE Tips #6",
+    "commands": [
+        {
+            "title": "Enable Disk Encryption",
+            "command": "Disk Encryption",
+            "description": "Protect VM data"
+        },
+        {
+            "title": "Use Spot VMs",
+            "command": "Spot VMs",
+            "description": "Reduce costs"
+        },
+        {
+            "title": "Monitor VM Health",
+            "command": "Azure Monitor",
+            "description": "Track VM status"
+        },
+        {
+            "title": "Use Proximity Placement Groups",
+            "command": "PPG",
+            "description": "Reduce latency"
+        },
+        {
+            "title": "Enable Auto Shutdown",
+            "command": "Auto Shutdown",
+            "description": "Save costs"
+        }
+    ]
+}

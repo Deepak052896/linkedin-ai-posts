@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 16,
+    "title": "NETWORKING Tips #16",
+    "commands": [
+        {
+            "title": "Bandwidth Test",
+            "command": "iperf3 -c server",
+            "description": "Run bandwidth test"
+        },
+        {
+            "title": "Check Proxy Settings",
+            "command": "env",
+            "description": "grep proxy"
+        },
+        {
+            "title": "View Hosts File",
+            "command": "cat /etc/hosts",
+            "description": "Local DNS mappings"
+        },
+        {
+            "title": "Check DHCP Lease",
+            "command": "cat /var/lib/dhcp/dhclient.leases",
+            "description": "DHCP details"
+        },
+        {
+            "title": "Release DHCP Lease",
+            "command": "dhclient -r",
+            "description": "Release lease"
+        }
+    ]
+}

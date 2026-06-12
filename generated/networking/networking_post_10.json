@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 10,
+    "title": "NETWORKING Tips #10",
+    "commands": [
+        {
+            "title": "Allow Port",
+            "command": "ufw allow 443",
+            "description": "Allow firewall port"
+        },
+        {
+            "title": "Deny Port",
+            "command": "ufw deny 23",
+            "description": "Block firewall port"
+        },
+        {
+            "title": "Reload Firewall",
+            "command": "ufw reload",
+            "description": "Reload firewall"
+        },
+        {
+            "title": "View NAT Rules",
+            "command": "iptables -t nat -L",
+            "description": "Display NAT configuration"
+        },
+        {
+            "title": "Monitor Connections",
+            "command": "conntrack -L",
+            "description": "View connection tracking"
+        }
+    ]
+}

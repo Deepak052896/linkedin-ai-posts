@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 14,
+    "title": "WINDOWS Tips #14",
+    "commands": [
+        {
+            "title": "FSMO Roles",
+            "command": "netdom query fsmo",
+            "description": "View FSMO roles"
+        },
+        {
+            "title": "Domain Controllers",
+            "command": "Get-ADDomainController -Filter *",
+            "description": "List DCs"
+        },
+        {
+            "title": "Replication Status",
+            "command": "repadmin /replsummary",
+            "description": "Check replication"
+        },
+        {
+            "title": "DNS Zones",
+            "command": "Get-DnsServerZone",
+            "description": "List DNS zones"
+        },
+        {
+            "title": "DHCP Scopes",
+            "command": "Get-DhcpServerv4Scope",
+            "description": "View DHCP scopes"
+        }
+    ]
+}

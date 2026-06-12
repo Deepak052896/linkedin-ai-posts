@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 6,
+    "title": "LINUX Tips #6",
+    "commands": [
+        {
+            "title": "Find Files by Name",
+            "command": "find / -name \"*.log\"",
+            "description": "Locate files matching a pattern."
+        },
+        {
+            "title": "Search Text in Files",
+            "command": "grep -R \"error\" /var/log",
+            "description": "Search recursively for text strings."
+        },
+        {
+            "title": "Archive Files",
+            "command": "tar -czvf backup.tar.gz /data",
+            "description": "Create compressed backups."
+        },
+        {
+            "title": "Extract Archive",
+            "command": "tar -xzvf backup.tar.gz",
+            "description": "Extract compressed archives."
+        },
+        {
+            "title": "Monitor Live Logs",
+            "command": "tail -f /var/log/syslog",
+            "description": "Watch logs in real time."
+        }
+    ]
+}

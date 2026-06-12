@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 12,
+    "title": "SECURITY Tips #12",
+    "commands": [
+        {
+            "title": "Enable AWS Config",
+            "command": "Compliance Tracking",
+            "description": "Monitor configuration changes"
+        },
+        {
+            "title": "Review S3 Permissions",
+            "command": "Storage Security",
+            "description": "Prevent public exposure"
+        },
+        {
+            "title": "Enable MFA Delete",
+            "command": "S3 Protection",
+            "description": "Protect bucket deletions"
+        },
+        {
+            "title": "Encrypt S3 Buckets",
+            "command": "Storage Encryption",
+            "description": "Protect stored data"
+        },
+        {
+            "title": "Enable Object Versioning",
+            "command": "Version Control",
+            "description": "Recover deleted objects"
+        }
+    ]
+}

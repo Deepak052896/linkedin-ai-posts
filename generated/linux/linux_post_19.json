@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 19,
+    "title": "LINUX Tips #19",
+    "commands": [
+        {
+            "title": "Monitor File Changes",
+            "command": "inotifywait -m /etc",
+            "description": "Track filesystem modifications."
+        },
+        {
+            "title": "View Scheduled Tasks",
+            "command": "systemctl list-timers --all",
+            "description": "Review all scheduled tasks."
+        },
+        {
+            "title": "Secure File Transfer",
+            "command": "rsync -avz source destination",
+            "description": "Synchronize files efficiently."
+        },
+        {
+            "title": "Check Listening UDP Ports",
+            "command": "ss -lun",
+            "description": "Display active UDP listeners."
+        },
+        {
+            "title": "View Process Details",
+            "command": "ps -fp PID",
+            "description": "Inspect process metadata."
+        }
+    ]
+}

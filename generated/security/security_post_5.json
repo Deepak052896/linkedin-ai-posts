@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 5,
+    "title": "SECURITY Tips #5",
+    "commands": [
+        {
+            "title": "Enable Disk Encryption",
+            "command": "BitLocker/LUKS",
+            "description": "Protect stored data"
+        },
+        {
+            "title": "Encrypt Backups",
+            "command": "Backup Encryption",
+            "description": "Protect backup data"
+        },
+        {
+            "title": "Encrypt Databases",
+            "command": "Database Encryption",
+            "description": "Secure sensitive records"
+        },
+        {
+            "title": "Use HTTPS",
+            "command": "TLS",
+            "description": "Encrypt web traffic"
+        },
+        {
+            "title": "Disable Weak Ciphers",
+            "command": "TLS Hardening",
+            "description": "Improve encryption"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 9,
+    "title": "DEVOPS Tips #9",
+    "commands": [
+        {
+            "title": "Use Ansible",
+            "command": "Configuration Management",
+            "description": "Automate server setup"
+        },
+        {
+            "title": "Run Playbooks",
+            "command": "ansible-playbook",
+            "description": "Apply configurations"
+        },
+        {
+            "title": "Use Inventories",
+            "command": "Ansible Inventory",
+            "description": "Manage hosts"
+        },
+        {
+            "title": "Use Roles",
+            "command": "Ansible Roles",
+            "description": "Organize automation"
+        },
+        {
+            "title": "Automate Patching",
+            "command": "Patch Management",
+            "description": "Reduce maintenance effort"
+        }
+    ]
+}

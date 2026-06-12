@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 16,
+    "title": "LINUX Tips #16",
+    "commands": [
+        {
+            "title": "List Timers",
+            "command": "systemctl list-timers",
+            "description": "Review scheduled systemd timers."
+        },
+        {
+            "title": "Check Package Version",
+            "command": "apt policy nginx",
+            "description": "Verify installed package versions."
+        },
+        {
+            "title": "Search Package",
+            "command": "apt search nginx",
+            "description": "Locate packages in repositories."
+        },
+        {
+            "title": "Remove Package",
+            "command": "apt remove nginx",
+            "description": "Uninstall unwanted software."
+        },
+        {
+            "title": "Clean Package Cache",
+            "command": "apt clean",
+            "description": "Free disk space from package cache."
+        }
+    ]
+}

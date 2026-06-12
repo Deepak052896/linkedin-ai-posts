@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 19,
+    "title": "AZURE Tips #19",
+    "commands": [
+        {
+            "title": "Use Management Groups",
+            "command": "Management Groups",
+            "description": "Organize subscriptions"
+        },
+        {
+            "title": "Enable Cost Budgets",
+            "command": "Azure Budgets",
+            "description": "Control spending"
+        },
+        {
+            "title": "Use Tags",
+            "command": "Resource Tags",
+            "description": "Track ownership"
+        },
+        {
+            "title": "Enable Azure Advisor",
+            "command": "Azure Advisor",
+            "description": "Best practice recommendations"
+        },
+        {
+            "title": "Use Policy Initiatives",
+            "command": "Policy Sets",
+            "description": "Standardize compliance"
+        }
+    ]
+}

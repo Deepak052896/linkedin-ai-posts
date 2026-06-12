@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 11,
+    "title": "WINDOWS Tips #11",
+    "commands": [
+        {
+            "title": "Enable Firewall",
+            "command": "netsh advfirewall set allprofiles state on",
+            "description": "Enable firewall"
+        },
+        {
+            "title": "Disable Firewall",
+            "command": "netsh advfirewall set allprofiles state off",
+            "description": "Disable firewall"
+        },
+        {
+            "title": "Open Firewall Console",
+            "command": "wf.msc",
+            "description": "Manage firewall"
+        },
+        {
+            "title": "Check Open Ports",
+            "command": "netstat -an",
+            "description": "View listening ports"
+        },
+        {
+            "title": "RDP Status",
+            "command": "qwinsta",
+            "description": "View remote sessions"
+        }
+    ]
+}

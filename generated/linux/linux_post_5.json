@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 5,
+    "title": "LINUX Tips #5",
+    "commands": [
+        {
+            "title": "View Routing Table",
+            "command": "ip route",
+            "description": "Display current routing configuration."
+        },
+        {
+            "title": "DNS Lookup",
+            "command": "dig google.com",
+            "description": "Perform DNS resolution troubleshooting."
+        },
+        {
+            "title": "Test Connectivity",
+            "command": "ping -c 4 8.8.8.8",
+            "description": "Verify network reachability."
+        },
+        {
+            "title": "Trace Network Path",
+            "command": "traceroute google.com",
+            "description": "Analyze packet routing paths."
+        },
+        {
+            "title": "Check Listening Services",
+            "command": "ss -lnt",
+            "description": "Display listening TCP services."
+        }
+    ]
+}

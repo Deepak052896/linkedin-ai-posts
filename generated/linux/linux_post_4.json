@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 4,
+    "title": "LINUX Tips #4",
+    "commands": [
+        {
+            "title": "Check Service Status",
+            "command": "systemctl status nginx",
+            "description": "Verify service health and status."
+        },
+        {
+            "title": "Restart Service",
+            "command": "systemctl restart nginx",
+            "description": "Restart a Linux service safely."
+        },
+        {
+            "title": "Check Load Average",
+            "command": "uptime",
+            "description": "Monitor system load trends."
+        },
+        {
+            "title": "Memory Intensive Processes",
+            "command": "ps aux --sort=-%mem",
+            "description": "head"
+        },
+        {
+            "title": "CPU Intensive Processes",
+            "command": "ps aux --sort=-%cpu",
+            "description": "head"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 25,
+    "title": "LINUX Tips #25",
+    "commands": [
+        {
+            "title": "Network Statistics",
+            "command": "netstat -tulpn",
+            "description": "Show network connections"
+        },
+        {
+            "title": "Socket Statistics",
+            "command": "ss -s",
+            "description": "Display socket summary"
+        },
+        {
+            "title": "ARP Table",
+            "command": "arp -a",
+            "description": "Show ARP entries"
+        },
+        {
+            "title": "Disk Partitions",
+            "command": "lsblk",
+            "description": "List block devices"
+        },
+        {
+            "title": "Disk Usage by Directory",
+            "command": "du -sh *",
+            "description": "Show folder sizes"
+        }
+    ]
+}

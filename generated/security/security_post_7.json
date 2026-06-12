@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 7,
+    "title": "SECURITY Tips #7",
+    "commands": [
+        {
+            "title": "Enable Antivirus",
+            "command": "Endpoint Protection",
+            "description": "Detect malware"
+        },
+        {
+            "title": "Run Quick Scan",
+            "command": "Malware Scan",
+            "description": "Check threats"
+        },
+        {
+            "title": "Run Full Scan",
+            "command": "Deep Scan",
+            "description": "Comprehensive protection"
+        },
+        {
+            "title": "Update Signatures",
+            "command": "AV Updates",
+            "description": "Detect latest threats"
+        },
+        {
+            "title": "Review Quarantine",
+            "command": "Threat Review",
+            "description": "Investigate detections"
+        }
+    ]
+}

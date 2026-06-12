@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 17,
+    "title": "DEVOPS Tips #17",
+    "commands": [
+        {
+            "title": "Review Capacity",
+            "command": "Capacity Planning",
+            "description": "Avoid shortages"
+        },
+        {
+            "title": "Perform Root Cause Analysis",
+            "command": "Incident Review",
+            "description": "Prevent recurrence"
+        },
+        {
+            "title": "Track MTTR",
+            "command": "Operational Metrics",
+            "description": "Improve recovery"
+        },
+        {
+            "title": "Track Deployment Frequency",
+            "command": "DevOps Metrics",
+            "description": "Measure performance"
+        },
+        {
+            "title": "Track Change Failure Rate",
+            "command": "Reliability Metrics",
+            "description": "Assess stability"
+        }
+    ]
+}

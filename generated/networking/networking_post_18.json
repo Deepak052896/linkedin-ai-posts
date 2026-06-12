@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 18,
+    "title": "NETWORKING Tips #18",
+    "commands": [
+        {
+            "title": "Monitor Socket Usage",
+            "command": "ss -lntp",
+            "description": "Listening TCP ports"
+        },
+        {
+            "title": "IPv6 Address",
+            "command": "ip -6 addr show",
+            "description": "Display IPv6 addresses"
+        },
+        {
+            "title": "IPv6 Routes",
+            "command": "ip -6 route",
+            "description": "Display IPv6 routes"
+        },
+        {
+            "title": "Neighbor Discovery",
+            "command": "ip -6 neigh",
+            "description": "IPv6 neighbors"
+        },
+        {
+            "title": "Check Jumbo Frames",
+            "command": "ping -M do -s 8972 host",
+            "description": "Test jumbo frames"
+        }
+    ]
+}

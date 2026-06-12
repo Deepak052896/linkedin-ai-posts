@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 14,
+    "title": "SECURITY Tips #14",
+    "commands": [
+        {
+            "title": "Disable Unused Services",
+            "command": "Service Hardening",
+            "description": "Reduce attack vectors"
+        },
+        {
+            "title": "Review Running Processes",
+            "command": "Process Audit",
+            "description": "Detect suspicious activity"
+        },
+        {
+            "title": "Check Open Ports",
+            "command": "Network Security",
+            "description": "Identify exposed services"
+        },
+        {
+            "title": "Review Startup Services",
+            "command": "System Hardening",
+            "description": "Remove unnecessary services"
+        },
+        {
+            "title": "Enable File Integrity Monitoring",
+            "command": "FIM",
+            "description": "Detect file changes"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 18,
+    "title": "SECURITY Tips #18",
+    "commands": [
+        {
+            "title": "Review Certificate Stores",
+            "command": "PKI Security",
+            "description": "Maintain trust chains"
+        },
+        {
+            "title": "Enable Email Security",
+            "command": "Mail Protection",
+            "description": "Reduce phishing threats"
+        },
+        {
+            "title": "Configure SPF",
+            "command": "Email Authentication",
+            "description": "Prevent spoofing"
+        },
+        {
+            "title": "Configure DKIM",
+            "command": "Email Security",
+            "description": "Validate email integrity"
+        },
+        {
+            "title": "Configure DMARC",
+            "command": "Domain Protection",
+            "description": "Improve email trust"
+        }
+    ]
+}

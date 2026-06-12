@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 15,
+    "title": "AZURE Tips #15",
+    "commands": [
+        {
+            "title": "Use AKS",
+            "command": "Azure Kubernetes Service",
+            "description": "Managed Kubernetes"
+        },
+        {
+            "title": "Use ACR",
+            "command": "Azure Container Registry",
+            "description": "Store container images"
+        },
+        {
+            "title": "Enable Container Insights",
+            "command": "Container Insights",
+            "description": "Monitor clusters"
+        },
+        {
+            "title": "Use Node Pools",
+            "command": "Node Pools",
+            "description": "Separate workloads"
+        },
+        {
+            "title": "Enable Cluster Autoscaler",
+            "command": "Autoscaler",
+            "description": "Scale automatically"
+        }
+    ]
+}

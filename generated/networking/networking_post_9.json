@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 9,
+    "title": "NETWORKING Tips #9",
+    "commands": [
+        {
+            "title": "WHOIS Lookup",
+            "command": "whois domain.com",
+            "description": "Domain registration info"
+        },
+        {
+            "title": "Check SSL Certificate",
+            "command": "openssl s_client -connect google.com:443",
+            "description": "SSL details"
+        },
+        {
+            "title": "Certificate Expiry",
+            "command": "openssl x509 -enddate -noout",
+            "description": "Check certificate expiry"
+        },
+        {
+            "title": "View Firewall Rules",
+            "command": "iptables -L",
+            "description": "Display firewall rules"
+        },
+        {
+            "title": "UFW Status",
+            "command": "ufw status",
+            "description": "Check firewall status"
+        }
+    ]
+}

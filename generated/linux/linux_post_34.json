@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 34,
+    "title": "LINUX Tips #34",
+    "commands": [
+        {
+            "title": "Open Port Check",
+            "command": "lsof -i :80",
+            "description": "Check port usage"
+        },
+        {
+            "title": "SSH Login",
+            "command": "ssh user@host",
+            "description": "Remote login"
+        },
+        {
+            "title": "Copy File SCP",
+            "command": "scp file user@host:/tmp",
+            "description": "Secure copy"
+        },
+        {
+            "title": "Sync Files",
+            "command": "rsync -av source dest",
+            "description": "Synchronize files"
+        },
+        {
+            "title": "Generate SSH Key",
+            "command": "ssh-keygen",
+            "description": "Create SSH keys"
+        }
+    ]
+}

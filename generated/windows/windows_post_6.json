@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 6,
+    "title": "WINDOWS Tips #6",
+    "commands": [
+        {
+            "title": "Administrators Group",
+            "command": "net localgroup administrators",
+            "description": "View admins"
+        },
+        {
+            "title": "Lock Workstation",
+            "command": "rundll32.exe user32.dll,LockWorkStation",
+            "description": "Lock PC"
+        },
+        {
+            "title": "Check Installed Software",
+            "command": "wmic product get name",
+            "description": "List applications"
+        },
+        {
+            "title": "Windows Version",
+            "command": "winver",
+            "description": "Display version"
+        },
+        {
+            "title": "Check Updates",
+            "command": "Get-WindowsUpdate",
+            "description": "View updates"
+        }
+    ]
+}

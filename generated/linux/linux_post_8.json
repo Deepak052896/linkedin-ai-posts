@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 8,
+    "title": "LINUX Tips #8",
+    "commands": [
+        {
+            "title": "View Environment Variables",
+            "command": "env",
+            "description": "Display environment variables."
+        },
+        {
+            "title": "Schedule Cron Jobs",
+            "command": "crontab -e",
+            "description": "Manage scheduled tasks."
+        },
+        {
+            "title": "View Cron Jobs",
+            "command": "crontab -l",
+            "description": "List configured cron schedules."
+        },
+        {
+            "title": "Check SELinux Status",
+            "command": "getenforce",
+            "description": "Verify SELinux enforcement mode."
+        },
+        {
+            "title": "Firewall Rules",
+            "command": "iptables -L -n",
+            "description": "Review firewall configurations."
+        }
+    ]
+}

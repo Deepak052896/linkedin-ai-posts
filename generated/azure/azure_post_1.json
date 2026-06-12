@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 1,
+    "title": "AZURE Tips #1",
+    "commands": [
+        {
+            "title": "Enable MFA",
+            "command": "Azure MFA",
+            "description": "Protect user accounts"
+        },
+        {
+            "title": "Use RBAC",
+            "command": "Role Based Access Control",
+            "description": "Grant least privilege access"
+        },
+        {
+            "title": "Enable Conditional Access",
+            "command": "Conditional Access",
+            "description": "Secure user sign-ins"
+        },
+        {
+            "title": "Enable Azure Defender",
+            "command": "Microsoft Defender for Cloud",
+            "description": "Threat protection"
+        },
+        {
+            "title": "Use Managed Identities",
+            "command": "Managed Identity",
+            "description": "Avoid stored credentials"
+        }
+    ]
+}

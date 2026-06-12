@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 1,
+    "title": "SECURITY Tips #1",
+    "commands": [
+        {
+            "title": "Enable MFA",
+            "command": "Multi-Factor Authentication",
+            "description": "Protect account access"
+        },
+        {
+            "title": "Use Strong Passwords",
+            "command": "Password Policy",
+            "description": "Reduce brute-force attacks"
+        },
+        {
+            "title": "Rotate Passwords",
+            "command": "Password Rotation",
+            "description": "Improve credential security"
+        },
+        {
+            "title": "Disable Unused Accounts",
+            "command": "User Management",
+            "description": "Reduce attack surface"
+        },
+        {
+            "title": "Review Privileged Accounts",
+            "command": "Admin Audit",
+            "description": "Limit elevated access"
+        }
+    ]
+}

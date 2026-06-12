@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 40,
+    "title": "LINUX Tips #40",
+    "commands": [
+        {
+            "title": "Create Directory",
+            "command": "mkdir project",
+            "description": "Create folder"
+        },
+        {
+            "title": "Remove Directory",
+            "command": "rm -rf project",
+            "description": "Delete folder"
+        },
+        {
+            "title": "Create File",
+            "command": "touch test.txt",
+            "description": "Create file"
+        },
+        {
+            "title": "View File",
+            "command": "cat test.txt",
+            "description": "Display file contents"
+        },
+        {
+            "title": "Monitor Logs",
+            "command": "tail -f /var/log/syslog",
+            "description": "Watch logs live"
+        }
+    ]
+}

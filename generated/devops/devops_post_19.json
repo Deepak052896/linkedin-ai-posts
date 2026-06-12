@@ -1,0 +1,22 @@
+{
+    "category": "devops",
+    "post_number": 19,
+    "title": "DEVOPS Tips #19",
+    "commands": [
+        {
+            "title": "Use Policy as Code",
+            "command": "Governance Automation",
+            "description": "Enforce standards"
+        },
+        {
+            "title": "Enable Continuous Improvement",
+            "command": "DevOps Culture",
+            "description": "Drive optimization"
+        },
+        {
+            "title": "Review Architecture Regularly",
+            "command": "System Design",
+            "description": "Maintain scalability"
+        }
+    ]
+}

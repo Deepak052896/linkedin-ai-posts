@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 5,
+    "title": "AZURE Tips #5",
+    "commands": [
+        {
+            "title": "Use Availability Zones",
+            "command": "Availability Zones",
+            "description": "Increase resilience"
+        },
+        {
+            "title": "Enable VM Backups",
+            "command": "Azure Backup",
+            "description": "Protect virtual machines"
+        },
+        {
+            "title": "Use VM Scale Sets",
+            "command": "VMSS",
+            "description": "Auto-scale workloads"
+        },
+        {
+            "title": "Enable Boot Diagnostics",
+            "command": "Boot Diagnostics",
+            "description": "Troubleshoot startup issues"
+        },
+        {
+            "title": "Use Managed Disks",
+            "command": "Managed Disks",
+            "description": "Simplify storage management"
+        }
+    ]
+}

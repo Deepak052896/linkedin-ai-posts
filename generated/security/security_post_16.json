@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 16,
+    "title": "SECURITY Tips #16",
+    "commands": [
+        {
+            "title": "Review Scheduled Tasks",
+            "command": "Task Audit",
+            "description": "Detect persistence techniques"
+        },
+        {
+            "title": "Enable Endpoint Detection",
+            "command": "EDR",
+            "description": "Improve threat visibility"
+        },
+        {
+            "title": "Monitor USB Devices",
+            "command": "Device Control",
+            "description": "Reduce data leakage"
+        },
+        {
+            "title": "Restrict Removable Media",
+            "command": "Data Protection",
+            "description": "Control external storage"
+        },
+        {
+            "title": "Use Application Whitelisting",
+            "command": "Execution Control",
+            "description": "Block unauthorized apps"
+        }
+    ]
+}

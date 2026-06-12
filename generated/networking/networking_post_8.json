@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 8,
+    "title": "NETWORKING Tips #8",
+    "commands": [
+        {
+            "title": "Show Bonding",
+            "command": "cat /proc/net/bonding/bond0",
+            "description": "Bonding details"
+        },
+        {
+            "title": "Check MTU",
+            "command": "ip link show",
+            "description": "Display MTU size"
+        },
+        {
+            "title": "Modify MTU",
+            "command": "ip link set dev eth0 mtu 9000",
+            "description": "Change MTU"
+        },
+        {
+            "title": "Check DNS Response",
+            "command": "dig google.com +short",
+            "description": "Short DNS lookup"
+        },
+        {
+            "title": "Zone Transfer Test",
+            "command": "dig axfr domain.com",
+            "description": "DNS zone transfer"
+        }
+    ]
+}

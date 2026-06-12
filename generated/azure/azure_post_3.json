@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 3,
+    "title": "AZURE Tips #3",
+    "commands": [
+        {
+            "title": "Enable Storage Encryption",
+            "command": "Storage Encryption",
+            "description": "Protect stored data"
+        },
+        {
+            "title": "Enable Soft Delete",
+            "command": "Soft Delete",
+            "description": "Recover deleted resources"
+        },
+        {
+            "title": "Use Private Endpoints",
+            "command": "Private Endpoint",
+            "description": "Secure service access"
+        },
+        {
+            "title": "Enable Blob Versioning",
+            "command": "Blob Versioning",
+            "description": "Protect object data"
+        },
+        {
+            "title": "Use Lifecycle Management",
+            "command": "Lifecycle Policies",
+            "description": "Reduce storage costs"
+        }
+    ]
+}

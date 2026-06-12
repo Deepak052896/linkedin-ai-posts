@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 8,
+    "title": "DEVOPS Tips #8",
+    "commands": [
+        {
+            "title": "Plan Changes",
+            "command": "terraform plan",
+            "description": "Preview infrastructure changes"
+        },
+        {
+            "title": "Apply Changes",
+            "command": "terraform apply",
+            "description": "Deploy resources"
+        },
+        {
+            "title": "Destroy Resources",
+            "command": "terraform destroy",
+            "description": "Remove infrastructure"
+        },
+        {
+            "title": "Use Terraform Modules",
+            "command": "Reusable IaC",
+            "description": "Improve maintainability"
+        },
+        {
+            "title": "Store Terraform State",
+            "command": "Remote Backend",
+            "description": "Protect state files"
+        }
+    ]
+}

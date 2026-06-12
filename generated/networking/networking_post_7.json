@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 7,
+    "title": "NETWORKING Tips #7",
+    "commands": [
+        {
+            "title": "Test Port Connectivity",
+            "command": "nc -zv google.com 443",
+            "description": "Check port reachability"
+        },
+        {
+            "title": "Public IP",
+            "command": "curl ifconfig.me",
+            "description": "Show public IP"
+        },
+        {
+            "title": "Hostname Info",
+            "command": "hostname -I",
+            "description": "Show host IPs"
+        },
+        {
+            "title": "Display Neighbors",
+            "command": "ip neigh",
+            "description": "ARP neighbors"
+        },
+        {
+            "title": "View VLANs",
+            "command": "ip -d link show",
+            "description": "Display VLANs"
+        }
+    ]
+}

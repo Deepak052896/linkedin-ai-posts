@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 13,
+    "title": "NETWORKING Tips #13",
+    "commands": [
+        {
+            "title": "Test SMTP",
+            "command": "telnet smtp.gmail.com 587",
+            "description": "SMTP connectivity"
+        },
+        {
+            "title": "Test HTTPS",
+            "command": "curl -I https://google.com",
+            "description": "HTTP header check"
+        },
+        {
+            "title": "Download File",
+            "command": "wget URL",
+            "description": "Download resource"
+        },
+        {
+            "title": "Monitor DNS Queries",
+            "command": "tcpdump udp port 53",
+            "description": "DNS monitoring"
+        },
+        {
+            "title": "Display Routing Cache",
+            "command": "ip route show cache",
+            "description": "Routing cache"
+        }
+    ]
+}

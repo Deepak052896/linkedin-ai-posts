@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 12,
+    "title": "WINDOWS Tips #12",
+    "commands": [
+        {
+            "title": "Logged-in Users",
+            "command": "query user",
+            "description": "List active users"
+        },
+        {
+            "title": "Check SMB Shares",
+            "command": "Get-SmbShare",
+            "description": "List SMB shares"
+        },
+        {
+            "title": "SMB Sessions",
+            "command": "Get-SmbSession",
+            "description": "View SMB connections"
+        },
+        {
+            "title": "Test Network",
+            "command": "Test-NetConnection google.com",
+            "description": "Network diagnostics"
+        },
+        {
+            "title": "DNS Client Cache",
+            "command": "ipconfig /displaydns",
+            "description": "View DNS cache"
+        }
+    ]
+}

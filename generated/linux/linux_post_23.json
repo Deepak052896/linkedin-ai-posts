@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 23,
+    "title": "LINUX Tips #23",
+    "commands": [
+        {
+            "title": "Current User",
+            "command": "whoami",
+            "description": "Show current user"
+        },
+        {
+            "title": "Logged In Users",
+            "command": "w",
+            "description": "Display logged-in users"
+        },
+        {
+            "title": "Kernel Version",
+            "command": "uname -r",
+            "description": "Show kernel version"
+        },
+        {
+            "title": "System Information",
+            "command": "uname -a",
+            "description": "Display system information"
+        },
+        {
+            "title": "Hostname",
+            "command": "hostnamectl",
+            "description": "Show hostname details"
+        }
+    ]
+}

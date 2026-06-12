@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 19,
+    "title": "SECURITY Tips #19",
+    "commands": [
+        {
+            "title": "Review VPN Logs",
+            "command": "Remote Access Audit",
+            "description": "Track user activity"
+        },
+        {
+            "title": "Enable Geolocation Restrictions",
+            "command": "Access Control",
+            "description": "Limit login locations"
+        },
+        {
+            "title": "Use Conditional Access",
+            "command": "Identity Security",
+            "description": "Improve authentication"
+        },
+        {
+            "title": "Review API Keys",
+            "command": "Credential Audit",
+            "description": "Remove unused keys"
+        },
+        {
+            "title": "Rotate Secrets",
+            "command": "Secrets Management",
+            "description": "Reduce exposure"
+        }
+    ]
+}

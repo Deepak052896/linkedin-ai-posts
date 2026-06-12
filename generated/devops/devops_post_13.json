@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 13,
+    "title": "DEVOPS Tips #13",
+    "commands": [
+        {
+            "title": "Optimize Costs",
+            "command": "Cost Monitoring",
+            "description": "Control cloud expenses"
+        },
+        {
+            "title": "Tag Resources",
+            "command": "Resource Management",
+            "description": "Track ownership"
+        },
+        {
+            "title": "Enable Audit Logging",
+            "command": "Compliance",
+            "description": "Maintain traceability"
+        },
+        {
+            "title": "Perform DR Testing",
+            "command": "Disaster Recovery",
+            "description": "Validate resilience"
+        },
+        {
+            "title": "Use Immutable Infrastructure",
+            "command": "Infrastructure Design",
+            "description": "Reduce drift"
+        }
+    ]
+}

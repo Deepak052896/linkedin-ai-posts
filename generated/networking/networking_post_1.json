@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 1,
+    "title": "NETWORKING Tips #1",
+    "commands": [
+        {
+            "title": "Check IP Address",
+            "command": "ip addr show",
+            "description": "Display IP addresses"
+        },
+        {
+            "title": "Check Interface Status",
+            "command": "ip link show",
+            "description": "Show network interfaces"
+        },
+        {
+            "title": "View Routing Table",
+            "command": "ip route",
+            "description": "Display routing information"
+        },
+        {
+            "title": "Ping Host",
+            "command": "ping google.com",
+            "description": "Test connectivity"
+        },
+        {
+            "title": "Trace Route",
+            "command": "traceroute google.com",
+            "description": "Trace network path"
+        }
+    ]
+}

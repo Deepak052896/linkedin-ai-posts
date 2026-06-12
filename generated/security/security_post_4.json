@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 4,
+    "title": "SECURITY Tips #4",
+    "commands": [
+        {
+            "title": "Restrict SSH Access",
+            "command": "SSH Security",
+            "description": "Protect Linux servers"
+        },
+        {
+            "title": "Use VPN Access",
+            "command": "Remote Security",
+            "description": "Secure remote connections"
+        },
+        {
+            "title": "Enable IDS",
+            "command": "Intrusion Detection",
+            "description": "Monitor attacks"
+        },
+        {
+            "title": "Enable IPS",
+            "command": "Intrusion Prevention",
+            "description": "Block threats"
+        },
+        {
+            "title": "Monitor Network Traffic",
+            "command": "Traffic Analysis",
+            "description": "Identify anomalies"
+        }
+    ]
+}

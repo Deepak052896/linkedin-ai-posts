@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 6,
+    "title": "NETWORKING Tips #6",
+    "commands": [
+        {
+            "title": "List Interfaces",
+            "command": "ifconfig -a",
+            "description": "Display all interfaces"
+        },
+        {
+            "title": "Wireless Info",
+            "command": "iwconfig",
+            "description": "Wireless details"
+        },
+        {
+            "title": "WiFi Scan",
+            "command": "nmcli dev wifi",
+            "description": "Scan WiFi networks"
+        },
+        {
+            "title": "Network Manager Status",
+            "command": "nmcli general status",
+            "description": "NetworkManager status"
+        },
+        {
+            "title": "Restart Networking",
+            "command": "systemctl restart NetworkManager",
+            "description": "Restart network"
+        }
+    ]
+}

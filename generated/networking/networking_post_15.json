@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 15,
+    "title": "NETWORKING Tips #15",
+    "commands": [
+        {
+            "title": "Check MAC Table",
+            "command": "show mac address-table",
+            "description": "MAC learning table"
+        },
+        {
+            "title": "Check CDP Neighbors",
+            "command": "show cdp neighbors",
+            "description": "Cisco neighbors"
+        },
+        {
+            "title": "Check LLDP Neighbors",
+            "command": "show lldp neighbors",
+            "description": "LLDP information"
+        },
+        {
+            "title": "Verify DNS Server",
+            "command": "systemd-resolve --status",
+            "description": "DNS resolver status"
+        },
+        {
+            "title": "Network Benchmark",
+            "command": "iperf3 -s",
+            "description": "Start benchmark server"
+        }
+    ]
+}

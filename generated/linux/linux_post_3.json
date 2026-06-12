@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 3,
+    "title": "LINUX Tips #3",
+    "commands": [
+        {
+            "title": "Check Network Interfaces",
+            "command": "ip addr show",
+            "description": "View all configured network interfaces."
+        },
+        {
+            "title": "List Active Connections",
+            "command": "netstat -plant",
+            "description": "Display active TCP connections and listening ports."
+        },
+        {
+            "title": "Check Kernel Version",
+            "command": "uname -r",
+            "description": "Display current Linux kernel version."
+        },
+        {
+            "title": "View Last Logins",
+            "command": "last",
+            "description": "Check recent user login history."
+        },
+        {
+            "title": "Find Large Files",
+            "command": "find / -type f -size +500M",
+            "description": "Locate large files consuming storage."
+        }
+    ]
+}

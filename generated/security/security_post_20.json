@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 20,
+    "title": "SECURITY Tips #20",
+    "commands": [
+        {
+            "title": "Use Secrets Vault",
+            "command": "Credential Storage",
+            "description": "Protect sensitive data"
+        },
+        {
+            "title": "Enable Compliance Monitoring",
+            "command": "Governance",
+            "description": "Track policy adherence"
+        },
+        {
+            "title": "Review Incident Reports",
+            "command": "Security Operations",
+            "description": "Improve response process"
+        },
+        {
+            "title": "Conduct Tabletop Exercises",
+            "command": "Incident Response",
+            "description": "Prepare teams"
+        },
+        {
+            "title": "Perform Regular Audits",
+            "command": "Security Governance",
+            "description": "Maintain strong security posture"
+        }
+    ]
+}

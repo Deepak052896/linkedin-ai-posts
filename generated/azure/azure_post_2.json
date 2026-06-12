@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 2,
+    "title": "AZURE Tips #2",
+    "commands": [
+        {
+            "title": "Enable Activity Logs",
+            "command": "Azure Activity Log",
+            "description": "Track resource changes"
+        },
+        {
+            "title": "Enable Diagnostic Logs",
+            "command": "Azure Monitor",
+            "description": "Improve troubleshooting"
+        },
+        {
+            "title": "Use Azure Policy",
+            "command": "Azure Policy",
+            "description": "Enforce compliance"
+        },
+        {
+            "title": "Enable Resource Locks",
+            "command": "Resource Locks",
+            "description": "Prevent accidental deletion"
+        },
+        {
+            "title": "Use Key Vault",
+            "command": "Azure Key Vault",
+            "description": "Store secrets securely"
+        }
+    ]
+}

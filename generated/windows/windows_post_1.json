@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 1,
+    "title": "WINDOWS Tips #1",
+    "commands": [
+        {
+            "title": "List Running Services",
+            "command": "Get-Service",
+            "description": "Display all services"
+        },
+        {
+            "title": "Check Event Logs",
+            "command": "eventvwr.msc",
+            "description": "Open Event Viewer"
+        },
+        {
+            "title": "IP Configuration",
+            "command": "ipconfig /all",
+            "description": "View network settings"
+        },
+        {
+            "title": "Running Processes",
+            "command": "tasklist",
+            "description": "List active processes"
+        },
+        {
+            "title": "Check Disk Space",
+            "command": "Get-PSDrive",
+            "description": "Display disk usage"
+        }
+    ]
+}

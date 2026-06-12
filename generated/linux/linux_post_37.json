@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 37,
+    "title": "LINUX Tips #37",
+    "commands": [
+        {
+            "title": "Remove Package",
+            "command": "apt remove nginx",
+            "description": "Remove package"
+        },
+        {
+            "title": "Check Load Average",
+            "command": "uptime",
+            "description": "Display system load"
+        },
+        {
+            "title": "Memory Details",
+            "command": "cat /proc/meminfo",
+            "description": "Detailed memory info"
+        },
+        {
+            "title": "CPU Usage",
+            "command": "mpstat",
+            "description": "CPU statistics"
+        },
+        {
+            "title": "IO Statistics",
+            "command": "iostat",
+            "description": "Disk I/O statistics"
+        }
+    ]
+}

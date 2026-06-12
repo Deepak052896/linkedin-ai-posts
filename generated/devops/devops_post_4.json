@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 4,
+    "title": "DEVOPS Tips #4",
+    "commands": [
+        {
+            "title": "Store Artifacts",
+            "command": "Artifact Repository",
+            "description": "Manage build outputs"
+        },
+        {
+            "title": "Use Docker",
+            "command": "Containerization",
+            "description": "Package applications"
+        },
+        {
+            "title": "Build Docker Image",
+            "command": "docker build",
+            "description": "Create container images"
+        },
+        {
+            "title": "Run Docker Container",
+            "command": "docker run",
+            "description": "Execute applications"
+        },
+        {
+            "title": "List Containers",
+            "command": "docker ps",
+            "description": "View running containers"
+        }
+    ]
+}

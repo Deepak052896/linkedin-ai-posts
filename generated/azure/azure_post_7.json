@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 7,
+    "title": "AZURE Tips #7",
+    "commands": [
+        {
+            "title": "Use Virtual Networks",
+            "command": "VNet",
+            "description": "Isolate workloads"
+        },
+        {
+            "title": "Enable NSG Rules",
+            "command": "Network Security Group",
+            "description": "Control traffic"
+        },
+        {
+            "title": "Use Azure Firewall",
+            "command": "Azure Firewall",
+            "description": "Centralized protection"
+        },
+        {
+            "title": "Enable DDoS Protection",
+            "command": "DDoS Protection",
+            "description": "Protect public services"
+        },
+        {
+            "title": "Use Application Gateway",
+            "command": "Application Gateway",
+            "description": "Load balancing"
+        }
+    ]
+}

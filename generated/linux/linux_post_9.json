@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 9,
+    "title": "LINUX Tips #9",
+    "commands": [
+        {
+            "title": "Check UFW Status",
+            "command": "ufw status",
+            "description": "View Ubuntu firewall status."
+        },
+        {
+            "title": "Generate SSH Key",
+            "command": "ssh-keygen -t rsa",
+            "description": "Create SSH authentication keys."
+        },
+        {
+            "title": "Copy Files Securely",
+            "command": "scp file.txt user@host:/tmp",
+            "description": "Transfer files over SSH."
+        },
+        {
+            "title": "Remote Login",
+            "command": "ssh user@server",
+            "description": "Access remote Linux servers securely."
+        },
+        {
+            "title": "Check Open Files",
+            "command": "lsof -i",
+            "description": "Display open network files and sockets."
+        }
+    ]
+}

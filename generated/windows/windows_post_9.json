@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 9,
+    "title": "WINDOWS Tips #9",
+    "commands": [
+        {
+            "title": "Performance Monitor",
+            "command": "perfmon",
+            "description": "Performance metrics"
+        },
+        {
+            "title": "Registry Editor",
+            "command": "regedit",
+            "description": "Open registry"
+        },
+        {
+            "title": "Group Policy",
+            "command": "gpedit.msc",
+            "description": "Edit policies"
+        },
+        {
+            "title": "Local Security Policy",
+            "command": "secpol.msc",
+            "description": "Manage security settings"
+        },
+        {
+            "title": "System Configuration",
+            "command": "msconfig",
+            "description": "Manage startup"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 16,
+    "title": "DEVOPS Tips #16",
+    "commands": [
+        {
+            "title": "Document Infrastructure",
+            "command": "Documentation",
+            "description": "Support operations"
+        },
+        {
+            "title": "Use Runbooks",
+            "command": "Operational Guides",
+            "description": "Standardize procedures"
+        },
+        {
+            "title": "Automate Onboarding",
+            "command": "User Provisioning",
+            "description": "Save time"
+        },
+        {
+            "title": "Automate Offboarding",
+            "command": "Access Removal",
+            "description": "Reduce risk"
+        },
+        {
+            "title": "Monitor SLA",
+            "command": "Service Levels",
+            "description": "Maintain commitments"
+        }
+    ]
+}

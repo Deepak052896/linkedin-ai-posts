@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 17,
+    "title": "SECURITY Tips #17",
+    "commands": [
+        {
+            "title": "Review Installed Software",
+            "command": "Software Audit",
+            "description": "Remove unnecessary tools"
+        },
+        {
+            "title": "Scan for Vulnerabilities",
+            "command": "Vulnerability Scan",
+            "description": "Identify weaknesses"
+        },
+        {
+            "title": "Perform Penetration Testing",
+            "command": "Security Assessment",
+            "description": "Validate defenses"
+        },
+        {
+            "title": "Review Security Baselines",
+            "command": "Hardening Standards",
+            "description": "Maintain consistency"
+        },
+        {
+            "title": "Monitor Resource Utilization",
+            "command": "Anomaly Detection",
+            "description": "Spot suspicious behavior"
+        }
+    ]
+}

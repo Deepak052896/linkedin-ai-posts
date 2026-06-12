@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 15,
+    "title": "LINUX Tips #15",
+    "commands": [
+        {
+            "title": "Find Failed SSH Attempts",
+            "command": "grep \"Failed password\" /var/log/auth.log",
+            "description": "Review unauthorized login attempts."
+        },
+        {
+            "title": "View Running Services",
+            "command": "systemctl list-units --type=service",
+            "description": "Display active services."
+        },
+        {
+            "title": "Enable Service",
+            "command": "systemctl enable nginx",
+            "description": "Configure service startup at boot."
+        },
+        {
+            "title": "Disable Service",
+            "command": "systemctl disable nginx",
+            "description": "Prevent service from starting automatically."
+        },
+        {
+            "title": "Reload Service Config",
+            "command": "systemctl reload nginx",
+            "description": "Apply configuration changes without restart."
+        }
+    ]
+}

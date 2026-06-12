@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 12,
+    "title": "AZURE Tips #12",
+    "commands": [
+        {
+            "title": "Use Read Replicas",
+            "command": "Read Scale",
+            "description": "Improve performance"
+        },
+        {
+            "title": "Monitor DTU Usage",
+            "command": "Azure SQL Metrics",
+            "description": "Optimize workload"
+        },
+        {
+            "title": "Enable Long Term Retention",
+            "command": "LTR",
+            "description": "Archive backups"
+        },
+        {
+            "title": "Use Elastic Pools",
+            "command": "Elastic Pools",
+            "description": "Optimize database costs"
+        },
+        {
+            "title": "Enable Automatic Tuning",
+            "command": "Automatic Tuning",
+            "description": "Improve performance"
+        }
+    ]
+}

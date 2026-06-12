@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 12,
+    "title": "LINUX Tips #12",
+    "commands": [
+        {
+            "title": "Check Swap Usage",
+            "command": "swapon --show",
+            "description": "Display active swap devices."
+        },
+        {
+            "title": "Disk Health Check",
+            "command": "smartctl -a /dev/sda",
+            "description": "Review disk SMART statistics."
+        },
+        {
+            "title": "View Hardware Info",
+            "command": "lshw -short",
+            "description": "Display hardware summary."
+        },
+        {
+            "title": "PCI Devices",
+            "command": "lspci",
+            "description": "List connected PCI hardware."
+        },
+        {
+            "title": "USB Devices",
+            "command": "lsusb",
+            "description": "List connected USB devices."
+        }
+    ]
+}

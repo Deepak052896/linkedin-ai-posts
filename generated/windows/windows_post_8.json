@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 8,
+    "title": "WINDOWS Tips #8",
+    "commands": [
+        {
+            "title": "Services Console",
+            "command": "services.msc",
+            "description": "Manage services"
+        },
+        {
+            "title": "Computer Management",
+            "command": "compmgmt.msc",
+            "description": "Open management console"
+        },
+        {
+            "title": "Device Manager",
+            "command": "devmgmt.msc",
+            "description": "Manage devices"
+        },
+        {
+            "title": "Disk Management",
+            "command": "diskmgmt.msc",
+            "description": "Manage disks"
+        },
+        {
+            "title": "Resource Monitor",
+            "command": "resmon",
+            "description": "Monitor resources"
+        }
+    ]
+}

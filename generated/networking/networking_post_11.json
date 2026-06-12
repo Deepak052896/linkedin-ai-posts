@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 11,
+    "title": "NETWORKING Tips #11",
+    "commands": [
+        {
+            "title": "Network Statistics",
+            "command": "sar -n DEV 1 5",
+            "description": "Network performance stats"
+        },
+        {
+            "title": "Check Packet Loss",
+            "command": "mtr google.com",
+            "description": "Trace and packet loss"
+        },
+        {
+            "title": "TCP Dump Port",
+            "command": "tcpdump port 80",
+            "description": "Capture HTTP traffic"
+        },
+        {
+            "title": "Capture DNS Traffic",
+            "command": "tcpdump port 53",
+            "description": "Capture DNS packets"
+        },
+        {
+            "title": "Capture ICMP",
+            "command": "tcpdump icmp",
+            "description": "Capture ping traffic"
+        }
+    ]
+}

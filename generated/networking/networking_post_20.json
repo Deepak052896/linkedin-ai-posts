@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 20,
+    "title": "NETWORKING Tips #20",
+    "commands": [
+        {
+            "title": "Kubernetes Pods",
+            "command": "kubectl get pods -o wide",
+            "description": "Pod networking"
+        },
+        {
+            "title": "Check Ingress",
+            "command": "kubectl get ingress",
+            "description": "Ingress status"
+        },
+        {
+            "title": "Monitor Traffic Live",
+            "command": "bmon",
+            "description": "Bandwidth monitor"
+        },
+        {
+            "title": "Check Port Occupancy",
+            "command": "fuser 80/tcp",
+            "description": "Port usage"
+        },
+        {
+            "title": "Display Socket Processes",
+            "command": "ss -p",
+            "description": "Socket process mapping"
+        }
+    ]
+}

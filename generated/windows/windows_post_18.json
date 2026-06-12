@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 18,
+    "title": "WINDOWS Tips #18",
+    "commands": [
+        {
+            "title": "DISM Restore Health",
+            "command": "DISM /Online /Cleanup-Image /RestoreHealth",
+            "description": "Repair image"
+        },
+        {
+            "title": "Check Memory",
+            "command": "wmic memorychip get capacity",
+            "description": "View RAM"
+        },
+        {
+            "title": "CPU Information",
+            "command": "wmic cpu get name",
+            "description": "CPU details"
+        },
+        {
+            "title": "BIOS Version",
+            "command": "wmic bios get smbiosbiosversion",
+            "description": "BIOS info"
+        },
+        {
+            "title": "Motherboard Info",
+            "command": "wmic baseboard get product",
+            "description": "Board details"
+        }
+    ]
+}

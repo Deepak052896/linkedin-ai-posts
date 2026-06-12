@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 8,
+    "title": "AZURE Tips #8",
+    "commands": [
+        {
+            "title": "Enable Flow Logs",
+            "command": "NSG Flow Logs",
+            "description": "Monitor traffic"
+        },
+        {
+            "title": "Use VPN Gateway",
+            "command": "VPN Gateway",
+            "description": "Secure connectivity"
+        },
+        {
+            "title": "Use ExpressRoute",
+            "command": "ExpressRoute",
+            "description": "Private Azure connection"
+        },
+        {
+            "title": "Use Private DNS Zones",
+            "command": "Private DNS",
+            "description": "Internal name resolution"
+        },
+        {
+            "title": "Monitor Network Watcher",
+            "command": "Network Watcher",
+            "description": "Troubleshoot networking"
+        }
+    ]
+}

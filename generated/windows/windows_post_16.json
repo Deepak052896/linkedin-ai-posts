@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 16,
+    "title": "WINDOWS Tips #16",
+    "commands": [
+        {
+            "title": "Defender Signatures",
+            "command": "Update-MpSignature",
+            "description": "Update signatures"
+        },
+        {
+            "title": "BitLocker Status",
+            "command": "manage-bde -status",
+            "description": "Check encryption"
+        },
+        {
+            "title": "Enable BitLocker",
+            "command": "manage-bde -on C:",
+            "description": "Enable encryption"
+        },
+        {
+            "title": "Check Scheduled Tasks",
+            "command": "schtasks",
+            "description": "List scheduled tasks"
+        },
+        {
+            "title": "Create Scheduled Task",
+            "command": "schtasks /create",
+            "description": "Create task"
+        }
+    ]
+}

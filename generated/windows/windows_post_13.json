@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 13,
+    "title": "WINDOWS Tips #13",
+    "commands": [
+        {
+            "title": "Windows Features",
+            "command": "Get-WindowsFeature",
+            "description": "List server roles"
+        },
+        {
+            "title": "Install Feature",
+            "command": "Install-WindowsFeature DNS",
+            "description": "Install role"
+        },
+        {
+            "title": "Remove Feature",
+            "command": "Uninstall-WindowsFeature DNS",
+            "description": "Remove role"
+        },
+        {
+            "title": "AD Users",
+            "command": "Get-ADUser -Filter *",
+            "description": "List Active Directory users"
+        },
+        {
+            "title": "AD Groups",
+            "command": "Get-ADGroup -Filter *",
+            "description": "List AD groups"
+        }
+    ]
+}

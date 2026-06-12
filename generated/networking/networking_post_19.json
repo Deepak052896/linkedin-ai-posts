@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 19,
+    "title": "NETWORKING Tips #19",
+    "commands": [
+        {
+            "title": "View Multicast Groups",
+            "command": "ip maddr show",
+            "description": "Multicast membership"
+        },
+        {
+            "title": "Display Network Namespace",
+            "command": "ip netns list",
+            "description": "Network namespaces"
+        },
+        {
+            "title": "Check Docker Networks",
+            "command": "docker network ls",
+            "description": "Container networks"
+        },
+        {
+            "title": "Inspect Docker Network",
+            "command": "docker network inspect bridge",
+            "description": "Network details"
+        },
+        {
+            "title": "Kubernetes Services",
+            "command": "kubectl get svc",
+            "description": "Cluster services"
+        }
+    ]
+}

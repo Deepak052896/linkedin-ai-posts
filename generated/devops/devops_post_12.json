@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 12,
+    "title": "DEVOPS Tips #12",
+    "commands": [
+        {
+            "title": "Automate Backups",
+            "command": "Backup Automation",
+            "description": "Protect data"
+        },
+        {
+            "title": "Monitor Uptime",
+            "command": "Availability Monitoring",
+            "description": "Track reliability"
+        },
+        {
+            "title": "Use Health Checks",
+            "command": "Service Validation",
+            "description": "Detect failures"
+        },
+        {
+            "title": "Implement Load Balancing",
+            "command": "Traffic Distribution",
+            "description": "Improve availability"
+        },
+        {
+            "title": "Use CDN",
+            "command": "Content Delivery",
+            "description": "Reduce latency"
+        }
+    ]
+}

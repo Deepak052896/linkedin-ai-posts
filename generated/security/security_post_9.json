@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 9,
+    "title": "SECURITY Tips #9",
+    "commands": [
+        {
+            "title": "Backup Critical Data",
+            "command": "Backup Strategy",
+            "description": "Protect business continuity"
+        },
+        {
+            "title": "Test Backup Recovery",
+            "command": "DR Testing",
+            "description": "Verify restorability"
+        },
+        {
+            "title": "Use 3-2-1 Backup Rule",
+            "command": "Backup Best Practice",
+            "description": "Improve resilience"
+        },
+        {
+            "title": "Store Offsite Backups",
+            "command": "Disaster Recovery",
+            "description": "Protect against site loss"
+        },
+        {
+            "title": "Enable Immutable Backups",
+            "command": "Ransomware Protection",
+            "description": "Prevent modification"
+        }
+    ]
+}

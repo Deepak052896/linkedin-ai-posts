@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 15,
+    "title": "SECURITY Tips #15",
+    "commands": [
+        {
+            "title": "Audit File Permissions",
+            "command": "Permission Review",
+            "description": "Prevent unauthorized access"
+        },
+        {
+            "title": "Use Secure SSH Config",
+            "command": "SSH Hardening",
+            "description": "Improve remote access security"
+        },
+        {
+            "title": "Disable Root Login",
+            "command": "SSH Security",
+            "description": "Reduce attack risk"
+        },
+        {
+            "title": "Use SSH Keys",
+            "command": "Authentication",
+            "description": "Avoid password logins"
+        },
+        {
+            "title": "Rotate SSH Keys",
+            "command": "Key Management",
+            "description": "Maintain secure access"
+        }
+    ]
+}

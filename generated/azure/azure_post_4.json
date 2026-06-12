@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 4,
+    "title": "AZURE Tips #4",
+    "commands": [
+        {
+            "title": "Enable Storage Logging",
+            "command": "Storage Analytics",
+            "description": "Track access patterns"
+        },
+        {
+            "title": "Restrict Public Access",
+            "command": "Storage Firewall",
+            "description": "Improve security"
+        },
+        {
+            "title": "Use Geo Replication",
+            "command": "GRS",
+            "description": "Disaster recovery support"
+        },
+        {
+            "title": "Monitor Storage Metrics",
+            "command": "Azure Monitor",
+            "description": "Track performance"
+        },
+        {
+            "title": "Use Immutable Storage",
+            "command": "Immutable Blob",
+            "description": "Prevent tampering"
+        }
+    ]
+}

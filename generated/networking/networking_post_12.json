@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 12,
+    "title": "NETWORKING Tips #12",
+    "commands": [
+        {
+            "title": "View Listening Services",
+            "command": "lsof -i -P -n",
+            "description": "Open network services"
+        },
+        {
+            "title": "Check SSH Connectivity",
+            "command": "ssh user@host",
+            "description": "Test SSH access"
+        },
+        {
+            "title": "Copy File via SCP",
+            "command": "scp file.txt host:/tmp",
+            "description": "Transfer files"
+        },
+        {
+            "title": "Sync Data",
+            "command": "rsync -av source dest",
+            "description": "Synchronize files"
+        },
+        {
+            "title": "Generate SSH Key",
+            "command": "ssh-keygen",
+            "description": "Create SSH keys"
+        }
+    ]
+}

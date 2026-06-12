@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 9,
+    "title": "AZURE Tips #9",
+    "commands": [
+        {
+            "title": "Enable Azure Monitor",
+            "command": "Azure Monitor",
+            "description": "Centralized monitoring"
+        },
+        {
+            "title": "Use Log Analytics",
+            "command": "Log Analytics",
+            "description": "Analyze logs"
+        },
+        {
+            "title": "Create Alerts",
+            "command": "Azure Alerts",
+            "description": "Proactive notifications"
+        },
+        {
+            "title": "Use Application Insights",
+            "command": "App Insights",
+            "description": "Monitor applications"
+        },
+        {
+            "title": "Enable Service Health Alerts",
+            "command": "Service Health",
+            "description": "Track outages"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 7,
+    "title": "DEVOPS Tips #7",
+    "commands": [
+        {
+            "title": "Use Helm Charts",
+            "command": "Helm",
+            "description": "Package Kubernetes apps"
+        },
+        {
+            "title": "Manage Secrets",
+            "command": "Kubernetes Secrets",
+            "description": "Protect credentials"
+        },
+        {
+            "title": "Use ConfigMaps",
+            "command": "Configuration Management",
+            "description": "Externalize settings"
+        },
+        {
+            "title": "Implement IaC",
+            "command": "Terraform",
+            "description": "Automate infrastructure"
+        },
+        {
+            "title": "Initialize Terraform",
+            "command": "terraform init",
+            "description": "Prepare environment"
+        }
+    ]
+}

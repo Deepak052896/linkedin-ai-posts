@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 17,
+    "title": "NETWORKING Tips #17",
+    "commands": [
+        {
+            "title": "Renew DHCP Lease",
+            "command": "dhclient",
+            "description": "Renew lease"
+        },
+        {
+            "title": "Check Time Sync",
+            "command": "chronyc tracking",
+            "description": "NTP synchronization"
+        },
+        {
+            "title": "NTP Sources",
+            "command": "chronyc sources",
+            "description": "Time sources"
+        },
+        {
+            "title": "Display Queue Stats",
+            "command": "tc -s qdisc",
+            "description": "Traffic shaping stats"
+        },
+        {
+            "title": "View Bridge Info",
+            "command": "brctl show",
+            "description": "Linux bridge details"
+        }
+    ]
+}

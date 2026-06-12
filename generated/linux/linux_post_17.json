@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 17,
+    "title": "LINUX Tips #17",
+    "commands": [
+        {
+            "title": "Network Statistics",
+            "command": "sar -n DEV 1 5",
+            "description": "Monitor network traffic."
+        },
+        {
+            "title": "CPU Statistics",
+            "command": "sar -u 1 5",
+            "description": "Review CPU utilization trends."
+        },
+        {
+            "title": "Memory Statistics",
+            "command": "sar -r 1 5",
+            "description": "Monitor memory performance."
+        },
+        {
+            "title": "Check Established Connections",
+            "command": "ss -ant state established",
+            "description": "Display active TCP sessions."
+        },
+        {
+            "title": "View ARP Table",
+            "command": "arp -a",
+            "description": "Inspect ARP cache entries."
+        }
+    ]
+}

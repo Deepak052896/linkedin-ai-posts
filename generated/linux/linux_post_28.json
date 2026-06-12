@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 28,
+    "title": "LINUX Tips #28",
+    "commands": [
+        {
+            "title": "Disable Service",
+            "command": "systemctl disable nginx",
+            "description": "Disable service"
+        },
+        {
+            "title": "Start Service",
+            "command": "systemctl start nginx",
+            "description": "Start service"
+        },
+        {
+            "title": "Stop Service",
+            "command": "systemctl stop nginx",
+            "description": "Stop service"
+        },
+        {
+            "title": "Cron Jobs",
+            "command": "crontab -l",
+            "description": "List scheduled jobs"
+        },
+        {
+            "title": "Edit Cron",
+            "command": "crontab -e",
+            "description": "Edit cron jobs"
+        }
+    ]
+}

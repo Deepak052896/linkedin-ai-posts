@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 14,
+    "title": "LINUX Tips #14",
+    "commands": [
+        {
+            "title": "Lock User Account",
+            "command": "usermod -L username",
+            "description": "Temporarily disable a user account."
+        },
+        {
+            "title": "Unlock User Account",
+            "command": "usermod -U username",
+            "description": "Re-enable a user account."
+        },
+        {
+            "title": "Delete User",
+            "command": "userdel username",
+            "description": "Remove a user account."
+        },
+        {
+            "title": "Check User ID",
+            "command": "id username",
+            "description": "Display UID and group membership."
+        },
+        {
+            "title": "Monitor Authentication Logs",
+            "command": "tail -f /var/log/auth.log",
+            "description": "Track login activity."
+        }
+    ]
+}

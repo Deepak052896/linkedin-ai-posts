@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 15,
+    "title": "WINDOWS Tips #15",
+    "commands": [
+        {
+            "title": "Check Certificates",
+            "command": "certlm.msc",
+            "description": "View machine certificates"
+        },
+        {
+            "title": "Export Certificate",
+            "command": "certutil -store my",
+            "description": "List certificates"
+        },
+        {
+            "title": "Windows Defender Status",
+            "command": "Get-MpComputerStatus",
+            "description": "Check Defender"
+        },
+        {
+            "title": "Quick Scan",
+            "command": "Start-MpScan -ScanType QuickScan",
+            "description": "Run AV scan"
+        },
+        {
+            "title": "Full Scan",
+            "command": "Start-MpScan -ScanType FullScan",
+            "description": "Run full AV scan"
+        }
+    ]
+}

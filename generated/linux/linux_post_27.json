@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 27,
+    "title": "LINUX Tips #27",
+    "commands": [
+        {
+            "title": "Process Tree",
+            "command": "pstree",
+            "description": "Display process hierarchy"
+        },
+        {
+            "title": "Find Process",
+            "command": "pgrep nginx",
+            "description": "Find process ID"
+        },
+        {
+            "title": "Service Status",
+            "command": "systemctl status nginx",
+            "description": "Check service state"
+        },
+        {
+            "title": "Restart Service",
+            "command": "systemctl restart nginx",
+            "description": "Restart service"
+        },
+        {
+            "title": "Enable Service",
+            "command": "systemctl enable nginx",
+            "description": "Enable service at boot"
+        }
+    ]
+}

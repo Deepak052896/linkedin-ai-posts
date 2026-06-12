@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 21,
+    "title": "LINUX Tips #21",
+    "commands": [
+        {
+            "title": "Check Failed Services",
+            "command": "systemctl --failed",
+            "description": "List failed services"
+        },
+        {
+            "title": "Check Disk Usage",
+            "command": "df -h",
+            "description": "Display disk usage"
+        },
+        {
+            "title": "View Running Processes",
+            "command": "ps aux",
+            "description": "Show running processes"
+        },
+        {
+            "title": "Open Listening Ports",
+            "command": "ss -tulnp",
+            "description": "Show listening ports"
+        },
+        {
+            "title": "Check System Uptime",
+            "command": "uptime",
+            "description": "Show system uptime"
+        }
+    ]
+}

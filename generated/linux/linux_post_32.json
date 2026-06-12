@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 32,
+    "title": "LINUX Tips #32",
+    "commands": [
+        {
+            "title": "Count Lines",
+            "command": "wc -l file.txt",
+            "description": "Count lines"
+        },
+        {
+            "title": "Sort Content",
+            "command": "sort file.txt",
+            "description": "Sort file content"
+        },
+        {
+            "title": "Unique Entries",
+            "command": "uniq file.txt",
+            "description": "Show unique values"
+        },
+        {
+            "title": "Archive Files",
+            "command": "tar -cvf backup.tar folder",
+            "description": "Create archive"
+        },
+        {
+            "title": "Extract Archive",
+            "command": "tar -xvf backup.tar",
+            "description": "Extract archive"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 22,
+    "title": "LINUX Tips #22",
+    "commands": [
+        {
+            "title": "Check Memory Usage",
+            "command": "free -m",
+            "description": "Display memory statistics"
+        },
+        {
+            "title": "CPU Information",
+            "command": "lscpu",
+            "description": "Display CPU details"
+        },
+        {
+            "title": "Mounted Filesystems",
+            "command": "mount",
+            "description": "Show mounted filesystems"
+        },
+        {
+            "title": "Running Services",
+            "command": "systemctl list-units --type=service",
+            "description": "List active services"
+        },
+        {
+            "title": "View Logs",
+            "command": "journalctl -xe",
+            "description": "Display system logs"
+        }
+    ]
+}

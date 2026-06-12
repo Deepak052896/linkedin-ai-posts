@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 20,
+    "title": "AZURE Tips #20",
+    "commands": [
+        {
+            "title": "Enable Defender for Cloud",
+            "command": "Defender for Cloud",
+            "description": "Improve security posture"
+        },
+        {
+            "title": "Use Lighthouse",
+            "command": "Azure Lighthouse",
+            "description": "Manage tenants"
+        },
+        {
+            "title": "Enable Resource Graph",
+            "command": "Resource Graph",
+            "description": "Query resources"
+        },
+        {
+            "title": "Use Landing Zones",
+            "command": "Landing Zones",
+            "description": "Govern Azure at scale"
+        },
+        {
+            "title": "Review Secure Score",
+            "command": "Secure Score",
+            "description": "Measure security posture"
+        }
+    ]
+}

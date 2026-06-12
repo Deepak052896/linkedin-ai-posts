@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 6,
+    "title": "DEVOPS Tips #6",
+    "commands": [
+        {
+            "title": "View Pods",
+            "command": "kubectl get pods",
+            "description": "Check workloads"
+        },
+        {
+            "title": "View Services",
+            "command": "kubectl get svc",
+            "description": "Inspect services"
+        },
+        {
+            "title": "Deploy Application",
+            "command": "kubectl apply",
+            "description": "Release workloads"
+        },
+        {
+            "title": "Scale Deployments",
+            "command": "kubectl scale",
+            "description": "Adjust capacity"
+        },
+        {
+            "title": "Check Logs",
+            "command": "kubectl logs",
+            "description": "Troubleshoot issues"
+        }
+    ]
+}

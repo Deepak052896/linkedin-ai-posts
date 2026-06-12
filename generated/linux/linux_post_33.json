@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 33,
+    "title": "LINUX Tips #33",
+    "commands": [
+        {
+            "title": "Compress File",
+            "command": "gzip file.txt",
+            "description": "Compress file"
+        },
+        {
+            "title": "Decompress File",
+            "command": "gunzip file.txt.gz",
+            "description": "Decompress file"
+        },
+        {
+            "title": "Download File",
+            "command": "wget URL",
+            "description": "Download from URL"
+        },
+        {
+            "title": "Download via Curl",
+            "command": "curl -O URL",
+            "description": "Download using curl"
+        },
+        {
+            "title": "Check Open Files",
+            "command": "lsof",
+            "description": "List open files"
+        }
+    ]
+}

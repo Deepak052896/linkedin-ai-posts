@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 2,
+    "title": "LINUX Tips #2",
+    "commands": [
+        {
+            "title": "View System Logs",
+            "command": "journalctl -xe",
+            "description": "Investigate recent system and service errors."
+        },
+        {
+            "title": "Check Uptime",
+            "command": "uptime",
+            "description": "View system uptime and load averages."
+        },
+        {
+            "title": "CPU Information",
+            "command": "lscpu",
+            "description": "Display detailed CPU architecture information."
+        },
+        {
+            "title": "Mounted Filesystems",
+            "command": "mount",
+            "description": "List all mounted filesystems."
+        },
+        {
+            "title": "Disk I/O Statistics",
+            "command": "iostat -x",
+            "description": "Monitor disk performance and utilization."
+        }
+    ]
+}

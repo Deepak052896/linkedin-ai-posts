@@ -1,0 +1,32 @@
+{
+    "category": "security",
+    "post_number": 10,
+    "title": "SECURITY Tips #10",
+    "commands": [
+        {
+            "title": "Review Backup Jobs",
+            "command": "Backup Audit",
+            "description": "Ensure success"
+        },
+        {
+            "title": "Monitor Backup Storage",
+            "command": "Capacity Planning",
+            "description": "Avoid failures"
+        },
+        {
+            "title": "Enable Security Alerts",
+            "command": "Monitoring",
+            "description": "Respond quickly"
+        },
+        {
+            "title": "Create Incident Response Plan",
+            "command": "IR Plan",
+            "description": "Prepare for attacks"
+        },
+        {
+            "title": "Perform Security Awareness Training",
+            "command": "User Education",
+            "description": "Reduce phishing risk"
+        }
+    ]
+}

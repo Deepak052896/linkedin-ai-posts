@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 5,
+    "title": "WINDOWS Tips #5",
+    "commands": [
+        {
+            "title": "View Local Users",
+            "command": "net user",
+            "description": "List users"
+        },
+        {
+            "title": "User Details",
+            "command": "net user username",
+            "description": "View user details"
+        },
+        {
+            "title": "Create User",
+            "command": "net user test Pass@123 /add",
+            "description": "Create account"
+        },
+        {
+            "title": "Delete User",
+            "command": "net user test /delete",
+            "description": "Delete account"
+        },
+        {
+            "title": "Local Groups",
+            "command": "net localgroup",
+            "description": "List groups"
+        }
+    ]
+}

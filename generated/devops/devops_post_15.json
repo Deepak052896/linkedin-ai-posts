@@ -1,0 +1,32 @@
+{
+    "category": "devops",
+    "post_number": 15,
+    "title": "DEVOPS Tips #15",
+    "commands": [
+        {
+            "title": "Perform DAST",
+            "command": "Application Security",
+            "description": "Find runtime issues"
+        },
+        {
+            "title": "Monitor APIs",
+            "command": "API Monitoring",
+            "description": "Ensure availability"
+        },
+        {
+            "title": "Use Service Mesh",
+            "command": "Traffic Control",
+            "description": "Improve observability"
+        },
+        {
+            "title": "Implement Zero Trust",
+            "command": "Security Model",
+            "description": "Strengthen access control"
+        },
+        {
+            "title": "Review Pipelines",
+            "command": "CI/CD Audit",
+            "description": "Improve reliability"
+        }
+    ]
+}

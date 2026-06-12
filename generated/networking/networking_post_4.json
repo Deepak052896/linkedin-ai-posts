@@ -1,0 +1,32 @@
+{
+    "category": "networking",
+    "post_number": 4,
+    "title": "NETWORKING Tips #4",
+    "commands": [
+        {
+            "title": "Port Scan",
+            "command": "nmap localhost",
+            "description": "Scan open ports"
+        },
+        {
+            "title": "Subnet Calculation",
+            "command": "ipcalc 192.168.1.0/24",
+            "description": "Calculate subnet details"
+        },
+        {
+            "title": "Check Gateway",
+            "command": "ip route",
+            "description": "grep default"
+        },
+        {
+            "title": "DNS Configuration",
+            "command": "cat /etc/resolv.conf",
+            "description": "View DNS settings"
+        },
+        {
+            "title": "Host Lookup",
+            "command": "host google.com",
+            "description": "Resolve hostname"
+        }
+    ]
+}

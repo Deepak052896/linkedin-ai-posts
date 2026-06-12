@@ -1,0 +1,12 @@
+{
+    "category": "networking",
+    "post_number": 21,
+    "title": "NETWORKING Tips #21",
+    "commands": [
+        {
+            "title": "View Network Logs",
+            "command": "journalctl -u NetworkManager",
+            "description": "Network logs"
+        }
+    ]
+}

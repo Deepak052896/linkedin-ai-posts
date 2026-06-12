@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 20,
+    "title": "LINUX Tips #20",
+    "commands": [
+        {
+            "title": "Monitor Network Latency",
+            "command": "mtr google.com",
+            "description": "Analyze packet loss and latency."
+        },
+        {
+            "title": "Check Certificate Expiry",
+            "command": "openssl x509 -enddate -noout -in cert.pem",
+            "description": "Verify SSL certificate validity."
+        },
+        {
+            "title": "Generate File Checksum",
+            "command": "sha256sum file.iso",
+            "description": "Validate file integrity."
+        },
+        {
+            "title": "Check File Type",
+            "command": "file filename",
+            "description": "Determine file format information."
+        },
+        {
+            "title": "View Command History",
+            "command": "history",
+            "description": "Review previously executed commands."
+        }
+    ]
+}

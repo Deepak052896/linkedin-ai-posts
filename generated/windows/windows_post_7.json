@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 7,
+    "title": "WINDOWS Tips #7",
+    "commands": [
+        {
+            "title": "Install Updates",
+            "command": "Install-WindowsUpdate",
+            "description": "Install updates"
+        },
+        {
+            "title": "Restart Computer",
+            "command": "shutdown /r /t 0",
+            "description": "Restart system"
+        },
+        {
+            "title": "Shutdown Computer",
+            "command": "shutdown /s /t 0",
+            "description": "Shutdown system"
+        },
+        {
+            "title": "Abort Shutdown",
+            "command": "shutdown /a",
+            "description": "Cancel shutdown"
+        },
+        {
+            "title": "Task Scheduler",
+            "command": "taskschd.msc",
+            "description": "Open scheduler"
+        }
+    ]
+}

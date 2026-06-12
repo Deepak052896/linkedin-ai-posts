@@ -1,0 +1,32 @@
+{
+    "category": "azure",
+    "post_number": 14,
+    "title": "AZURE Tips #14",
+    "commands": [
+        {
+            "title": "Use API Management",
+            "command": "API Management",
+            "description": "Manage APIs"
+        },
+        {
+            "title": "Enable Autoscaling",
+            "command": "Autoscale",
+            "description": "Handle workload changes"
+        },
+        {
+            "title": "Use Durable Functions",
+            "command": "Durable Functions",
+            "description": "Stateful workflows"
+        },
+        {
+            "title": "Enable Retry Policies",
+            "command": "Retry Logic",
+            "description": "Improve reliability"
+        },
+        {
+            "title": "Monitor Execution Metrics",
+            "command": "Azure Monitor",
+            "description": "Track usage"
+        }
+    ]
+}

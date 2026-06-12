@@ -1,0 +1,32 @@
+{
+    "category": "windows",
+    "post_number": 19,
+    "title": "WINDOWS Tips #19",
+    "commands": [
+        {
+            "title": "Serial Number",
+            "command": "wmic bios get serialnumber",
+            "description": "System serial"
+        },
+        {
+            "title": "Installed Hotfixes",
+            "command": "wmic qfe list",
+            "description": "List patches"
+        },
+        {
+            "title": "Export Event Logs",
+            "command": "wevtutil epl System system.evtx",
+            "description": "Export logs"
+        },
+        {
+            "title": "Audit Policies",
+            "command": "auditpol /get /category:*",
+            "description": "View audit config"
+        },
+        {
+            "title": "Enable Remote Desktop",
+            "command": "SystemPropertiesRemote.exe",
+            "description": "Configure RDP"
+        }
+    ]
+}

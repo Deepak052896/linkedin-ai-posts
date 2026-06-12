@@ -1,0 +1,32 @@
+{
+    "category": "linux",
+    "post_number": 10,
+    "title": "LINUX Tips #10",
+    "commands": [
+        {
+            "title": "View Process Tree",
+            "command": "pstree",
+            "description": "Visualize parent-child processes."
+        },
+        {
+            "title": "Kill Process",
+            "command": "kill -9 PID",
+            "description": "Terminate unresponsive processes."
+        },
+        {
+            "title": "Monitor Resources",
+            "command": "top",
+            "description": "Monitor CPU and memory utilization."
+        },
+        {
+            "title": "Interactive Monitoring",
+            "command": "htop",
+            "description": "Enhanced process monitoring interface."
+        },
+        {
+            "title": "Package Updates",
+            "command": "apt update && apt upgrade -y",
+            "description": "Keep systems patched and secure."
+        }
+    ]
+}
