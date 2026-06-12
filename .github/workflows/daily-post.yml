@@ -29,6 +29,10 @@ jobs:
         run: |
           python scripts/select_random_post.py
 
+      - name: Generate Caption
+        run: |
+          python scripts/generate_caption.py
+
       - name: Show Generated Files 
         run: | 
           echo "Generated files:" 
@@ -40,6 +44,7 @@ jobs:
           git config --global user.email "actions@github.com" 
           git add generated/
           git add state/
+          git add captions/
           git status 
           git diff --staged --quiet || git commit -m "Generated AWS JSON files" 
           git push
