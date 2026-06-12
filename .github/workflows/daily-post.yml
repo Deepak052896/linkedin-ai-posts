@@ -10,7 +10,6 @@ jobs:
 generate:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout Repository
     uses: actions/checkout@v4
@@ -40,4 +39,4 @@ steps:
       git add generated/
       git diff --staged --quiet || git commit -m "Generated AWS JSON files"
       git push
-```
+
