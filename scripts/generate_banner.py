@@ -16,7 +16,7 @@ with open(CURRENT_POST, "r", encoding="utf-8") as f:
 category = post["category"].lower()
 commands = post["commands"]
 
-# Template path
+# Template
 template_file = os.path.join(
     TEMPLATE_DIR,
     f"{category}.png"
@@ -27,7 +27,7 @@ if not os.path.exists(template_file):
         f"Template not found: {template_file}"
     )
 
-# Open template
+# Open image
 img = Image.open(template_file).convert("RGBA")
 draw = ImageDraw.Draw(img)
 
@@ -35,31 +35,36 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "fonts/Poppins-Bold.ttf",
-        24
+        26
     )
 
     command_font = ImageFont.truetype(
-        "fonts/Montserrat-Bold.ttf",
-        24
+        "fonts/Poppins-Bold.ttf",
+        26
     )
 
     description_font = ImageFont.truetype(
-        "fonts/DejaVuSans-Bold.ttf",
-        24
+        "fonts/Poppins-Regular.ttf",
+        22
     )
 
-except Exception:
+    print("FONTS LOADED SUCCESSFULLY")
+
+except Exception as e:
+
+    print("FONT ERROR:", e)
+
     title_font = ImageFont.load_default()
     command_font = ImageFont.load_default()
     description_font = ImageFont.load_default()
 
-# Fixed positions for all 5 boxes
+# Fixed Y positions
 positions = [
-    430,   # Box 1
-    585,   # Box 2
-    740,   # Box 3
-    895,   # Box 4
-    1050   # Box 5
+    430,
+    585,
+    740,
+    895,
+    1050
 ]
 
 for i, cmd in enumerate(commands[:5]):
@@ -71,39 +76,38 @@ for i, cmd in enumerate(commands[:5]):
     command = cmd.get("command", "").strip()
     description = cmd.get("description", "").strip()
 
-    # Trim long text
-    if len(title) > 26:
-        title = title[:26] + "..."
+    # Trim text
+    if len(title) > 28:
+        title = title[:28] + "..."
 
-    if len(command) > 32:
-        command = command[:32] + "..."
+    if len(command) > 35:
+        command = command[:35] + "..."
 
-    if len(description) > 42:
-        description = description[:42] + "..."
+    if len(description) > 45:
+        description = description[:45] + "..."
 
-    
-    # Title
+    # TITLE
     draw.text(
         (x, y),
         title,
         font=title_font,
         fill=(255, 255, 255)
     )
-    
-    # Command
+
+    # COMMAND
     draw.text(
-        (x, y + 34),
+        (x, y + 38),
         command,
         font=command_font,
         fill=(0, 255, 255)
     )
 
-    # Description
+    # DESCRIPTION
     draw.text(
-        (x, y + 68),
+        (x, y + 76),
         description,
         font=description_font,
-        fill=(220, 220, 220)
+        fill=(210, 210, 210)
     )
 
 # Save banner
