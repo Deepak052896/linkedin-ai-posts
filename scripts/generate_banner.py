@@ -35,12 +35,12 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        25
+        20
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        24
+        22
     )
 
 except Exception:
@@ -49,7 +49,7 @@ except Exception:
 
 # Dynamic positioning
 base_y = 445
-row_gap = 170
+row_gap = 160
 
 for i, cmd in enumerate(commands[:5]):
 
@@ -75,7 +75,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Command
     draw.text(
-        (x, y + 45),
+        (x, y + 42),
         command,
         font=command_font,
         fill=(0, 255, 255)
