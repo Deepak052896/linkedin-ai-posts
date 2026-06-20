@@ -16,18 +16,18 @@ with open(CURRENT_POST, "r", encoding="utf-8") as f:
 category = post["category"].lower()
 commands = post["commands"]
 
-# Pick template based on category
+# Template file
 template_file = os.path.join(
     TEMPLATE_DIR,
     f"{category}.png"
 )
 
 if not os.path.exists(template_file):
-    raise Exception(
+    raise FileNotFoundError(
         f"Template not found: {template_file}"
     )
 
-# Open template
+# Open image
 img = Image.open(template_file).convert("RGBA")
 draw = ImageDraw.Draw(img)
 
@@ -35,31 +35,25 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        22
+        20
     )
 
     command_font = ImageFont.truetype(
-        "DejaVuSans.ttf",
-        24
+        "DejaVuSans-Bold.ttf",
+        26
     )
 
-    description_font = ImageFont.truetype(
-        "DejaVuSans.ttf",
-        16
-    )
-
-except:
+except Exception:
     title_font = ImageFont.load_default()
     command_font = ImageFont.load_default()
-    description_font = ImageFont.load_default()
 
-# Box positions
+# Correct box positions
 positions = [
-    (320, 435),   # 01
-    (320, 610),   # 02
-    (320, 785),   # 03
-    (320, 960),   # 04
-    (320, 1135)   # 05
+    (320, 430),   # 01
+    (320, 580),   # 02
+    (320, 730),   # 03
+    (320, 880),   # 04
+    (320, 1030)   # 05
 ]
 
 # Draw content
@@ -67,37 +61,31 @@ for i, cmd in enumerate(commands[:5]):
 
     x, y = positions[i]
 
-    title = cmd.get("title", "")[:35]
+    title = cmd.get("title", "").strip()
+    command = cmd.get("command", "").strip()
 
-    command = cmd.get("command", "")
-    if len(command) > 40:
-        command = command[:40] + "..."
+    # Trim long text
+    if len(title) > 30:
+        title = title[:30] + "..."
 
-    description = cmd.get("description", "")
-    if len(description) > 45:
-        description = description[:45] + "..."
+    if len(command) > 28:
+        command = command[:28] + "..."
 
+    # Title
     draw.text(
         (x, y),
         title,
-        fill="white",
-        font=title_font
+        font=title_font,
+        fill=(255, 255, 255)
     )
 
+    # Command
     draw.text(
-        (x, y + 38),
+        (x, y + 28),
         command,
-        fill=(0, 255, 255),
-        font=command_font
+        font=command_font,
+        fill=(0, 255, 255)
     )
-
-    draw.text(
-        (x, y + 72),
-        description,
-        fill=(180, 180, 180),
-        font=description_font
-    )
-
 
 # Save banner
 today = date.today().strftime("%Y-%m-%d")
