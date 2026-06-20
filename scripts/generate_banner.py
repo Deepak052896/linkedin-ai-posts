@@ -35,12 +35,12 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        24
+        22
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans.ttf",
-        18
+        24
     )
 
     description_font = ImageFont.truetype(
@@ -55,11 +55,11 @@ except:
 
 # Box positions
 positions = [
-    (320, 430),
-    (320, 630),
-    (320, 830),
-    (320, 1030),
-    (320, 1230)
+    (320, 435),   # 01
+    (320, 610),   # 02
+    (320, 785),   # 03
+    (320, 960),   # 04
+    (320, 1135)   # 05
 ]
 
 # Draw content
@@ -67,17 +67,16 @@ for i, cmd in enumerate(commands[:5]):
 
     x, y = positions[i]
 
-    title = cmd.get("title", "")
+    title = cmd.get("title", "")[:35]
 
     command = cmd.get("command", "")
-    if len(command) > 35:
-        command = command[:35] + "..."
+    if len(command) > 40:
+        command = command[:40] + "..."
 
     description = cmd.get("description", "")
-    if len(description) > 50:
-        description = description[:50] + "..."
+    if len(description) > 45:
+        description = description[:45] + "..."
 
-    # Title
     draw.text(
         (x, y),
         title,
@@ -85,21 +84,20 @@ for i, cmd in enumerate(commands[:5]):
         font=title_font
     )
 
-    # Command
     draw.text(
-        (x, y + 35),
+        (x, y + 38),
         command,
         fill=(0, 255, 255),
         font=command_font
     )
 
-    # Description
     draw.text(
-        (x, y + 65),
+        (x, y + 72),
         description,
-        fill=(200, 200, 200),
+        fill=(180, 180, 180),
         font=description_font
     )
+
 
 # Save banner
 today = date.today().strftime("%Y-%m-%d")
