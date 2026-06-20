@@ -1,129 +1,134 @@
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+import json
 import os
-from datetime import datetime
+from datetime import date
+from PIL import Image, ImageDraw, ImageFont
 
-# ========== CONFIGURATION ==========
-TEMPLATE_PATH = "templates/ChatGPT Image Jun 9, 2026, 03_24_24 PM.png"
+CURRENT_POST = "state/current_post.json"
+TEMPLATE_DIR = "templates"
 OUTPUT_DIR = "banners"
-DATA_DIR = "data"
 
-def load_commands(category):
-    """Load commands from data file"""
-    file_path = os.path.join(DATA_DIR, f"{category}.txt")
-    if not os.path.exists(file_path):
-        print(f"❌ Data file not found: {file_path}")
-        return []
-    
-    with open(file_path, 'r') as f:
-        lines = [x.strip() for x in f.readlines() if x.strip()]
-    
-    commands = []
-    for line in lines[:5]:
-        if '|' in line:
-            parts = line.split('|')
-            if len(parts) >= 2:
-                commands.append((parts[0], parts[1]))
-    return commands
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def get_today_category():
-    """Auto select category based on day"""
-    categories = ["linux", "aws", "windows", "networking", "security", "devops"]
-    day_index = datetime.now().weekday()
-    return categories[day_index % len(categories)]
+# Load post
+with open(CURRENT_POST, "r", encoding="utf-8") as f:
+    post = json.load(f)
 
-def get_text_positions(img_width, img_height):
-    """
-    Returns exact positions based on image size
-    Adjust these based on your template
-    """
-    return {
-        # Command positions (X, Y)
-        "cmd1": (320, 385),
-        "cmd2": (320, 470),
-        "cmd3": (320, 555),
-        "cmd4": (320, 640),
-        "cmd5": (320, 725),
-        
-        # Description positions (X, Y)
-        "desc1": (320, 415),
-        "desc2": (320, 500),
-        "desc3": (320, 585),
-        "desc4": (320, 670),
-        "desc5": (320, 755),
-        
-        # Title position (if you want to change)
-        "title": (300, 150),
-        "subtitle": (300, 200),
-    }
+category = post["category"].lower()
+commands = post["commands"]
 
-def generate_banner():
-    """Generate banner using template"""
-    
-    category = get_today_category()
-    print(f"📅 Generating {category.upper()} banner...")
-    
-    # Check template exists
-    if not os.path.exists(TEMPLATE_PATH):
-        print(f"❌ Template not found: {TEMPLATE_PATH}")
-        print("   Please add your template PNG file to templates/ folder")
-        return None
-    
-    # Load commands
-    commands = load_commands(category)
-    if not commands:
-        print(f"❌ No commands for {category}")
-        return None
-    
-    # Load template
-    img = Image.open(TEMPLATE_PATH)
-    draw = ImageDraw.Draw(img)
-    
-    # Get image dimensions
-    width, height = img.size
-    print(f"📐 Image size: {width} x {height}")
-    
-    # Load fonts
-    try:
-        # Command font - bold
-        font_cmd = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 24)
-        # Description font - regular
-        font_desc = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
-        # Fallback if not available
-    except:
-        font_cmd = ImageFont.load_default()
-        font_desc = ImageFont.load_default()
-    
-    # Get positions
-    pos = get_text_positions(width, height)
-    
-    # Colors
-    COLOR_CMD = (0, 255, 0)        # Green
-    COLOR_DESC = (180, 180, 180)   # Light Gray
-    
-    # Draw each command
-    cmd_keys = ["cmd1", "cmd2", "cmd3", "cmd4", "cmd5"]
-    desc_keys = ["desc1", "desc2", "desc3", "desc4", "desc5"]
-    
-    for i, (cmd, desc) in enumerate(commands):
-        if i >= 5:
-            break
-        
-        # Draw command (left side)
-        draw.text(pos[cmd_keys[i]], cmd, fill=COLOR_CMD, font=font_cmd)
-        
-        # Draw description (below command)
-        draw.text(pos[desc_keys[i]], f"- {desc}", fill=COLOR_DESC, font=font_desc)
-        
-        print(f"  ✓ {cmd}")
-    
-    # Save banner
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    output_path = os.path.join(OUTPUT_DIR, f"{date_str}.png")
-    img.save(output_path)
-    
-    print(f"✅ Banner saved: {output_path}")
-    return output_path
+# Template
+template_file = os.path.join(TEMPLATE_DIR, f"{category}.png")
+if not os.path.exists(template_file):
+    raise FileNotFoundError(f"Template not found: {template_file}")
 
-if __name__ == "__main__":
-    generate_banner()
+# Open image
+img = Image.open(template_file).convert("RGBA")
+draw = ImageDraw.Draw(img)
+
+# Get image size
+width, height = img.size
+print(f"📐 IMAGE SIZE: {width} x {height}")
+
+# ========== SCALE POSITIONS BASED ON IMAGE SIZE ==========
+if width >= 3000:  # 4K template
+    FONT_TITLE = 80
+    FONT_COMMAND = 72
+    FONT_DESC = 60
+    X_POS = 1200
+    Y_POSITIONS = [1400, 1900, 2400, 2900, 3400]
+    Y_GAP_TITLE = 0
+    Y_GAP_COMMAND = 110
+    Y_GAP_DESC = 210
+elif width >= 2000:  # 2K template
+    FONT_TITLE = 55
+    FONT_COMMAND = 48
+    FONT_DESC = 38
+    X_POS = 750
+    Y_POSITIONS = [900, 1220, 1540, 1860, 2180]
+    Y_GAP_TITLE = 0
+    Y_GAP_COMMAND = 75
+    Y_GAP_DESC = 140
+elif width >= 1500:  # HD template
+    FONT_TITLE = 40
+    FONT_COMMAND = 36
+    FONT_DESC = 28
+    X_POS = 550
+    Y_POSITIONS = [700, 950, 1200, 1450, 1700]
+    Y_GAP_TITLE = 0
+    Y_GAP_COMMAND = 55
+    Y_GAP_DESC = 105
+else:  # Standard
+    FONT_TITLE = 28
+    FONT_COMMAND = 24
+    FONT_DESC = 20
+    X_POS = 350
+    Y_POSITIONS = [430, 585, 740, 895, 1050]
+    Y_GAP_TITLE = 0
+    Y_GAP_COMMAND = 40
+    Y_GAP_DESC = 80
+
+print(f"📝 Using scaled values:")
+print(f"   Font: T={FONT_TITLE}, C={FONT_COMMAND}, D={FONT_DESC}")
+print(f"   X={X_POS}, Y positions={Y_POSITIONS[0]}...")
+
+# Load fonts
+try:
+    title_font = ImageFont.truetype("fonts/Poppins-Bold.ttf", FONT_TITLE)
+    command_font = ImageFont.truetype("fonts/Poppins-Bold.ttf", FONT_COMMAND)
+    description_font = ImageFont.truetype("fonts/Poppins-Regular.ttf", FONT_DESC)
+    print("✅ CUSTOM FONTS LOADED")
+except Exception as e:
+    print(f"⚠️ FONT ERROR: {e}")
+    title_font = ImageFont.load_default()
+    command_font = ImageFont.load_default()
+    description_font = ImageFont.load_default()
+
+# Draw each command
+for i, cmd in enumerate(commands[:5]):
+    x = X_POS
+    y = Y_POSITIONS[i]
+
+    title = cmd.get("title", "").strip()
+    command = cmd.get("command", "").strip()
+    description = cmd.get("description", "").strip()
+
+    # Trim long text (adjust based on font size)
+    if len(title) > 30:
+        title = title[:28] + "..."
+    if len(command) > 38:
+        command = command[:36] + "..."
+    if len(description) > 50:
+        description = description[:48] + "..."
+
+    # TITLE - White
+    draw.text(
+        (x, y + Y_GAP_TITLE),
+        title,
+        font=title_font,
+        fill=(255, 255, 255)
+    )
+
+    # COMMAND - Cyan
+    draw.text(
+        (x, y + Y_GAP_COMMAND),
+        command,
+        font=command_font,
+        fill=(0, 255, 255)
+    )
+
+    # DESCRIPTION - Light Gray
+    draw.text(
+        (x, y + Y_GAP_DESC),
+        description,
+        font=description_font,
+        fill=(210, 210, 210)
+    )
+
+# Save banner
+today = date.today().strftime("%Y-%m-%d")
+output_file = os.path.join(OUTPUT_DIR, f"{today}.png")
+img.save(output_file)
+
+print(f"✅ Banner saved: {output_file}")
+print(f"📂 Category: {category}")
+print(f"📝 Title: {post['title']}")
