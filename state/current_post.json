@@ -1,32 +1,32 @@
 {
-    "category": "networking",
-    "post_number": 7,
-    "title": "NETWORKING Tips #7",
+    "category": "aws",
+    "post_number": 4,
+    "title": "AWS Tips #4",
     "commands": [
         {
-            "title": "Test Port Connectivity",
-            "command": "nc -zv google.com 443",
-            "description": "Check port reachability"
+            "title": "Backup with AWS Backup",
+            "command": "AWS Backup",
+            "description": "Centralize backup management."
         },
         {
-            "title": "Public IP",
-            "command": "curl ifconfig.me",
-            "description": "Show public IP"
+            "title": "Enable VPC Flow Logs",
+            "command": "Flow Logs",
+            "description": "Monitor network traffic patterns."
         },
         {
-            "title": "Hostname Info",
-            "command": "hostname -I",
-            "description": "Show host IPs"
+            "title": "Use Auto Scaling",
+            "command": "Auto Scaling Groups",
+            "description": "Improve availability and efficiency."
         },
         {
-            "title": "Display Neighbors",
-            "command": "ip neigh",
-            "description": "ARP neighbors"
+            "title": "Enable ELB Health Checks",
+            "command": "Load Balancer",
+            "description": "Remove unhealthy instances automatically."
         },
         {
-            "title": "View VLANs",
-            "command": "ip -d link show",
-            "description": "Display VLANs"
+            "title": "Store Secrets Securely",
+            "command": "Secrets Manager",
+            "description": "Avoid hardcoded credentials."
         }
     ]
 }

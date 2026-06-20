@@ -2,6 +2,7 @@
     "used": [
         "generated/aws/aws_post_19.json",
         "generated/aws/aws_post_22.json",
+        "generated/aws/aws_post_4.json",
         "generated/aws/aws_post_8.json",
         "generated/azure/azure_post_4.json",
         "generated/azure/azure_post_7.json",
