@@ -1,32 +1,32 @@
 {
-    "category": "linux",
-    "post_number": 1,
-    "title": "LINUX Tips #1",
+    "category": "windows",
+    "post_number": 4,
+    "title": "WINDOWS Tips #4",
     "commands": [
         {
-            "title": "Find Failed Services",
-            "command": "systemctl --failed",
-            "description": "Quickly identify services that failed during startup."
+            "title": "Check ARP Table",
+            "command": "arp -a",
+            "description": "View ARP cache"
         },
         {
-            "title": "Check Disk Usage",
-            "command": "df -h",
-            "description": "Display filesystem disk usage in human readable format."
+            "title": "Routing Table",
+            "command": "route print",
+            "description": "Display routes"
         },
         {
-            "title": "Check Memory Usage",
-            "command": "free -m",
-            "description": "View system memory utilization in MB."
+            "title": "Open Shares",
+            "command": "net share",
+            "description": "View shared folders"
         },
         {
-            "title": "View Running Processes",
-            "command": "ps aux",
-            "description": "List all running processes with details."
+            "title": "Mapped Drives",
+            "command": "net use",
+            "description": "List mapped drives"
         },
         {
-            "title": "Check Open Ports",
-            "command": "ss -tulnp",
-            "description": "Display listening ports and associated processes."
+            "title": "Check Uptime",
+            "command": "net statistics workstation",
+            "description": "View uptime"
         }
     ]
 }
