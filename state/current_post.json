@@ -1,32 +1,32 @@
 {
-    "category": "linux",
-    "post_number": 27,
-    "title": "LINUX Tips #27",
+    "category": "windows",
+    "post_number": 11,
+    "title": "WINDOWS Tips #11",
     "commands": [
         {
-            "title": "Process Tree",
-            "command": "pstree",
-            "description": "Display process hierarchy"
+            "title": "Enable Firewall",
+            "command": "netsh advfirewall set allprofiles state on",
+            "description": "Enable firewall"
         },
         {
-            "title": "Find Process",
-            "command": "pgrep nginx",
-            "description": "Find process ID"
+            "title": "Disable Firewall",
+            "command": "netsh advfirewall set allprofiles state off",
+            "description": "Disable firewall"
         },
         {
-            "title": "Service Status",
-            "command": "systemctl status nginx",
-            "description": "Check service state"
+            "title": "Open Firewall Console",
+            "command": "wf.msc",
+            "description": "Manage firewall"
         },
         {
-            "title": "Restart Service",
-            "command": "systemctl restart nginx",
-            "description": "Restart service"
+            "title": "Check Open Ports",
+            "command": "netstat -an",
+            "description": "View listening ports"
         },
         {
-            "title": "Enable Service",
-            "command": "systemctl enable nginx",
-            "description": "Enable service at boot"
+            "title": "RDP Status",
+            "command": "qwinsta",
+            "description": "View remote sessions"
         }
     ]
 }
