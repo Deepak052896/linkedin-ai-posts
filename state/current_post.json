@@ -1,32 +1,32 @@
 {
-    "category": "azure",
-    "post_number": 9,
-    "title": "AZURE Tips #9",
+    "category": "aws",
+    "post_number": 22,
+    "title": "AWS Tips #22",
     "commands": [
         {
-            "title": "Enable Azure Monitor",
-            "command": "Azure Monitor",
-            "description": "Centralized monitoring"
+            "title": "Enable Automated Backups",
+            "command": "RDS Backups",
+            "description": "Data protection"
         },
         {
-            "title": "Use Log Analytics",
-            "command": "Log Analytics",
-            "description": "Analyze logs"
+            "title": "Use Read Replicas",
+            "command": "RDS Read Replica",
+            "description": "Improve performance"
         },
         {
-            "title": "Create Alerts",
-            "command": "Azure Alerts",
-            "description": "Proactive notifications"
+            "title": "Encrypt RDS",
+            "command": "KMS Encryption",
+            "description": "Protect database"
         },
         {
-            "title": "Use Application Insights",
-            "command": "App Insights",
-            "description": "Monitor applications"
+            "title": "Monitor RDS Metrics",
+            "command": "CloudWatch",
+            "description": "Database health"
         },
         {
-            "title": "Enable Service Health Alerts",
-            "command": "Service Health",
-            "description": "Track outages"
+            "title": "Enable Aurora Backtrack",
+            "command": "Aurora",
+            "description": "Fast recovery"
         }
     ]
 }
