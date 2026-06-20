@@ -29,31 +29,27 @@ draw = ImageDraw.Draw(img)
 width, height = img.size
 print(f"📐 IMAGE SIZE: {width} x {height}")
 
-# ========== EXACT POSITIONS FOR YOUR TEMPLATE ==========
-# Based on your template design
-# These values work for 2048x2048 or similar
+# ========== FIXED FOR 1024x1536 TEMPLATE ==========
+# Font sizes - smaller for this template
+FONT_TITLE = 28
+FONT_COMMAND = 24
+FONT_DESC = 20
 
-# Font sizes
-FONT_TITLE = 48
-FONT_COMMAND = 42
-FONT_DESC = 34
+# X position
+X_POS = 180
 
-# X position (left margin)
-X_POS = 700
-
-# Y positions - EXACT values for each row
-# Adjust these numbers based on your template
+# Y positions - EXACT for each row
 Y_ROWS = [
-    750,    # Row 1
-    1000,   # Row 2  
-    1250,   # Row 3
-    1500,   # Row 4
-    1750    # Row 5
+    430,    # Row 1
+    570,    # Row 2
+    710,    # Row 3
+    850,    # Row 4
+    990     # Row 5
 ]
 
-# Gap between title, command, description
-Y_GAP_CMD = 45
-Y_GAP_DESC = 90
+# Gaps between text lines
+Y_GAP_CMD = 32   # Title to Command
+Y_GAP_DESC = 60  # Title to Description
 
 print(f"📝 Using Y positions: {Y_ROWS}")
 
@@ -79,12 +75,12 @@ for i, cmd in enumerate(commands[:5]):
     description = cmd.get("description", "").strip()
 
     # Trim long text
-    if len(title) > 32:
-        title = title[:29] + "..."
-    if len(command) > 40:
-        command = command[:37] + "..."
-    if len(description) > 55:
-        description = description[:52] + "..."
+    if len(title) > 28:
+        title = title[:25] + "..."
+    if len(command) > 32:
+        command = command[:29] + "..."
+    if len(description) > 45:
+        description = description[:42] + "..."
 
     # TITLE - White
     draw.text(
