@@ -35,17 +35,17 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        18
+        17
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        20
+        17
     )
 
     description_font = ImageFont.truetype(
         "DejaVuSans.ttf",
-        14
+        17
     )
 
 except Exception:
@@ -70,8 +70,8 @@ for i, cmd in enumerate(commands[:5]):
     if len(title) > 24:
         title = title[:24] + "..."
 
-    if len(command) > 28:
-        command = command[:28] + "..."
+    if len(command) > 30:
+        command = command[:30] + "..."
 
     if len(description) > 35:
         description = description[:35] + "..."
@@ -86,7 +86,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Command
     draw.text(
-        (x, y + 28),
+        (x, y + 24),
         command,
         font=command_font,
         fill=(0, 255, 255)
@@ -94,10 +94,10 @@ for i, cmd in enumerate(commands[:5]):
 
     # Description
     draw.text(
-        (x, y + 55),
+        (x, y + 48),
         description,
         font=description_font,
-        fill=(180, 180, 180)
+        fill=(220, 220, 220)
     )
 
 # Save banner
