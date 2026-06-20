@@ -1,20 +1,20 @@
-🚀 AWS Tips #4
+🚀 LINUX Tips #8
 
-✅ Backup with AWS Backup
-   Centralize backup management.
+✅ View Environment Variables
+   Display environment variables.
 
-✅ Enable VPC Flow Logs
-   Monitor network traffic patterns.
+✅ Schedule Cron Jobs
+   Manage scheduled tasks.
 
-✅ Use Auto Scaling
-   Improve availability and efficiency.
+✅ View Cron Jobs
+   List configured cron schedules.
 
-✅ Enable ELB Health Checks
-   Remove unhealthy instances automatically.
+✅ Check SELinux Status
+   Verify SELinux enforcement mode.
 
-✅ Store Secrets Securely
-   Avoid hardcoded credentials.
+✅ Firewall Rules
+   Review firewall configurations.
 
 💡 Which tip do you use most often in your environment?
 
-#aws #cloud #devops #amazonwebservices #cloudcomputing
+#linux #sysadmin #opensource #devops #linuxadmin

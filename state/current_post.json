@@ -1,32 +1,32 @@
 {
-    "category": "aws",
-    "post_number": 4,
-    "title": "AWS Tips #4",
+    "category": "linux",
+    "post_number": 8,
+    "title": "LINUX Tips #8",
     "commands": [
         {
-            "title": "Backup with AWS Backup",
-            "command": "AWS Backup",
-            "description": "Centralize backup management."
+            "title": "View Environment Variables",
+            "command": "env",
+            "description": "Display environment variables."
         },
         {
-            "title": "Enable VPC Flow Logs",
-            "command": "Flow Logs",
-            "description": "Monitor network traffic patterns."
+            "title": "Schedule Cron Jobs",
+            "command": "crontab -e",
+            "description": "Manage scheduled tasks."
         },
         {
-            "title": "Use Auto Scaling",
-            "command": "Auto Scaling Groups",
-            "description": "Improve availability and efficiency."
+            "title": "View Cron Jobs",
+            "command": "crontab -l",
+            "description": "List configured cron schedules."
         },
         {
-            "title": "Enable ELB Health Checks",
-            "command": "Load Balancer",
-            "description": "Remove unhealthy instances automatically."
+            "title": "Check SELinux Status",
+            "command": "getenforce",
+            "description": "Verify SELinux enforcement mode."
         },
         {
-            "title": "Store Secrets Securely",
-            "command": "Secrets Manager",
-            "description": "Avoid hardcoded credentials."
+            "title": "Firewall Rules",
+            "command": "iptables -L -n",
+            "description": "Review firewall configurations."
         }
     ]
 }
