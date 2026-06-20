@@ -1,32 +1,32 @@
 {
-    "category": "linux",
-    "post_number": 7,
-    "title": "LINUX Tips #7",
+    "category": "devops",
+    "post_number": 11,
+    "title": "DEVOPS Tips #11",
     "commands": [
         {
-            "title": "Check User Accounts",
-            "command": "cat /etc/passwd",
-            "description": "List all local users."
+            "title": "Manage Secrets",
+            "command": "Vault",
+            "description": "Secure credentials"
         },
         {
-            "title": "Check Groups",
-            "command": "cat /etc/group",
-            "description": "View configured groups."
+            "title": "Use SSO",
+            "command": "Identity Management",
+            "description": "Simplify authentication"
         },
         {
-            "title": "Current Logged Users",
-            "command": "who",
-            "description": "Display active logged-in users."
+            "title": "Implement Blue-Green Deployment",
+            "command": "Deployment Strategy",
+            "description": "Reduce downtime"
         },
         {
-            "title": "Check Disk Partitions",
-            "command": "lsblk",
-            "description": "Display block devices and partitions."
+            "title": "Implement Canary Deployment",
+            "command": "Release Strategy",
+            "description": "Minimize risk"
         },
         {
-            "title": "Filesystem Usage",
-            "command": "du -sh /var/log",
-            "description": "Check folder size consumption."
+            "title": "Use Feature Flags",
+            "command": "Feature Management",
+            "description": "Control releases"
         }
     ]
 }
