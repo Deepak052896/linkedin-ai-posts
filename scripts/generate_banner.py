@@ -35,17 +35,17 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        19
+        15
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        19
+        16
     )
 
     description_font = ImageFont.truetype(
         "DejaVuSans.ttf",
-        19
+        14
     )
 
 except Exception:
@@ -54,31 +54,27 @@ except Exception:
     description_font = ImageFont.load_default()
 
 # Layout
-base_y = 420
-row_gap = 148
+base_y = 430
+row_gap = 155
 
 for i, cmd in enumerate(commands[:5]):
 
     x = 370
     y = base_y + (i * row_gap)
 
-    # Fine tuning for last rows
-    if i == 4:
-        y -= 8
-
     title = cmd.get("title", "").strip()
     command = cmd.get("command", "").strip()
     description = cmd.get("description", "").strip()
 
     # Trim long values
-    if len(title) > 24:
-        title = title[:24] + "..."
+    if len(title) > 26:
+        title = title[:26] + "..."
 
-    if len(command) > 30:
-        command = command[:30] + "..."
+    if len(command) > 32:
+        command = command[:32] + "..."
 
-    if len(description) > 40:
-        description = description[:40] + "..."
+    if len(description) > 42:
+        description = description[:42] + "..."
 
     # Title
     draw.text(
@@ -90,7 +86,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Command
     draw.text(
-        (x, y + 35),
+        (x, y + 32),
         command,
         font=command_font,
         fill=(0, 255, 255)
@@ -98,7 +94,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Description
     draw.text(
-        (x, y + 70),
+        (x, y + 62),
         description,
         font=description_font,
         fill=(220, 220, 220)
