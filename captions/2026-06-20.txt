@@ -1,20 +1,20 @@
-🚀 SECURITY Tips #11
+🚀 NETWORKING Tips #3
 
-✅ Review Security Groups
-   Verify firewall policies
+✅ ARP Table
+   Show ARP entries
 
-✅ Review IAM Policies
-   Remove excessive permissions
+✅ Check MAC Address
+   Display MAC addresses
 
-✅ Enable CloudTrail
-   Track account activity
+✅ Bandwidth Usage
+   Monitor traffic
 
-✅ Enable GuardDuty
-   Detect suspicious behavior
+✅ Network Traffic
+   Monitor bandwidth
 
-✅ Enable Security Hub
-   Centralized visibility
+✅ Packet Capture
+   Capture packets
 
 💡 Which tip do you use most often in your environment?
 
-#cybersecurity #infosec #security #devsecops #cloudsecurity
+#networking #networkengineer #ccna #infrastructure #it

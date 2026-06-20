@@ -1,32 +1,32 @@
 {
-    "category": "security",
-    "post_number": 11,
-    "title": "SECURITY Tips #11",
+    "category": "networking",
+    "post_number": 3,
+    "title": "NETWORKING Tips #3",
     "commands": [
         {
-            "title": "Review Security Groups",
-            "command": "Security Audit",
-            "description": "Verify firewall policies"
+            "title": "ARP Table",
+            "command": "arp -a",
+            "description": "Show ARP entries"
         },
         {
-            "title": "Review IAM Policies",
-            "command": "Access Control",
-            "description": "Remove excessive permissions"
+            "title": "Check MAC Address",
+            "command": "ip link",
+            "description": "Display MAC addresses"
         },
         {
-            "title": "Enable CloudTrail",
-            "command": "AWS Audit",
-            "description": "Track account activity"
+            "title": "Bandwidth Usage",
+            "command": "iftop",
+            "description": "Monitor traffic"
         },
         {
-            "title": "Enable GuardDuty",
-            "command": "Threat Detection",
-            "description": "Detect suspicious behavior"
+            "title": "Network Traffic",
+            "command": "nload",
+            "description": "Monitor bandwidth"
         },
         {
-            "title": "Enable Security Hub",
-            "command": "Security Dashboard",
-            "description": "Centralized visibility"
+            "title": "Packet Capture",
+            "command": "tcpdump -i eth0",
+            "description": "Capture packets"
         }
     ]
 }
