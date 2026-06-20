@@ -35,17 +35,17 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "fonts/Poppins-Bold.ttf",
-        26
+        70
     )
 
     command_font = ImageFont.truetype(
         "fonts/Poppins-Bold.ttf",
-        26
+        70
     )
 
     description_font = ImageFont.truetype(
         "fonts/Poppins-Regular.ttf",
-        22
+        70
     )
 
     print("FONTS LOADED SUCCESSFULLY")
@@ -96,7 +96,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # COMMAND
     draw.text(
-        (x, y + 38),
+        (x, y + 90),
         command,
         font=command_font,
         fill=(0, 255, 255)
@@ -104,7 +104,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # DESCRIPTION
     draw.text(
-        (x, y + 76),
+        (x, y + 180),
         description,
         font=description_font,
         fill=(210, 210, 210)
