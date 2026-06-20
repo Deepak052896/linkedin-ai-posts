@@ -1,32 +1,32 @@
 {
-    "category": "aws",
-    "post_number": 8,
-    "title": "AWS Tips #8",
+    "category": "azure",
+    "post_number": 7,
+    "title": "AZURE Tips #7",
     "commands": [
         {
-            "title": "Enable Detailed Monitoring",
-            "command": "CloudWatch Detailed Monitoring",
-            "description": "Improve visibility."
+            "title": "Use Virtual Networks",
+            "command": "VNet",
+            "description": "Isolate workloads"
         },
         {
-            "title": "Use Spot Instances",
-            "command": "Spot Instances",
-            "description": "Reduce compute costs."
+            "title": "Enable NSG Rules",
+            "command": "Network Security Group",
+            "description": "Control traffic"
         },
         {
-            "title": "Use Savings Plans",
-            "command": "Savings Plans",
-            "description": "Optimize long-term AWS expenses."
+            "title": "Use Azure Firewall",
+            "command": "Azure Firewall",
+            "description": "Centralized protection"
         },
         {
-            "title": "Use Trusted Advisor",
-            "command": "Trusted Advisor",
-            "description": "Identify best practice gaps."
+            "title": "Enable DDoS Protection",
+            "command": "DDoS Protection",
+            "description": "Protect public services"
         },
         {
-            "title": "Enable Inspector",
-            "command": "Amazon Inspector",
-            "description": "Scan workloads for vulnerabilities."
+            "title": "Use Application Gateway",
+            "command": "Application Gateway",
+            "description": "Load balancing"
         }
     ]
 }
