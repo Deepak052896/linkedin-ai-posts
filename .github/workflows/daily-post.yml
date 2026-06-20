@@ -39,7 +39,7 @@ jobs:
       
       - name: Debug Positions
         run: |
-          python scripts/find_y_positions.py
+          python scripts/find_positions.py
 
       - name: Upload Debug Grid
         uses: actions/upload-artifact@v4
