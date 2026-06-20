@@ -42,12 +42,10 @@ title_font = ImageFont.truetype(
 20
 )
 
-```
 command_font = ImageFont.truetype(
     "DejaVuSans-Bold.ttf",
     24
 )
-```
 
 except Exception:
 title_font = ImageFont.load_default()
@@ -60,7 +58,6 @@ row_gap = 150
 
 for i, cmd in enumerate(commands[:5]):
 
-```
 x = 340
 y = base_y + (i * row_gap)
 
@@ -73,7 +70,6 @@ if len(title) > 30:
 if len(command) > 28:
     command = command[:28] + "..."
 
-# Title
 draw.text(
     (x, y),
     title,
@@ -81,14 +77,13 @@ draw.text(
     fill=(255, 255, 255)
 )
 
-# Command
 draw.text(
     (x, y + 28),
     command,
     font=command_font,
     fill=(0, 255, 255)
 )
-```
+
 
 # Save banner
 
