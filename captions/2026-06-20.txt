@@ -1,19 +1,19 @@
-🚀 LINUX Tips #35
+🚀 LINUX Tips #33
 
-✅ Firewall Status
-   Check firewall
+✅ Compress File
+   Compress file
 
-✅ Allow Port
-   Allow firewall port
+✅ Decompress File
+   Decompress file
 
-✅ Deny Port
-   Block firewall port
+✅ Download File
+   Download from URL
 
-✅ Firewall Reload
-   Reload firewall
+✅ Download via Curl
+   Download using curl
 
-✅ SELinux Status
-   Check SELinux mode
+✅ Check Open Files
+   List open files
 
 💡 Which tip do you use most often in your environment?
 
