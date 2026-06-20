@@ -53,19 +53,18 @@ row_gap = 160
 
 for i, cmd in enumerate(commands[:5]):
 
-    x = 340
+    x = 370
     y = base_y + (i * row_gap)
 
     title = cmd.get("title", "").strip()
     command = cmd.get("command", "").strip()
 
-    if len(title) > 30:
-        title = title[:30] + "..."
+    if len(title) > 24:
+        title = title[:24] + "..."
 
     if len(command) > 28:
         command = command[:28] + "..."
 
-    # Title
     draw.text(
         (x, y + 5),
         title,
@@ -73,14 +72,13 @@ for i, cmd in enumerate(commands[:5]):
         fill=(255, 255, 255)
     )
 
-    # Command
     draw.text(
         (x, y + 42),
         command,
         font=command_font,
         fill=(0, 255, 255)
     )
-
+    
 # Save banner
 today = date.today().strftime("%Y-%m-%d")
 
