@@ -1,32 +1,32 @@
 {
-    "category": "aws",
-    "post_number": 19,
-    "title": "AWS Tips #19",
+    "category": "linux",
+    "post_number": 1,
+    "title": "LINUX Tips #1",
     "commands": [
         {
-            "title": "CloudWatch Alarms",
-            "command": "CloudWatch Alarms",
-            "description": "Proactive monitoring"
+            "title": "Find Failed Services",
+            "command": "systemctl --failed",
+            "description": "Quickly identify services that failed during startup."
         },
         {
-            "title": "Monitor Billing",
-            "command": "Billing Alarm",
-            "description": "Avoid surprises"
+            "title": "Check Disk Usage",
+            "command": "df -h",
+            "description": "Display filesystem disk usage in human readable format."
         },
         {
-            "title": "Enable Cost Explorer",
-            "command": "Cost Explorer",
-            "description": "Analyze spending"
+            "title": "Check Memory Usage",
+            "command": "free -m",
+            "description": "View system memory utilization in MB."
         },
         {
-            "title": "Use Budgets",
-            "command": "AWS Budgets",
-            "description": "Control expenses"
+            "title": "View Running Processes",
+            "command": "ps aux",
+            "description": "List all running processes with details."
         },
         {
-            "title": "Trusted Advisor Review",
-            "command": "Trusted Advisor",
-            "description": "Optimization insights"
+            "title": "Check Open Ports",
+            "command": "ss -tulnp",
+            "description": "Display listening ports and associated processes."
         }
     ]
 }
