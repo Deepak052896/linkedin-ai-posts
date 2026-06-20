@@ -1,20 +1,20 @@
-🚀 LINUX Tips #11
+🚀 NETWORKING Tips #16
 
-✅ Check OS Version
-   Display Linux distribution details.
+✅ Bandwidth Test
+   Run bandwidth test
 
-✅ Hostname Information
-   View hostname and system metadata.
+✅ Check Proxy Settings
+   grep proxy
 
-✅ Check Time Sync
-   Verify NTP synchronization status.
+✅ View Hosts File
+   Local DNS mappings
 
-✅ View Loaded Modules
-   List loaded kernel modules.
+✅ Check DHCP Lease
+   DHCP details
 
-✅ Kernel Messages
-   Review hardware and kernel events.
+✅ Release DHCP Lease
+   Release lease
 
 💡 Which tip do you use most often in your environment?
 
-#linux #sysadmin #opensource #devops #linuxadmin
+#networking #networkengineer #ccna #infrastructure #it

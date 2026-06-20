@@ -1,32 +1,32 @@
 {
-    "category": "linux",
-    "post_number": 11,
-    "title": "LINUX Tips #11",
+    "category": "networking",
+    "post_number": 16,
+    "title": "NETWORKING Tips #16",
     "commands": [
         {
-            "title": "Check OS Version",
-            "command": "cat /etc/os-release",
-            "description": "Display Linux distribution details."
+            "title": "Bandwidth Test",
+            "command": "iperf3 -c server",
+            "description": "Run bandwidth test"
         },
         {
-            "title": "Hostname Information",
-            "command": "hostnamectl",
-            "description": "View hostname and system metadata."
+            "title": "Check Proxy Settings",
+            "command": "env",
+            "description": "grep proxy"
         },
         {
-            "title": "Check Time Sync",
-            "command": "timedatectl status",
-            "description": "Verify NTP synchronization status."
+            "title": "View Hosts File",
+            "command": "cat /etc/hosts",
+            "description": "Local DNS mappings"
         },
         {
-            "title": "View Loaded Modules",
-            "command": "lsmod",
-            "description": "List loaded kernel modules."
+            "title": "Check DHCP Lease",
+            "command": "cat /var/lib/dhcp/dhclient.leases",
+            "description": "DHCP details"
         },
         {
-            "title": "Kernel Messages",
-            "command": "dmesg -T",
-            "description": "Review hardware and kernel events."
+            "title": "Release DHCP Lease",
+            "command": "dhclient -r",
+            "description": "Release lease"
         }
     ]
 }
