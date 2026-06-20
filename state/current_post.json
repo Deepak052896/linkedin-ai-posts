@@ -1,32 +1,32 @@
 {
-    "category": "windows",
-    "post_number": 11,
-    "title": "WINDOWS Tips #11",
+    "category": "networking",
+    "post_number": 10,
+    "title": "NETWORKING Tips #10",
     "commands": [
         {
-            "title": "Enable Firewall",
-            "command": "netsh advfirewall set allprofiles state on",
-            "description": "Enable firewall"
+            "title": "Allow Port",
+            "command": "ufw allow 443",
+            "description": "Allow firewall port"
         },
         {
-            "title": "Disable Firewall",
-            "command": "netsh advfirewall set allprofiles state off",
-            "description": "Disable firewall"
+            "title": "Deny Port",
+            "command": "ufw deny 23",
+            "description": "Block firewall port"
         },
         {
-            "title": "Open Firewall Console",
-            "command": "wf.msc",
-            "description": "Manage firewall"
+            "title": "Reload Firewall",
+            "command": "ufw reload",
+            "description": "Reload firewall"
         },
         {
-            "title": "Check Open Ports",
-            "command": "netstat -an",
-            "description": "View listening ports"
+            "title": "View NAT Rules",
+            "command": "iptables -t nat -L",
+            "description": "Display NAT configuration"
         },
         {
-            "title": "RDP Status",
-            "command": "qwinsta",
-            "description": "View remote sessions"
+            "title": "Monitor Connections",
+            "command": "conntrack -L",
+            "description": "View connection tracking"
         }
     ]
 }

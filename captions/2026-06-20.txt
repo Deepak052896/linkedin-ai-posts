@@ -1,20 +1,20 @@
-🚀 WINDOWS Tips #11
+🚀 NETWORKING Tips #10
 
-✅ Enable Firewall
-   Enable firewall
+✅ Allow Port
+   Allow firewall port
 
-✅ Disable Firewall
-   Disable firewall
+✅ Deny Port
+   Block firewall port
 
-✅ Open Firewall Console
-   Manage firewall
+✅ Reload Firewall
+   Reload firewall
 
-✅ Check Open Ports
-   View listening ports
+✅ View NAT Rules
+   Display NAT configuration
 
-✅ RDP Status
-   View remote sessions
+✅ Monitor Connections
+   View connection tracking
 
 💡 Which tip do you use most often in your environment?
 
-#windowsserver #microsoft #sysadmin #itadmin #devops
+#networking #networkengineer #ccna #infrastructure #it
