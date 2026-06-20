@@ -1,32 +1,32 @@
 {
-    "category": "azure",
-    "post_number": 7,
-    "title": "AZURE Tips #7",
+    "category": "linux",
+    "post_number": 13,
+    "title": "LINUX Tips #13",
     "commands": [
         {
-            "title": "Use Virtual Networks",
-            "command": "VNet",
-            "description": "Isolate workloads"
+            "title": "Check File Permissions",
+            "command": "ls -l",
+            "description": "Review file ownership and permissions."
         },
         {
-            "title": "Enable NSG Rules",
-            "command": "Network Security Group",
-            "description": "Control traffic"
+            "title": "Change File Permissions",
+            "command": "chmod 755 file.sh",
+            "description": "Modify file access permissions."
         },
         {
-            "title": "Use Azure Firewall",
-            "command": "Azure Firewall",
-            "description": "Centralized protection"
+            "title": "Change Ownership",
+            "command": "chown user:user file.txt",
+            "description": "Assign file ownership."
         },
         {
-            "title": "Enable DDoS Protection",
-            "command": "DDoS Protection",
-            "description": "Protect public services"
+            "title": "Create User",
+            "command": "useradd username",
+            "description": "Add a new Linux user."
         },
         {
-            "title": "Use Application Gateway",
-            "command": "Application Gateway",
-            "description": "Load balancing"
+            "title": "Set User Password",
+            "command": "passwd username",
+            "description": "Configure user password."
         }
     ]
 }
