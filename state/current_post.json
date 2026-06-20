@@ -1,32 +1,32 @@
 {
-    "category": "networking",
-    "post_number": 10,
-    "title": "NETWORKING Tips #10",
+    "category": "azure",
+    "post_number": 4,
+    "title": "AZURE Tips #4",
     "commands": [
         {
-            "title": "Allow Port",
-            "command": "ufw allow 443",
-            "description": "Allow firewall port"
+            "title": "Enable Storage Logging",
+            "command": "Storage Analytics",
+            "description": "Track access patterns"
         },
         {
-            "title": "Deny Port",
-            "command": "ufw deny 23",
-            "description": "Block firewall port"
+            "title": "Restrict Public Access",
+            "command": "Storage Firewall",
+            "description": "Improve security"
         },
         {
-            "title": "Reload Firewall",
-            "command": "ufw reload",
-            "description": "Reload firewall"
+            "title": "Use Geo Replication",
+            "command": "GRS",
+            "description": "Disaster recovery support"
         },
         {
-            "title": "View NAT Rules",
-            "command": "iptables -t nat -L",
-            "description": "Display NAT configuration"
+            "title": "Monitor Storage Metrics",
+            "command": "Azure Monitor",
+            "description": "Track performance"
         },
         {
-            "title": "Monitor Connections",
-            "command": "conntrack -L",
-            "description": "View connection tracking"
+            "title": "Use Immutable Storage",
+            "command": "Immutable Blob",
+            "description": "Prevent tampering"
         }
     ]
 }

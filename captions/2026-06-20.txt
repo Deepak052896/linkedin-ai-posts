@@ -1,20 +1,20 @@
-🚀 NETWORKING Tips #10
+🚀 AZURE Tips #4
 
-✅ Allow Port
-   Allow firewall port
+✅ Enable Storage Logging
+   Track access patterns
 
-✅ Deny Port
-   Block firewall port
+✅ Restrict Public Access
+   Improve security
 
-✅ Reload Firewall
-   Reload firewall
+✅ Use Geo Replication
+   Disaster recovery support
 
-✅ View NAT Rules
-   Display NAT configuration
+✅ Monitor Storage Metrics
+   Track performance
 
-✅ Monitor Connections
-   View connection tracking
+✅ Use Immutable Storage
+   Prevent tampering
 
 💡 Which tip do you use most often in your environment?
 
-#networking #networkengineer #ccna #infrastructure #it
+#azure #microsoftazure #cloud #devops #cloudcomputing
