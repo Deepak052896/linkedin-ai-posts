@@ -1,20 +1,20 @@
-🚀 NETWORKING Tips #3
+🚀 LINUX Tips #7
 
-✅ ARP Table
-   Show ARP entries
+✅ Check User Accounts
+   List all local users.
 
-✅ Check MAC Address
-   Display MAC addresses
+✅ Check Groups
+   View configured groups.
 
-✅ Bandwidth Usage
-   Monitor traffic
+✅ Current Logged Users
+   Display active logged-in users.
 
-✅ Network Traffic
-   Monitor bandwidth
+✅ Check Disk Partitions
+   Display block devices and partitions.
 
-✅ Packet Capture
-   Capture packets
+✅ Filesystem Usage
+   Check folder size consumption.
 
 💡 Which tip do you use most often in your environment?
 
-#networking #networkengineer #ccna #infrastructure #it
+#linux #sysadmin #opensource #devops #linuxadmin

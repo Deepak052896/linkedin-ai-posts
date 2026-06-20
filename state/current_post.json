@@ -1,32 +1,32 @@
 {
-    "category": "networking",
-    "post_number": 3,
-    "title": "NETWORKING Tips #3",
+    "category": "linux",
+    "post_number": 7,
+    "title": "LINUX Tips #7",
     "commands": [
         {
-            "title": "ARP Table",
-            "command": "arp -a",
-            "description": "Show ARP entries"
+            "title": "Check User Accounts",
+            "command": "cat /etc/passwd",
+            "description": "List all local users."
         },
         {
-            "title": "Check MAC Address",
-            "command": "ip link",
-            "description": "Display MAC addresses"
+            "title": "Check Groups",
+            "command": "cat /etc/group",
+            "description": "View configured groups."
         },
         {
-            "title": "Bandwidth Usage",
-            "command": "iftop",
-            "description": "Monitor traffic"
+            "title": "Current Logged Users",
+            "command": "who",
+            "description": "Display active logged-in users."
         },
         {
-            "title": "Network Traffic",
-            "command": "nload",
-            "description": "Monitor bandwidth"
+            "title": "Check Disk Partitions",
+            "command": "lsblk",
+            "description": "Display block devices and partitions."
         },
         {
-            "title": "Packet Capture",
-            "command": "tcpdump -i eth0",
-            "description": "Capture packets"
+            "title": "Filesystem Usage",
+            "command": "du -sh /var/log",
+            "description": "Check folder size consumption."
         }
     ]
 }
