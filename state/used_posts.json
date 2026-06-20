@@ -1,5 +1,6 @@
 {
     "used": [
+        "generated/aws/aws_post_8.json",
         "generated/azure/azure_post_4.json",
         "generated/devops/devops_post_12.json",
         "generated/devops/devops_post_6.json",
