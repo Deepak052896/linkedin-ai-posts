@@ -1,20 +1,20 @@
-🚀 AZURE Tips #4
+🚀 NETWORKING Tips #5
 
-✅ Enable Storage Logging
-   Track access patterns
+✅ Check Interface Errors
+   View interface stats
 
-✅ Restrict Public Access
-   Improve security
+✅ Monitor Interface
+   Live interface monitoring
 
-✅ Use Geo Replication
-   Disaster recovery support
+✅ Display Sockets
+   Socket summary
 
-✅ Monitor Storage Metrics
-   Track performance
+✅ TCP Connections
+   View TCP connections
 
-✅ Use Immutable Storage
-   Prevent tampering
+✅ UDP Connections
+   View UDP connections
 
 💡 Which tip do you use most often in your environment?
 
-#azure #microsoftazure #cloud #devops #cloudcomputing
+#networking #networkengineer #ccna #infrastructure #it
