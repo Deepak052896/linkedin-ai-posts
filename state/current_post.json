@@ -1,32 +1,32 @@
 {
-    "category": "devops",
-    "post_number": 11,
-    "title": "DEVOPS Tips #11",
+    "category": "networking",
+    "post_number": 7,
+    "title": "NETWORKING Tips #7",
     "commands": [
         {
-            "title": "Manage Secrets",
-            "command": "Vault",
-            "description": "Secure credentials"
+            "title": "Test Port Connectivity",
+            "command": "nc -zv google.com 443",
+            "description": "Check port reachability"
         },
         {
-            "title": "Use SSO",
-            "command": "Identity Management",
-            "description": "Simplify authentication"
+            "title": "Public IP",
+            "command": "curl ifconfig.me",
+            "description": "Show public IP"
         },
         {
-            "title": "Implement Blue-Green Deployment",
-            "command": "Deployment Strategy",
-            "description": "Reduce downtime"
+            "title": "Hostname Info",
+            "command": "hostname -I",
+            "description": "Show host IPs"
         },
         {
-            "title": "Implement Canary Deployment",
-            "command": "Release Strategy",
-            "description": "Minimize risk"
+            "title": "Display Neighbors",
+            "command": "ip neigh",
+            "description": "ARP neighbors"
         },
         {
-            "title": "Use Feature Flags",
-            "command": "Feature Management",
-            "description": "Control releases"
+            "title": "View VLANs",
+            "command": "ip -d link show",
+            "description": "Display VLANs"
         }
     ]
 }

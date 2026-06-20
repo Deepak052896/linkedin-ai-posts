@@ -1,20 +1,20 @@
-🚀 DEVOPS Tips #11
+🚀 NETWORKING Tips #7
 
-✅ Manage Secrets
-   Secure credentials
+✅ Test Port Connectivity
+   Check port reachability
 
-✅ Use SSO
-   Simplify authentication
+✅ Public IP
+   Show public IP
 
-✅ Implement Blue-Green Deployment
-   Reduce downtime
+✅ Hostname Info
+   Show host IPs
 
-✅ Implement Canary Deployment
-   Minimize risk
+✅ Display Neighbors
+   ARP neighbors
 
-✅ Use Feature Flags
-   Control releases
+✅ View VLANs
+   Display VLANs
 
 💡 Which tip do you use most often in your environment?
 
-#devops #automation #sre #cloud #infrastructure
+#networking #networkengineer #ccna #infrastructure #it
