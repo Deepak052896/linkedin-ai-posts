@@ -25,7 +25,7 @@ f"{category}.png"
 )
 
 if not os.path.exists(template_file):
-raise FileNotFoundError(
+    raise FileNotFoundError(
 f"Template not found: {template_file}"
 )
 
