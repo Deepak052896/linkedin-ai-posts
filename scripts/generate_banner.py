@@ -35,21 +35,27 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        20
+        18
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        22
+        20
+    )
+
+    description_font = ImageFont.truetype(
+        "DejaVuSans.ttf",
+        14
     )
 
 except Exception:
     title_font = ImageFont.load_default()
     command_font = ImageFont.load_default()
+    description_font = ImageFont.load_default()
 
-# Dynamic positioning
-base_y = 445
-row_gap = 160
+# Layout
+base_y = 430
+row_gap = 155
 
 for i, cmd in enumerate(commands[:5]):
 
@@ -58,27 +64,42 @@ for i, cmd in enumerate(commands[:5]):
 
     title = cmd.get("title", "").strip()
     command = cmd.get("command", "").strip()
+    description = cmd.get("description", "").strip()
 
+    # Trim long values
     if len(title) > 24:
         title = title[:24] + "..."
 
     if len(command) > 28:
         command = command[:28] + "..."
 
+    if len(description) > 35:
+        description = description[:35] + "..."
+
+    # Title
     draw.text(
-        (x, y + 5),
+        (x, y),
         title,
         font=title_font,
         fill=(255, 255, 255)
     )
 
+    # Command
     draw.text(
-        (x, y + 42),
+        (x, y + 28),
         command,
         font=command_font,
         fill=(0, 255, 255)
     )
-    
+
+    # Description
+    draw.text(
+        (x, y + 55),
+        description,
+        font=description_font,
+        fill=(180, 180, 180)
+    )
+
 # Save banner
 today = date.today().strftime("%Y-%m-%d")
 
