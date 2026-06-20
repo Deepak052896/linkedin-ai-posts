@@ -44,16 +44,16 @@ X_POS = 700
 # Y positions - EXACT values for each row
 # Adjust these numbers based on your template
 Y_ROWS = [
-    820,    # Row 1
-    1150,   # Row 2
-    1480,   # Row 3
-    1810,   # Row 4
-    2140    # Row 5
+    750,    # Row 1
+    1000,   # Row 2  
+    1250,   # Row 3
+    1500,   # Row 4
+    1750    # Row 5
 ]
 
 # Gap between title, command, description
-Y_GAP_CMD = 65
-Y_GAP_DESC = 130
+Y_GAP_CMD = 45
+Y_GAP_DESC = 90
 
 print(f"📝 Using Y positions: {Y_ROWS}")
 
