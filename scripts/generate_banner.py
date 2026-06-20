@@ -80,16 +80,7 @@ for i, cmd in enumerate(commands[:5]):
 
     if len(description) > 42:
         description = description[:42] + "..."
-        
-    # White glow
-    for dx in range(-1,0,1):
-        for dy in range(-1,0,1):
-            draw.text(
-                (x + dx, y + dy),
-                title,
-                font=title_font,
-                fill=(255, 255, 255, 80)
-        )
+
     
     # Title
     draw.text(
@@ -98,15 +89,6 @@ for i, cmd in enumerate(commands[:5]):
         font=title_font,
         fill=(255, 255, 255)
     )
-
-    for dx in range(-2, 3):
-        for dy in range(-2, 3):
-            draw.text(
-                (x + dx, y + 34 + dy),
-                command,
-                font=command_font,
-                fill=(0, 255, 255, 80)
-        )
     
     # Command
     draw.text(
