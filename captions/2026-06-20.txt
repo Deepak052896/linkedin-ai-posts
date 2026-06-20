@@ -1,20 +1,20 @@
-🚀 NETWORKING Tips #5
+🚀 DEVOPS Tips #12
 
-✅ Check Interface Errors
-   View interface stats
+✅ Automate Backups
+   Protect data
 
-✅ Monitor Interface
-   Live interface monitoring
+✅ Monitor Uptime
+   Track reliability
 
-✅ Display Sockets
-   Socket summary
+✅ Use Health Checks
+   Detect failures
 
-✅ TCP Connections
-   View TCP connections
+✅ Implement Load Balancing
+   Improve availability
 
-✅ UDP Connections
-   View UDP connections
+✅ Use CDN
+   Reduce latency
 
 💡 Which tip do you use most often in your environment?
 
-#networking #networkengineer #ccna #infrastructure #it
+#devops #automation #sre #cloud #infrastructure

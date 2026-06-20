@@ -1,32 +1,32 @@
 {
-    "category": "networking",
-    "post_number": 5,
-    "title": "NETWORKING Tips #5",
+    "category": "devops",
+    "post_number": 12,
+    "title": "DEVOPS Tips #12",
     "commands": [
         {
-            "title": "Check Interface Errors",
-            "command": "ifconfig eth0",
-            "description": "View interface stats"
+            "title": "Automate Backups",
+            "command": "Backup Automation",
+            "description": "Protect data"
         },
         {
-            "title": "Monitor Interface",
-            "command": "watch -n 1 ip -s link",
-            "description": "Live interface monitoring"
+            "title": "Monitor Uptime",
+            "command": "Availability Monitoring",
+            "description": "Track reliability"
         },
         {
-            "title": "Display Sockets",
-            "command": "ss -s",
-            "description": "Socket summary"
+            "title": "Use Health Checks",
+            "command": "Service Validation",
+            "description": "Detect failures"
         },
         {
-            "title": "TCP Connections",
-            "command": "netstat -ant",
-            "description": "View TCP connections"
+            "title": "Implement Load Balancing",
+            "command": "Traffic Distribution",
+            "description": "Improve availability"
         },
         {
-            "title": "UDP Connections",
-            "command": "netstat -anu",
-            "description": "View UDP connections"
+            "title": "Use CDN",
+            "command": "Content Delivery",
+            "description": "Reduce latency"
         }
     ]
 }
