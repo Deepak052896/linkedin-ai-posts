@@ -29,47 +29,48 @@ draw = ImageDraw.Draw(img)
 width, height = img.size
 print(f"📐 IMAGE SIZE: {width} x {height}")
 
-# ========== SCALE POSITIONS BASED ON IMAGE SIZE ==========
-if width >= 3000:  # 4K template
-    FONT_TITLE = 80
-    FONT_COMMAND = 72
-    FONT_DESC = 60
-    X_POS = 1200
-    Y_POSITIONS = [1400, 1900, 2400, 2900, 3400]
-    Y_GAP_TITLE = 0
-    Y_GAP_COMMAND = 110
-    Y_GAP_DESC = 210
-elif width >= 2000:  # 2K template
-    FONT_TITLE = 55
-    FONT_COMMAND = 48
-    FONT_DESC = 38
-    X_POS = 750
-    Y_POSITIONS = [900, 1220, 1540, 1860, 2180]
-    Y_GAP_TITLE = 0
-    Y_GAP_COMMAND = 75
-    Y_GAP_DESC = 140
-elif width >= 1500:  # HD template
-    FONT_TITLE = 40
-    FONT_COMMAND = 36
-    FONT_DESC = 28
-    X_POS = 550
-    Y_POSITIONS = [700, 950, 1200, 1450, 1700]
-    Y_GAP_TITLE = 0
-    Y_GAP_COMMAND = 55
-    Y_GAP_DESC = 105
+# ========== SCALE BASED ON IMAGE SIZE ==========
+if width >= 3000:  # 4K
+    FONT_TITLE = 70
+    FONT_COMMAND = 60
+    FONT_DESC = 50
+    X_POS = 1100
+    Y_START = 1200
+    Y_STEP = 500  # Space between each command
+    Y_GAP_CMD = 85
+    Y_GAP_DESC = 170
+    
+elif width >= 2000:  # 2K
+    FONT_TITLE = 48
+    FONT_COMMAND = 40
+    FONT_DESC = 32
+    X_POS = 700
+    Y_START = 800
+    Y_STEP = 340
+    Y_GAP_CMD = 60
+    Y_GAP_DESC = 120
+    
+elif width >= 1500:  # HD
+    FONT_TITLE = 36
+    FONT_COMMAND = 30
+    FONT_DESC = 24
+    X_POS = 520
+    Y_START = 620
+    Y_STEP = 260
+    Y_GAP_CMD = 48
+    Y_GAP_DESC = 95
+    
 else:  # Standard
-    FONT_TITLE = 28
-    FONT_COMMAND = 24
-    FONT_DESC = 20
-    X_POS = 350
-    Y_POSITIONS = [430, 585, 740, 895, 1050]
-    Y_GAP_TITLE = 0
-    Y_GAP_COMMAND = 40
-    Y_GAP_DESC = 80
+    FONT_TITLE = 26
+    FONT_COMMAND = 22
+    FONT_DESC = 18
+    X_POS = 340
+    Y_START = 400
+    Y_STEP = 170
+    Y_GAP_CMD = 35
+    Y_GAP_DESC = 70
 
-print(f"📝 Using scaled values:")
-print(f"   Font: T={FONT_TITLE}, C={FONT_COMMAND}, D={FONT_DESC}")
-print(f"   X={X_POS}, Y positions={Y_POSITIONS[0]}...")
+print(f"📝 Using: Y_START={Y_START}, Y_STEP={Y_STEP}")
 
 # Load fonts
 try:
@@ -83,26 +84,31 @@ except Exception as e:
     command_font = ImageFont.load_default()
     description_font = ImageFont.load_default()
 
-# Draw each command
+# Draw each command with equal spacing
 for i, cmd in enumerate(commands[:5]):
+    # Calculate Y position with equal spacing
+    y = Y_START + (i * Y_STEP)
     x = X_POS
-    y = Y_POSITIONS[i]
 
     title = cmd.get("title", "").strip()
     command = cmd.get("command", "").strip()
     description = cmd.get("description", "").strip()
 
-    # Trim long text (adjust based on font size)
-    if len(title) > 30:
-        title = title[:28] + "..."
-    if len(command) > 38:
-        command = command[:36] + "..."
-    if len(description) > 50:
-        description = description[:48] + "..."
+    # Trim long text
+    max_title = 30
+    max_cmd = 38
+    max_desc = 50
+    
+    if len(title) > max_title:
+        title = title[:max_title-3] + "..."
+    if len(command) > max_cmd:
+        command = command[:max_cmd-3] + "..."
+    if len(description) > max_desc:
+        description = description[:max_desc-3] + "..."
 
     # TITLE - White
     draw.text(
-        (x, y + Y_GAP_TITLE),
+        (x, y),
         title,
         font=title_font,
         fill=(255, 255, 255)
@@ -110,7 +116,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # COMMAND - Cyan
     draw.text(
-        (x, y + Y_GAP_COMMAND),
+        (x, y + Y_GAP_CMD),
         command,
         font=command_font,
         fill=(0, 255, 255)
@@ -119,10 +125,12 @@ for i, cmd in enumerate(commands[:5]):
     # DESCRIPTION - Light Gray
     draw.text(
         (x, y + Y_GAP_DESC),
-        description,
+        f"- {description}",
         font=description_font,
-        fill=(210, 210, 210)
+        fill=(200, 200, 200)
     )
+    
+    print(f"  ✓ Row {i+1}: Y={y}")
 
 # Save banner
 today = date.today().strftime("%Y-%m-%d")
