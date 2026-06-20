@@ -12,7 +12,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # Load selected post
 
 with open(CURRENT_POST, "r", encoding="utf-8") as f:
-post = json.load(f)
+    post = json.load(f)
 
 category = post["category"].lower()
 commands = post["commands"]
