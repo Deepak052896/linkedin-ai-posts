@@ -35,17 +35,17 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        17
+        20
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        17
+        20
     )
 
     description_font = ImageFont.truetype(
-        "DejaVuSans.ttf",
-        17
+        "DejaVuSans-Bold.ttf",
+        20
     )
 
 except Exception:
