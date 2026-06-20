@@ -36,7 +36,16 @@ jobs:
       - name: Generate Banner
         run: |
           python scripts/generate_banner.py
+      
+      - name: Debug Positions
+        run: |
+          python scripts/find_y_positions.py
 
+      - name: Upload Debug Grid
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-grid
+          path: debug_grid.png
 
       - name: Show Generated Files 
         run: | 
