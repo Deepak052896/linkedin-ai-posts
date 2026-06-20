@@ -86,7 +86,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Command
     draw.text(
-        (x, y + 24),
+        (x, y + 35),
         command,
         font=command_font,
         fill=(0, 255, 255)
@@ -94,7 +94,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Description
     draw.text(
-        (x, y + 48),
+        (x, y + 70),
         description,
         font=description_font,
         fill=(220, 220, 220)
