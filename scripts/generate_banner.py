@@ -35,17 +35,17 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "fonts/Poppins-Bold.ttf",
-        19
+        24
     )
 
     command_font = ImageFont.truetype(
         "fonts/Montserrat-Bold.ttf",
-        19
+        24
     )
 
     description_font = ImageFont.truetype(
         "fonts/DejaVuSans-Bold.ttf",
-        19
+        24
     )
 
 except Exception:
@@ -82,8 +82,8 @@ for i, cmd in enumerate(commands[:5]):
         description = description[:42] + "..."
         
     # White glow
-    for dx in range(-2, 3):
-        for dy in range(-2, 3):
+    for dx in range(-1,0,1):
+        for dy in range(-1,0,1):
             draw.text(
                 (x + dx, y + dy),
                 title,
@@ -121,7 +121,7 @@ for i, cmd in enumerate(commands[:5]):
         (x, y + 68),
         description,
         font=description_font,
-        fill=(245, 245, 245)
+        fill=(220, 220, 220)
     )
 
 # Save banner
