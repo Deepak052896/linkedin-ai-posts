@@ -1,32 +1,32 @@
 {
-    "category": "networking",
-    "post_number": 16,
-    "title": "NETWORKING Tips #16",
+    "category": "windows",
+    "post_number": 3,
+    "title": "WINDOWS Tips #3",
     "commands": [
         {
-            "title": "Bandwidth Test",
-            "command": "iperf3 -c server",
-            "description": "Run bandwidth test"
+            "title": "Trace Route",
+            "command": "tracert google.com",
+            "description": "Trace network path"
         },
         {
-            "title": "Check Proxy Settings",
-            "command": "env",
-            "description": "grep proxy"
+            "title": "DNS Lookup",
+            "command": "nslookup google.com",
+            "description": "Query DNS records"
         },
         {
-            "title": "View Hosts File",
-            "command": "cat /etc/hosts",
-            "description": "Local DNS mappings"
+            "title": "Flush DNS Cache",
+            "command": "ipconfig /flushdns",
+            "description": "Clear DNS cache"
         },
         {
-            "title": "Check DHCP Lease",
-            "command": "cat /var/lib/dhcp/dhclient.leases",
-            "description": "DHCP details"
+            "title": "Renew IP Address",
+            "command": "ipconfig /renew",
+            "description": "Renew DHCP lease"
         },
         {
-            "title": "Release DHCP Lease",
-            "command": "dhclient -r",
-            "description": "Release lease"
+            "title": "Release IP Address",
+            "command": "ipconfig /release",
+            "description": "Release DHCP lease"
         }
     ]
 }
