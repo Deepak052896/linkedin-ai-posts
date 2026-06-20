@@ -1,0 +1,20 @@
+🚀 LINUX Tips #27
+
+✅ Process Tree
+   Display process hierarchy
+
+✅ Find Process
+   Find process ID
+
+✅ Service Status
+   Check service state
+
+✅ Restart Service
+   Restart service
+
+✅ Enable Service
+   Enable service at boot
+
+💡 Which tip do you use most often in your environment?
+
+#linux #sysadmin #opensource #devops #linuxadmin

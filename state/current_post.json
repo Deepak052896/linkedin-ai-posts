@@ -1,32 +1,32 @@
 {
-    "category": "networking",
-    "post_number": 19,
-    "title": "NETWORKING Tips #19",
+    "category": "linux",
+    "post_number": 27,
+    "title": "LINUX Tips #27",
     "commands": [
         {
-            "title": "View Multicast Groups",
-            "command": "ip maddr show",
-            "description": "Multicast membership"
+            "title": "Process Tree",
+            "command": "pstree",
+            "description": "Display process hierarchy"
         },
         {
-            "title": "Display Network Namespace",
-            "command": "ip netns list",
-            "description": "Network namespaces"
+            "title": "Find Process",
+            "command": "pgrep nginx",
+            "description": "Find process ID"
         },
         {
-            "title": "Check Docker Networks",
-            "command": "docker network ls",
-            "description": "Container networks"
+            "title": "Service Status",
+            "command": "systemctl status nginx",
+            "description": "Check service state"
         },
         {
-            "title": "Inspect Docker Network",
-            "command": "docker network inspect bridge",
-            "description": "Network details"
+            "title": "Restart Service",
+            "command": "systemctl restart nginx",
+            "description": "Restart service"
         },
         {
-            "title": "Kubernetes Services",
-            "command": "kubectl get svc",
-            "description": "Cluster services"
+            "title": "Enable Service",
+            "command": "systemctl enable nginx",
+            "description": "Enable service at boot"
         }
     ]
 }
