@@ -1,20 +1,20 @@
-🚀 WINDOWS Tips #3
+🚀 AZURE Tips #9
 
-✅ Trace Route
-   Trace network path
+✅ Enable Azure Monitor
+   Centralized monitoring
 
-✅ DNS Lookup
-   Query DNS records
+✅ Use Log Analytics
+   Analyze logs
 
-✅ Flush DNS Cache
-   Clear DNS cache
+✅ Create Alerts
+   Proactive notifications
 
-✅ Renew IP Address
-   Renew DHCP lease
+✅ Use Application Insights
+   Monitor applications
 
-✅ Release IP Address
-   Release DHCP lease
+✅ Enable Service Health Alerts
+   Track outages
 
 💡 Which tip do you use most often in your environment?
 
-#windowsserver #microsoft #sysadmin #itadmin #devops
+#azure #microsoftazure #cloud #devops #cloudcomputing

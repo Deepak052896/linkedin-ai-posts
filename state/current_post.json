@@ -1,32 +1,32 @@
 {
-    "category": "windows",
-    "post_number": 3,
-    "title": "WINDOWS Tips #3",
+    "category": "azure",
+    "post_number": 9,
+    "title": "AZURE Tips #9",
     "commands": [
         {
-            "title": "Trace Route",
-            "command": "tracert google.com",
-            "description": "Trace network path"
+            "title": "Enable Azure Monitor",
+            "command": "Azure Monitor",
+            "description": "Centralized monitoring"
         },
         {
-            "title": "DNS Lookup",
-            "command": "nslookup google.com",
-            "description": "Query DNS records"
+            "title": "Use Log Analytics",
+            "command": "Log Analytics",
+            "description": "Analyze logs"
         },
         {
-            "title": "Flush DNS Cache",
-            "command": "ipconfig /flushdns",
-            "description": "Clear DNS cache"
+            "title": "Create Alerts",
+            "command": "Azure Alerts",
+            "description": "Proactive notifications"
         },
         {
-            "title": "Renew IP Address",
-            "command": "ipconfig /renew",
-            "description": "Renew DHCP lease"
+            "title": "Use Application Insights",
+            "command": "App Insights",
+            "description": "Monitor applications"
         },
         {
-            "title": "Release IP Address",
-            "command": "ipconfig /release",
-            "description": "Release DHCP lease"
+            "title": "Enable Service Health Alerts",
+            "command": "Service Health",
+            "description": "Track outages"
         }
     ]
 }
