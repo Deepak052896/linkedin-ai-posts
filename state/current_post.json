@@ -1,32 +1,32 @@
 {
-    "category": "windows",
-    "post_number": 4,
-    "title": "WINDOWS Tips #4",
+    "category": "security",
+    "post_number": 11,
+    "title": "SECURITY Tips #11",
     "commands": [
         {
-            "title": "Check ARP Table",
-            "command": "arp -a",
-            "description": "View ARP cache"
+            "title": "Review Security Groups",
+            "command": "Security Audit",
+            "description": "Verify firewall policies"
         },
         {
-            "title": "Routing Table",
-            "command": "route print",
-            "description": "Display routes"
+            "title": "Review IAM Policies",
+            "command": "Access Control",
+            "description": "Remove excessive permissions"
         },
         {
-            "title": "Open Shares",
-            "command": "net share",
-            "description": "View shared folders"
+            "title": "Enable CloudTrail",
+            "command": "AWS Audit",
+            "description": "Track account activity"
         },
         {
-            "title": "Mapped Drives",
-            "command": "net use",
-            "description": "List mapped drives"
+            "title": "Enable GuardDuty",
+            "command": "Threat Detection",
+            "description": "Detect suspicious behavior"
         },
         {
-            "title": "Check Uptime",
-            "command": "net statistics workstation",
-            "description": "View uptime"
+            "title": "Enable Security Hub",
+            "command": "Security Dashboard",
+            "description": "Centralized visibility"
         }
     ]
 }
