@@ -1,20 +1,20 @@
-🚀 LINUX Tips #33
+🚀 AWS Tips #19
 
-✅ Compress File
-   Compress file
+✅ CloudWatch Alarms
+   Proactive monitoring
 
-✅ Decompress File
-   Decompress file
+✅ Monitor Billing
+   Avoid surprises
 
-✅ Download File
-   Download from URL
+✅ Enable Cost Explorer
+   Analyze spending
 
-✅ Download via Curl
-   Download using curl
+✅ Use Budgets
+   Control expenses
 
-✅ Check Open Files
-   List open files
+✅ Trusted Advisor Review
+   Optimization insights
 
 💡 Which tip do you use most often in your environment?
 
-#linux #sysadmin #opensource #devops #linuxadmin
+#aws #cloud #devops #amazonwebservices #cloudcomputing
