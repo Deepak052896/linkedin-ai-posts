@@ -9,14 +9,14 @@ OUTPUT_DIR = "banners"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Load selected post
+# Load post
 with open(CURRENT_POST, "r", encoding="utf-8") as f:
     post = json.load(f)
 
 category = post["category"].lower()
 commands = post["commands"]
 
-# Template file
+# Template path
 template_file = os.path.join(
     TEMPLATE_DIR,
     f"{category}.png"
@@ -27,7 +27,7 @@ if not os.path.exists(template_file):
         f"Template not found: {template_file}"
     )
 
-# Open image
+# Open template
 img = Image.open(template_file).convert("RGBA")
 draw = ImageDraw.Draw(img)
 
@@ -35,17 +35,17 @@ draw = ImageDraw.Draw(img)
 try:
     title_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        15
+        18
     )
 
     command_font = ImageFont.truetype(
         "DejaVuSans-Bold.ttf",
-        16
+        18
     )
 
     description_font = ImageFont.truetype(
-        "DejaVuSans.ttf",
-        14
+        "DejaVuSans-Bold.ttf",
+        18
     )
 
 except Exception:
@@ -53,20 +53,25 @@ except Exception:
     command_font = ImageFont.load_default()
     description_font = ImageFont.load_default()
 
-# Layout
-base_y = 430
-row_gap = 155
+# Fixed positions for all 5 boxes
+positions = [
+    430,   # Box 1
+    585,   # Box 2
+    740,   # Box 3
+    895,   # Box 4
+    1050   # Box 5
+]
 
 for i, cmd in enumerate(commands[:5]):
 
     x = 370
-    y = base_y + (i * row_gap)
+    y = positions[i]
 
     title = cmd.get("title", "").strip()
     command = cmd.get("command", "").strip()
     description = cmd.get("description", "").strip()
 
-    # Trim long values
+    # Trim long text
     if len(title) > 26:
         title = title[:26] + "..."
 
@@ -86,7 +91,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Command
     draw.text(
-        (x, y + 32),
+        (x, y + 34),
         command,
         font=command_font,
         fill=(0, 255, 255)
@@ -94,7 +99,7 @@ for i, cmd in enumerate(commands[:5]):
 
     # Description
     draw.text(
-        (x, y + 62),
+        (x, y + 68),
         description,
         font=description_font,
         fill=(220, 220, 220)
